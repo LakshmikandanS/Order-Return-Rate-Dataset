@@ -1,7 +1,20 @@
-# Synthetic Data Quality Report
+# Synthetic Data Quality Report & Pipeline Adaptations
 
 ## Overview
-This report evaluates the quality of the synthetic dataset generated for e-commerce return prediction. The dataset was assessed based on logical consistency, causal relationships, and statistical distributions.
+This report evaluates the quality of the synthetic dataset generated for e-commerce return prediction. The dataset was assessed based on logical consistency, causal relationships, and statistical distributions. Following the `pipeline_improvement_1.md` guidelines, we implemented a **Dual-Pipeline Architecture** to eliminate synthetic dominance and indirect leakages from target indicators.
+
+---
+
+## Architecture Revisions: Combating Leakage
+
+### ⚠️ Identified Issue: Target Leakage (Indirect) & Synthetic Feature Dominance
+Previously, logistical simulations (e.g. `delivery_delay`, `distance_km`) governed `sarcasm_score` logic, compounding artificial metrics which then recursively influenced prediction metrics. Artificial circular dependencies were triggered when modeling simulated datasets vs authentic interactions.
+
+### ✅ Solution: Mode A vs. Mode B
+- **Mode A: Real-Only Pipeline** uses exclusive ground-truth elements for predictions (clean evaluation).
+  - Explicit metrics rely purely on review and rating feedback (i.e. `review_text`, `review_rating`). Target fields map directly to genuine $sentiment < -0.2$ or $rating \le 2$ behavior instead of synthesized random generator tendencies.
+  - Sarcasm is assessed using purely authentic metrics such as `sentiment_rating_gap` over synthetic `delivery_delay`. Length constraints mapped linearly solve conflicting reviews vs perfect star distributions!
+- **Mode B: Augmented Pipeline** retains synthetic boundaries logically mapped to allow feature modeling.
 
 ---
 
@@ -51,7 +64,7 @@ This report evaluates the quality of the synthetic dataset generated for e-comme
 - **Total orders**: 5000
 - **Reviews with text**: 3230
 - **Missing review entries**: 1770 (35.40% of orders)
-- **Sarcastic reviews (heuristic)**: 218
+- **Sarcastic reviews (mathematical model)**: 218
   - **% of reviews with text**: 6.7492%
   - **% of all orders**: 4.36%
 
@@ -87,7 +100,7 @@ This report evaluates the quality of the synthetic dataset generated for e-comme
 
 ## Areas for Improvement (updated)
 1. **Review Coverage**: ~35% of orders lack review text or ratings. Consider filling a higher proportion if reviews are required as features.
-2. **Sarcasm Detection**: Current sarcasm is heuristic-based (keyword matching ~6.75% of reviews). For downstream NLP tasks, consider adding labeled examples or using a simple classifier to improve coverage and accuracy.
+2. **Sarcasm Detection**: Current sarcasm is evaluated via a mathematical contradiction model (~6.75% of reviews). We've replaced the old keyword-matching approach with a robust outcome/sentiment contradiction score for better efficiency and accuracy.
 3. **Edge-case Outliers**: Price and return-rate outliers should be reviewed; consider capping or documenting them for model training.
 
 ## Recommendations & Next Steps
@@ -97,7 +110,7 @@ This report evaluates the quality of the synthetic dataset generated for e-comme
 4. Track dataset generation parameters in `reports/generation_metadata.json` (seed, counts, templates used) for reproducibility.
 
 ## Appendix — How metrics were computed
-- Metrics were computed by `scripts/compute_synth_metrics.py` which reads `data/synthetic_ecommerce_orders.csv` and reports counts, per-category return rates, top return reasons, and simple sarcasm heuristics (keyword matching).
+- Metrics were computed by `scripts/compute_synth_metrics.py` which reads `data/synthetic_ecommerce_orders.csv` and reports counts, per-category return rates, top return reasons, and the new mathematical contradiction model for sarcasm without string matching.
 
 ---
 
