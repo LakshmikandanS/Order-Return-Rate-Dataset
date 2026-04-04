@@ -97,19 +97,19 @@ A **synthetic yet realistic dataset** was generated to simulate e-commerce opera
 
 ### Key Characteristics:
 
-* 100 customers
-* ~1000–1200 orders
-* Multiple product categories
+* 300 customers
+* 5000 orders
+* 80 products across multiple categories
 * Realistic behavioral patterns
-* No missing values
+* Dual-Pipeline evaluation (Sarcasm & Target leakage handling)
 
 ---
 
-### 📁 Dataset Columns
+### 📁 Dataset Columns (29 Columns)
 
 #### 🔹 Order Information
 
-* `order_id`, `customer_id`, `product_id`, `product_category`
+* `order_id`, `order_date`, `customer_id`, `product_id`, `product_category`
 
 #### 🔹 Transaction Details
 
@@ -124,8 +124,15 @@ A **synthetic yet realistic dataset** was generated to simulate e-commerce opera
 
 #### 🔹 Location Data
 
-* `customer_region`, `warehouse_region`
-* `distance_km`, `is_remote_area`
+* `customer_city`, `warehouse_city`
+* `distance_km`, `is_remote_area`, `home_city`
+
+#### 🔹 Customer & Product Metadata
+* `total_orders`, `past_return_rate`, `avg_order_value`, `base_return_tendency`
+* `defect_rate`
+
+#### 🔹 Reviews & Feedback
+* `review_rating`, `review_text`, `review_date`
 
 #### 🔹 Target Variables
 

@@ -65,12 +65,13 @@ def train_sarcasm_spam_models(data_path):
     logger.info("Spam Classification Report:\n" + classification_report(ysp_test, ysp_pred))
     
     # Save the models
-    Path('models').mkdir(exist_ok=True)
-    with open('models/sarcasm_classifier.pkl', 'wb') as f:
+    models_dir = Path(__file__).parent.parent / 'models'
+    models_dir.mkdir(parents=True, exist_ok=True)
+    with open(models_dir / 'sarcasm_classifier.pkl', 'wb') as f:
         pickle.dump(sarcasm_model, f)
-    with open('models/spam_classifier.pkl', 'wb') as f:
+    with open(models_dir / 'spam_classifier.pkl', 'wb') as f:
         pickle.dump(spam_model, f)
-    with open('models/tfidf_vectorizer.pkl', 'wb') as f:
+    with open(models_dir / 'tfidf_vectorizer.pkl', 'wb') as f:
         pickle.dump(tfidf, f)
         
     logger.info("✅ Models saved to models/ directory successfully.")

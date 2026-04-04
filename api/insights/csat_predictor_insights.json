@@ -1,0 +1,49 @@
+{
+    "model_name": "CSAT Predictor",
+    "metrics": {
+        "rmse_stars": 0.942197917201287,
+        "r2_score": 0.579539121691928
+    },
+    "top_features": [
+        {
+            "feature": "is_returned_0",
+            "importance": 1.1091339588165283
+        },
+        {
+            "feature": "delivery_delay",
+            "importance": 0.19049352407455444
+        },
+        {
+            "feature": "past_return_rate",
+            "importance": 0.1575305461883545
+        },
+        {
+            "feature": "defect_rate",
+            "importance": 0.1505667120218277
+        },
+        {
+            "feature": "discount_percentage",
+            "importance": 0.08778368681669235
+        },
+        {
+            "feature": "product_category_Electronics",
+            "importance": 0.03441165015101433
+        },
+        {
+            "feature": "product_category_Home",
+            "importance": 0.019912822172045708
+        },
+        {
+            "feature": "product_category_Clothing",
+            "importance": 0.018465856090188026
+        },
+        {
+            "feature": "product_category_Beauty",
+            "importance": 0.01836765743792057
+        },
+        {
+            "feature": "is_returned_1",
+            "importance": 0.0
+        }
+    ]
+}

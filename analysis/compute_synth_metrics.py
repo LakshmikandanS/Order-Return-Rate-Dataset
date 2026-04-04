@@ -14,8 +14,10 @@ missing_reviews = int(df['review_text'].isna().sum())
 # Sarcasm detection using mathematical contradiction scores
 if 'sarcasm_score' in df.columns:
     sarcastic_mask = df['sarcasm_score'] > 0.4
+elif 'is_sarcastic' in df.columns:
+    sarcastic_mask = df['is_sarcastic'] == 1 
 else:
-    sarcastic_mask = df['is_sarcastic'] == 1 if 'is_sarcastic' in df.columns else pd.Series(False, index=df.index)
+    sarcastic_mask = pd.Series(False, index=df.index)
 
 sarcastic_count = int(sarcastic_mask.sum())
 

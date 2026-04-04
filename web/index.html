@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUPPLYMIND | AI-Powered Supply Chain Intelligence</title>
+    <meta name="description" content="Predict product returns, delivery delays, customer satisfaction and revenue with XGBoost-powered ML models. Enterprise decision intelligence for e-commerce logistics.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ═══════════════ SECTION 1: NAVBAR ═══════════════ -->
+<nav id="navbar">
+    <div class="nav-inner">
+        <a href="#" class="nav-logo">
+            <div class="logo-glyph">SM</div>
+            <span class="logo-text">SUPPLY<span class="logo-dim">MIND</span></span>
+        </a>
+        <div class="nav-links">
+            <a href="#hero">Home</a>
+            <a href="#features">Platform</a>
+            <a href="#predict">Predict</a>
+            <a href="#insights">Insights</a>
+            <a href="#train">Train</a>
+        </div>
+        <div class="nav-status" id="api-status">
+            <span class="status-dot"></span>
+            <span class="status-label">Checking...</span>
+        </div>
+        <button id="theme-toggle" class="btn btn-outline btn-sm">🌙</button>
+    </div>
+</nav>
+
+<!-- ═══════════════ SECTION 2: HERO ═══════════════ -->
+<section id="hero" class="hero-section">
+    <div class="hero-grid-bg"></div>
+    <div class="hero-glow hero-glow-1"></div>
+    <div class="hero-glow hero-glow-2"></div>
+    <div class="hero-content">
+        <div class="hero-badge">🚀 AI-Powered Decision Intelligence</div>
+        <h1 class="hero-title">Predict Returns<br><span class="gradient-text">Before They Happen</span></h1>
+        <p class="hero-sub">Four XGBoost models working in concert — return risk, delivery delay, customer satisfaction, and revenue forecasting — all in real-time.</p>
+        <div class="hero-cta-row">
+            <a href="#predict" class="btn btn-primary">Try Live Prediction</a>
+            <a href="#train" class="btn btn-outline">Train Your Models</a>
+        </div>
+        <div class="hero-stats">
+            <div class="hero-stat"><span class="hero-stat-value" id="ticker-models">4</span><span class="hero-stat-label">ML Models</span></div>
+            <div class="hero-stat-divider"></div>
+            <div class="hero-stat"><span class="hero-stat-value">&lt;50ms</span><span class="hero-stat-label">Inference</span></div>
+            <div class="hero-stat-divider"></div>
+            <div class="hero-stat"><span class="hero-stat-value">SHAP</span><span class="hero-stat-label">Explainable AI</span></div>
+            <div class="hero-stat-divider"></div>
+            <div class="hero-stat"><span class="hero-stat-value">REST</span><span class="hero-stat-label">API Ready</span></div>
+        </div>
+    </div>
+</section>
+
+<!-- ═══════════════ SECTION 3: FEATURES ═══════════════ -->
+<section id="features" class="section">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">Platform</span>
+            <h2 class="section-title">Four Models. One Intelligence Layer.</h2>
+            <p class="section-sub">Each model is tuned with Bayesian hyperparameter optimization and explained with SHAP feature importance.</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card reveal">
+                <div class="feature-icon" style="--accent: #ef4444;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 14l-4 4m0 0l4 4m-4-4h11a4 4 0 000-8h-1"/></svg>
+                </div>
+                <h3>Return Predictor</h3>
+                <p class="feature-type">XGBClassifier</p>
+                <p>Identifies high-risk orders likely to be returned using behavioral signals, discount patterns, and defect rates.</p>
+                <div class="feature-metric"><span>ROC-AUC</span><span class="feature-metric-val" id="feat-return">—</span></div>
+            </div>
+            <div class="feature-card reveal">
+                <div class="feature-icon" style="--accent: #eab308;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                </div>
+                <h3>Delay Forecaster</h3>
+                <p class="feature-type">XGBRegressor</p>
+                <p>Estimates delivery delay in days based on distance, shipping mode, and warehouse-customer city routing.</p>
+                <div class="feature-metric"><span>RMSE</span><span class="feature-metric-val" id="feat-delay">—</span></div>
+            </div>
+            <div class="feature-card reveal">
+                <div class="feature-icon" style="--accent: #8b5cf6;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/></svg>
+                </div>
+                <h3>CSAT Predictor</h3>
+                <p class="feature-type">XGBRegressor</p>
+                <p>Projects customer satisfaction scores on a 1–5 scale, factoring in delays, defects, and return history.</p>
+                <div class="feature-metric"><span>R²</span><span class="feature-metric-val" id="feat-csat">—</span></div>
+            </div>
+            <div class="feature-card reveal">
+                <div class="feature-icon" style="--accent: #0ea5e9;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                </div>
+                <h3>Revenue Forecaster</h3>
+                <p class="feature-type">XGBRegressor</p>
+                <p>Predicts per-order revenue accounting for quantity, pricing, discount sensitivity, and regional demand.</p>
+                <div class="feature-metric"><span>R²</span><span class="feature-metric-val" id="feat-revenue">—</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ═══════════════ SECTION 4: LIVE PREDICTION ═══════════════ -->
+<section id="predict" class="section section-alt">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">Simulator</span>
+            <h2 class="section-title">Real-Time Order Intelligence</h2>
+            <p class="section-sub">Configure an order scenario and get instant AI predictions with prescriptive actions.</p>
+        </div>
+        <div class="tabs-container">
+            <button class="tab-btn active" id="tab-single" onclick="switchTab('single')">Single Order</button>
+            <button class="tab-btn" id="tab-batch" onclick="switchTab('batch')">Batch Prediction</button>
+        </div>
+        <div class="predict-layout" id="view-single">
+            <div class="predict-form glass-card">
+                <h3 class="form-title">Order Parameters</h3>
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="inp-price">Product Price ($)</label>
+                        <input type="number" id="inp-price" value="120" min="1" step="1">
+                    </div>
+                    <div class="form-group">
+                        <label for="inp-qty">Quantity</label>
+                        <input type="number" id="inp-qty" value="1" min="1" max="20">
+                    </div>
+                    <div class="form-group">
+                        <label for="inp-discount">Discount %</label>
+                        <input type="range" id="inp-discount" value="15" min="0" max="60" oninput="document.getElementById('disc-val').textContent=this.value+'%'">
+                        <span class="range-value" id="disc-val">15%</span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="inp-expected-delay">Expected Delay</label>
+                        <input type="number" id="inp-expected-delay" value="3.0" min="1" max="30" step="0.5">
+                    </div>
+                    <div class="form-group">
+                        <label for="inp-distance">Distance (km)</label>
+                        <input type="range" id="inp-distance" value="450" min="10" max="3000" step="10" oninput="document.getElementById('dist-val').textContent=this.value+'km'">
+                        <span class="range-value" id="dist-val">450km</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="inp-category">Product Category</label>
+                        <select id="inp-category"><option>Electronics</option><option>Clothing</option><option>Home</option><option>Beauty</option><option>Books</option></select>
+                    </div>
+                    <div class="form-group">
+                        <label for="inp-shipping">Shipping Mode</label>
+                        <select id="inp-shipping"><option>Standard</option><option>Express</option></select>
+                    </div>
+                    <div class="form-group">
+                        <label for="inp-return-rate">Past Return Rate</label>
+                        <input type="number" id="inp-return-rate" value="0.12" min="0" max="1" step="0.01">
+                    </div>
+                    <div class="form-group">
+                        <label for="inp-defect">Defect Rate</label>
+                        <input type="number" id="inp-defect" value="0.02" min="0" max="0.5" step="0.01">
+                    </div>
+                    <div class="form-group">
+                        <label for="inp-remote">Remote Area</label>
+                        <select id="inp-remote"><option value="0">No</option><option value="1">Yes</option></select>
+                    </div>
+                    <div class="form-group">
+                        <label for="inp-warehouse">Warehouse City</label>
+                        <select id="inp-warehouse"><option>Kolkata</option><option>Mumbai</option><option>Delhi</option><option>Hyderabad</option><option>Chennai</option></select>
+                    </div>
+                    <div class="form-group">
+                        <label for="inp-customer-city">Customer City</label>
+                        <select id="inp-customer-city"><option>Bangalore</option><option>Mumbai</option><option>Delhi</option><option>Pune</option><option>Chennai</option><option>Ahmedabad</option><option>Hyderabad</option><option>Kolkata</option></select>
+                    </div>
+                    <div class="form-group">
+                        <label for="inp-tendency">Base Return Tendency</label>
+                        <input type="number" id="inp-tendency" value="0.10" min="0" max="1" step="0.01">
+                    </div>
+                </div>
+                <button class="btn btn-primary btn-full" id="btn-predict" onclick="runPrediction()">⚡ Run Inference</button>
+            </div>
+
+            <div class="predict-results">
+                <div class="result-placeholder" id="result-placeholder">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>
+                    <p>Configure parameters and click <strong>Run Inference</strong></p>
+                </div>
+                <div class="results-live hidden" id="results-live">
+                    <div class="result-gauges">
+                        <div class="gauge-card gauge-danger">
+                            <div class="gauge-ring" id="gauge-return"><svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="52" class="gauge-bg"/><circle cx="60" cy="60" r="52" class="gauge-fill" id="gauge-return-fill"/></svg><span class="gauge-val" id="val-return">—</span></div>
+                            <span class="gauge-label">Return Risk</span>
+                        </div>
+                        <div class="gauge-card gauge-warning">
+                            <div class="gauge-ring" id="gauge-delay"><svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="52" class="gauge-bg"/><circle cx="60" cy="60" r="52" class="gauge-fill" id="gauge-delay-fill"/></svg><span class="gauge-val" id="val-delay">—</span></div>
+                            <span class="gauge-label">Delay (days)</span>
+                        </div>
+                        <div class="gauge-card gauge-purple">
+                            <div class="gauge-ring" id="gauge-csat"><svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="52" class="gauge-bg"/><circle cx="60" cy="60" r="52" class="gauge-fill" id="gauge-csat-fill"/></svg><span class="gauge-val" id="val-csat">—</span></div>
+                            <span class="gauge-label">CSAT Score</span>
+                        </div>
+                        <div class="gauge-card gauge-primary">
+                            <div class="gauge-ring" id="gauge-rev"><svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="52" class="gauge-bg"/><circle cx="60" cy="60" r="52" class="gauge-fill" id="gauge-rev-fill"/></svg><span class="gauge-val" id="val-revenue">—</span></div>
+                            <span class="gauge-label">Revenue</span>
+                        </div>
+                    </div>
+                    <div class="prescription-banner" id="prescription-banner">
+                        <p id="prescription-text"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ═══════════════ SECTION 5: INSIGHTS ═══════════════ -->
+<section id="insights" class="section">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">Explainable AI</span>
+            <h2 class="section-title">Model Insights & SHAP Analysis</h2>
+            <p class="section-sub">Understand exactly why each model makes its predictions with feature importance breakdowns.</p>
+        </div>
+        <div class="insights-grid">
+            <div class="glass-card chart-card"><h4>Return Risk Drivers</h4><div class="chart-wrap"><canvas id="chart-return"></canvas></div></div>
+            <div class="glass-card chart-card"><h4>Delay Risk Drivers</h4><div class="chart-wrap"><canvas id="chart-delay"></canvas></div></div>
+            <div class="glass-card chart-card"><h4>CSAT Influence Factors</h4><div class="chart-wrap"><canvas id="chart-csat"></canvas></div></div>
+            <div class="glass-card chart-card"><h4>Revenue Drivers</h4><div class="chart-wrap"><canvas id="chart-revenue"></canvas></div></div>
+        </div>
+        
+        <div class="monitoring-grid">
+            <div class="glass-card metric-item">
+                <span class="metric-label">API Requests</span>
+                <h2 id="mon-requests">0</h2>
+            </div>
+            <div class="glass-card metric-item">
+                <span class="metric-label">Avg Latency (ms)</span>
+                <h2 id="mon-latency">0.0</h2>
+            </div>
+            <div class="glass-card metric-item">
+                <span class="metric-label">Status Checks</span>
+                <h2 id="mon-status">Active</h2>
+            </div>
+        </div>
+
+        <div class="glass-card metrics-table-card">
+            <h4>Model Performance Summary</h4>
+            <div class="table-wrap">
+                <table id="metrics-table">
+                    <thead><tr><th>Model</th><th>Type</th><th>Primary Metric</th><th>Value</th><th>Status</th></tr></thead>
+                    <tbody id="metrics-tbody"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ═══════════════ SECTION 6: TRAIN ═══════════════ -->
+<section id="train" class="section section-alt">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">Model Factory</span>
+            <h2 class="section-title">Train on Your Data</h2>
+            <p class="section-sub">Upload a CSV dataset. The system performs an 80/20 split, trains all four models with Bayesian tuning, and extracts SHAP insights.</p>
+        </div>
+        <div class="train-card glass-card">
+            <div id="drop-zone" class="file-drop-area">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"/></svg>
+                <p class="drop-title">Drop your CSV here or click to browse</p>
+                <p class="drop-sub">Supports .csv up to 50MB</p>
+                <input type="file" id="file-input" accept=".csv" hidden>
+            </div>
+            <div id="train-progress" class="train-progress hidden">
+                <div class="spinner"></div>
+                <h3 id="train-status-text">Uploading & Parsing Dataset...</h3>
+                <p class="train-sub">Running XGBoost Predictors & SHAP Extraction</p>
+                <div class="progress-track"><div class="progress-fill" id="progress-bar"></div></div>
+            </div>
+            <div id="train-success" class="train-success hidden">
+                <div class="success-check">✓</div>
+                <h3>Training Complete</h3>
+                <p>All 4 models updated. <a href="#insights" onclick="loadInsights()">View Insights →</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ═══════════════ SECTION 7: FOOTER ═══════════════ -->
+<footer id="footer">
+    <div class="container footer-inner">
+        <div class="footer-brand">
+            <div class="logo-glyph">SM</div>
+            <span class="logo-text">SUPPLY<span class="logo-dim">MIND</span></span>
+        </div>
+        <p class="footer-copy">Built with XGBoost · FastAPI · SHAP &nbsp;|&nbsp; © <span id="year"></span> SUPPLYMIND</p>
+        <div class="footer-links">
+            <a href="#hero">Back to Top ↑</a>
+        </div>
+    </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

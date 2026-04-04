@@ -1,0 +1,51 @@
+{
+    "model_name": "Return Predictor",
+    "metrics": {
+        "accuracy": 0.617,
+        "roc_auc": 0.6335479478030029,
+        "f1_score": 0.5254027261462205,
+        "recall": 0.5792349726775956
+    },
+    "top_features": [
+        {
+            "feature": "base_return_tendency",
+            "importance": 0.3904719948768616
+        },
+        {
+            "feature": "discount_percentage",
+            "importance": 0.19348734617233276
+        },
+        {
+            "feature": "delivery_delay",
+            "importance": 0.16413185000419617
+        },
+        {
+            "feature": "distance_km",
+            "importance": 0.11197762191295624
+        },
+        {
+            "feature": "past_return_rate",
+            "importance": 0.06245000660419464
+        },
+        {
+            "feature": "defect_rate",
+            "importance": 0.05500040948390961
+        },
+        {
+            "feature": "product_category_Home",
+            "importance": 0.049057088792324066
+        },
+        {
+            "feature": "product_category_Clothing",
+            "importance": 0.04241226240992546
+        },
+        {
+            "feature": "is_remote_area_0",
+            "importance": 0.014209785498678684
+        },
+        {
+            "feature": "product_category_Electronics",
+            "importance": 0.010454179719090462
+        }
+    ]
+}

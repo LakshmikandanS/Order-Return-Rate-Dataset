@@ -1,0 +1,49 @@
+{
+    "model_name": "Revenue Predictor",
+    "metrics": {
+        "rmse_dollars": 53.89917752517774,
+        "r2_score": 0.99935382604599
+    },
+    "top_features": [
+        {
+            "feature": "product_price",
+            "importance": 1117.27392578125
+        },
+        {
+            "feature": "quantity",
+            "importance": 829.1232299804688
+        },
+        {
+            "feature": "discount_percentage",
+            "importance": 2.8653368949890137
+        },
+        {
+            "feature": "past_return_rate",
+            "importance": 2.6674997806549072
+        },
+        {
+            "feature": "customer_city_Bangalore",
+            "importance": 0.7736150026321411
+        },
+        {
+            "feature": "customer_city_Mumbai",
+            "importance": 0.7554717659950256
+        },
+        {
+            "feature": "customer_city_Kolkata",
+            "importance": 0.5582358241081238
+        },
+        {
+            "feature": "customer_city_Chennai",
+            "importance": 0.5496428608894348
+        },
+        {
+            "feature": "product_category_Home",
+            "importance": 0.39331987500190735
+        },
+        {
+            "feature": "customer_city_Ahmedabad",
+            "importance": 0.38901352882385254
+        }
+    ]
+}

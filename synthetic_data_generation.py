@@ -190,14 +190,16 @@ def generate_orders(customers_df, products_df, n_orders):
         # Quantity: heavily skewed toward 1
         quantity = int(np.random.choice([1, 2, 3], p=[0.60, 0.30, 0.10]))
 
-        order_value = product_price * quantity
+        # Add realistic pricing noise: Shipping Fee and Tax to break 1.0 R^2 correlation
+        base_order_value = product_price * quantity
+        shipping_fee = np.random.choice([0, 49, 99], p=[0.4, 0.4, 0.2])
+        tax_rate = np.random.choice([0.05, 0.12, 0.18], p=[0.3, 0.5, 0.2])
+        
+        order_value = round((base_order_value + shipping_fee) * (1 + tax_rate), 2)
 
         # --- Step 4: Discount ---
         discount_percentage = int(np.random.choice(DISCOUNT_VALUES, p=DISCOUNT_PROBS))
-        discount_amount = round(order_value * discount_percentage / 100, 2)
-
-        # --- Step 5: Logistics ---
-        distance_km = compute_city_distance(customer_city, warehouse_city)
+        discount_amount = round(base_order_value * discount_percentage / 100, 2)
         is_remote_area = 1 if distance_km > 1200 else 0
 
         shipping_mode = np.random.choice(SHIPPING_MODES, p=SHIPPING_WEIGHTS)

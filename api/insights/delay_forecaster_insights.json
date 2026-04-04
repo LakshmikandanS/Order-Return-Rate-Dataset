@@ -1,0 +1,49 @@
+{
+    "model_name": "Delay Forecaster",
+    "metrics": {
+        "rmse_days": 1.4506430811250293,
+        "r2_score": -0.04893147945404053
+    },
+    "top_features": [
+        {
+            "feature": "distance_km",
+            "importance": 0.38063210248947144
+        },
+        {
+            "feature": "shipping_mode_Express",
+            "importance": 0.2637891173362732
+        },
+        {
+            "feature": "customer_city_Chennai",
+            "importance": 0.16683699190616608
+        },
+        {
+            "feature": "customer_city_Pune",
+            "importance": 0.1332099884748459
+        },
+        {
+            "feature": "customer_city_Hyderabad",
+            "importance": 0.12590652704238892
+        },
+        {
+            "feature": "customer_city_Ahmedabad",
+            "importance": 0.12559112906455994
+        },
+        {
+            "feature": "warehouse_city_Hyderabad",
+            "importance": 0.12282326072454453
+        },
+        {
+            "feature": "customer_city_Bangalore",
+            "importance": 0.10364048928022385
+        },
+        {
+            "feature": "warehouse_city_Kolkata",
+            "importance": 0.09510169923305511
+        },
+        {
+            "feature": "warehouse_city_Mumbai",
+            "importance": 0.08196200430393219
+        }
+    ]
+}

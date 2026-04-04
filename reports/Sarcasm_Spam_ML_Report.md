@@ -35,7 +35,9 @@ Following the `pipeline_improvement_1.md` guidelines, we implemented a **Dual-Pi
 - Similarly, using combined $O(N)$ behaviors produced perfect linearly separable boundaries mapping real patterns into clean target indicators.
 
 ## 🚀 Conclusion
-Switching to HuggingFace pipeline logic, limiting target leakage, and generalizing to Multilingual formats isolates both **Sarcasm** and **Spam** cleanly across regions without circular dependencies!
+Switching to HuggingFace pipeline logic, limiting target leakage, and generalizing to Multilingual formats isolates both **Sarcasm** and **Spam** cleanly across regions without circular dependencies! 
+
+*Note: We have completely abandoned the sarcastic keyword string-matching strategy in favor of the pure mathematical contradiction model, ensuring no keyword bias is introduced.*
 
 ## 💾 Model Artifacts
 The following artifacts have been successfully saved to the `models/` directory for integration in future prediction pipelines:

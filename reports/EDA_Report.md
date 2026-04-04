@@ -7,20 +7,20 @@ Produce and validate a production-quality synthetic e-commerce dataset that mimi
 
 ## Dataset Summary
 - Rows: 5,000 orders
-- Columns: 20
-- Files created: [data/synthetic_ecommerce_orders.csv](data/synthetic_ecommerce_orders.csv), [data/customers.csv](data/customers.csv), [data/products.csv](data/products.csv)
+- Columns: 29
+- Files created: [data/synthetic_ecommerce_orders.csv](../data/synthetic_ecommerce_orders.csv), [data/customers.csv](../data/customers.csv), [data/products.csv](../data/products.csv)
 
 ## Data Integrity & Logical Checks
 All logical checks passed in the validation script:
-- No missing values.
+- No missing values (except missing reviews deliberately left missing).
 - `order_value == product_price * quantity`: ✅
 - `actual_delivery_days == expected_delivery_days + delivery_delay`: ✅
 - `discount_amount` matches computed discount within tolerance: ✅
 - Non-returned orders have `return_reason = NO_RETURN` and returned orders have a valid reason: ✅
 
 ## Key Summary Statistics
-- Overall return rate: **34.80%** (target range: 10%–40%)
-- Product price skewness: **2.621** (right-skewed as expected)
+- Overall return rate: **36.58%** (target range: 10%–40%)
+- Product price skewness: **2.599** (right-skewed as expected)
 - Quantity distribution: ~60% qty=1, ~30% qty=2, ~10% qty=3
 - Customer base return tendency (mean): **18.6%** (std **10.8%**)
 - Product defect rate mean: **0.0322**, max **0.15**
@@ -55,12 +55,12 @@ Consistent with the schema-aware preprocessing guidelines, we computed the Varia
 **Mitigation Rule for Modeling**: Tree-based models (XGBoost, Random Forest) will naturally handle this. However, for linear models (like Logistic Regression), we must drop derived features like `actual_delivery_days`, `order_value`, and `discount_amount` to prevent singularity and unstable weights.
 
 ## Return Reasons (Normalized Frequencies among returned orders)
-- QUALITY_DEFECT: 24.48%
-- DELIVERY_DELAY: 20.29%
-- NOT_AS_DESCRIBED: 17.87%
-- NO_LONGER_NEEDED: 16.72%
-- SIZE_FIT_ISSUE: 14.20%
-- WRONG_ITEM: 6.44%
+- QUALITY_DEFECT: 25.53%
+- NOT_AS_DESCRIBED: 18.70%
+- DELIVERY_DELAY: 17.93%
+- NO_LONGER_NEEDED: 15.91%
+- SIZE_FIT_ISSUE: 15.25%
+- WRONG_ITEM: 6.67%
 
 These proportions align with expected e-commerce patterns where quality/fit/delivery are primary causes.
 

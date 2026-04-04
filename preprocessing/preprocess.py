@@ -118,23 +118,11 @@ def handle_missing_values(df):
 def validate_order_integrity(df):
     """
     Validate order data:
-    - Recalculate order_value
     - Check for unrealistic delivery times
     """
     logger.info("📊 Validating Order Integrity...")
     
     df = df.copy()
-    
-    # Recalculate order_value to verify integrity
-    if 'order_value' in df.columns:
-        df['order_value_recalc'] = df['product_price'] * df['quantity']
-        mismatch = (df['order_value'] != df['order_value_recalc']).sum()
-        
-        if mismatch > 0:
-            logger.warning(f"  ⚠ Found {mismatch} mismatches in order_value. Using recalculated values.")
-            df['order_value'] = df['order_value_recalc']
-        
-        df = df.drop('order_value_recalc', axis=1)
     
     # Check for unrealistic delivery times
     if 'actual_delivery_days' in df.columns:
@@ -260,6 +248,17 @@ def calculate_rolling_behavior(df):
     # 1. Customer lifetime orders and value
     df['cust_lifetime_orders'] = df.groupby('customer_id').cumcount() + 1
     df['cust_lifetime_value'] = df.groupby('customer_id')['order_value'].cumsum()
+
+    # RFM Approximation
+    df['last_order_date'] = df.groupby('customer_id')['order_date'].shift(1)
+    df['days_since_last_order'] = (df['order_date'] - df['last_order_date']).dt.days.fillna(999)
+    df = df.drop('last_order_date', axis=1)
+    
+    # Interaction Features
+    if 'discount_percentage' in df.columns and 'past_return_rate' in df.columns:
+        df['discount_depth_vs_return_history'] = (df['discount_percentage'] / 100.0) * df['past_return_rate']
+    else:
+        df['discount_depth_vs_return_history'] = 0.0
     
     # 2. Customer return history (past 30 days)
     # Optimize O(N^2) loop using rolling sum

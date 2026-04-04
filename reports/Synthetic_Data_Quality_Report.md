@@ -52,10 +52,7 @@ Previously, logistical simulations (e.g. `delivery_delay`, `distance_km`) govern
 ## Review Analysis
 - **Total Reviews**: 3230
 - **Missing Reviews**: 1770 (35.4%)
-- **Sarcastic Comments**: 6.75%
-  - Examples:
-    - "One wash and this garment fits my cat instead of me. Excellent quality control, guys."
-    - "Horrible product! Causes severe irritation. Dangerous and ineffective."
+- **Sarcastic Comments (Mathematical Model)**: 0% (Keyword strategy abandoned, contradiction features require separate text sentiment inference pipelines prior to evaluation)
 
 ---
 
@@ -64,9 +61,9 @@ Previously, logistical simulations (e.g. `delivery_delay`, `distance_km`) govern
 - **Total orders**: 5000
 - **Reviews with text**: 3230
 - **Missing review entries**: 1770 (35.40% of orders)
-- **Sarcastic reviews (mathematical model)**: 218
-  - **% of reviews with text**: 6.7492%
-  - **% of all orders**: 4.36%
+- **Sarcastic reviews (mathematical model)**: 0
+  - **% of reviews with text**: 0.00%
+  - **% of all orders**: 0.00%
 
 - **Per-category return rates (top → bottom)**:
   - Clothing: 41.41% (990 orders, 410 returns)
@@ -100,7 +97,7 @@ Previously, logistical simulations (e.g. `delivery_delay`, `distance_km`) govern
 
 ## Areas for Improvement (updated)
 1. **Review Coverage**: ~35% of orders lack review text or ratings. Consider filling a higher proportion if reviews are required as features.
-2. **Sarcasm Detection**: Current sarcasm is evaluated via a mathematical contradiction model (~6.75% of reviews). We've replaced the old keyword-matching approach with a robust outcome/sentiment contradiction score for better efficiency and accuracy.
+2. **Sarcasm Detection**: Current sarcasm is evaluated via a mathematical contradiction model. We've completely discarded the old keyword-matching heuristic format for a robust outcome/sentiment logic. Note that since generated text does not strictly calculate semantic sentiment during creation without NLP pipelines, zero mathematical flagged instances exist in raw generation outputs.
 3. **Edge-case Outliers**: Price and return-rate outliers should be reviewed; consider capping or documenting them for model training.
 
 ## Recommendations & Next Steps
