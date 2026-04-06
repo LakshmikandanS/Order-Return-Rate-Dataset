@@ -1,7 +1,0 @@
-product_id,product_name,category,brand,price,price_band,product_return_rate,category_return_rate,avg_rating,rating_variance,size_variants_count,is_fragile
-P1,Nike Air Zoom Pegasus 40,Footwear,Nike,11999,mid,0.12,0.12,4.5,0.4,8,0
-P2,Levi's Slim Fit T-Shirt,Apparel,Levi's,1799,low,0.25,0.235,4.0,0.8,5,0
-P3,Samsung Galaxy S21 FE,Electronics,Samsung,39999,high,0.08,0.065,4.3,0.3,1,1
-P4,Sony WH-1000XM4 Headphones,Electronics,Sony,24990,high,0.05,0.065,4.8,0.2,1,1
-P5,Levi's 511 Slim Jeans,Apparel,Levi's,3499,mid,0.22,0.235,3.9,0.9,6,0
-P6,Philips HL7756 Mixer Grinder,Home Appliances,Philips,3199,mid,0.07,0.07,4.2,0.5,1,1
