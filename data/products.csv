@@ -1,11 +1,7 @@
-product_id,product_name,category,brand,price,product_return_rate,avg_rating,is_fragile
-P1,Nike Air Zoom Pegasus 40,Footwear,Nike,11999,0.12,4.5,0
-P2,Levi's Slim Fit T-Shirt,Apparel,Levi's,1799,0.25,4.0,0
-P3,Samsung Galaxy S21 FE,Electronics,Samsung,39999,0.08,4.3,1
-P4,Sony WH-1000XM4 Headphones,Electronics,Sony,24990,0.05,4.8,1
-P5,Levi's 511 Slim Jeans,Apparel,Levi's,3499,0.22,3.9,0
-P6,Philips HL7756 Mixer Grinder,Home Appliances,Philips,3199,0.07,4.2,1
-P7,Adidas Ultraboost 22,Footwear,Adidas,17999,0.15,4.6,0
-P8,Apple iPhone 14,Electronics,Apple,69900,0.04,4.9,1
-P9,U.S. Polo Assn. Casual Shirt,Apparel,U.S. Polo,2499,0.2,4.1,0
-P10,Dell XPS 13 Laptop,Electronics,Dell,95000,0.06,4.7,1
+product_id,product_name,category,brand,price,price_band,product_return_rate,category_return_rate,avg_rating,rating_variance,size_variants_count,is_fragile
+P1,Nike Air Zoom Pegasus 40,Footwear,Nike,11999,mid,0.12,0.12,4.5,0.4,8,0
+P2,Levi's Slim Fit T-Shirt,Apparel,Levi's,1799,low,0.25,0.235,4.0,0.8,5,0
+P3,Samsung Galaxy S21 FE,Electronics,Samsung,39999,high,0.08,0.065,4.3,0.3,1,1
+P4,Sony WH-1000XM4 Headphones,Electronics,Sony,24990,high,0.05,0.065,4.8,0.2,1,1
+P5,Levi's 511 Slim Jeans,Apparel,Levi's,3499,mid,0.22,0.235,3.9,0.9,6,0
+P6,Philips HL7756 Mixer Grinder,Home Appliances,Philips,3199,mid,0.07,0.07,4.2,0.5,1,1

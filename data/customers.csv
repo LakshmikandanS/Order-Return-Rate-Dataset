@@ -1,501 +1,1001 @@
-customer_id,city,state,pincode,customer_tenure_days,preferred_category,total_orders,total_returns,overall_return_rate,frequent_return_flag
-C1,Gurgaon,Haryana,398390,258,Electronics,25,5,0.2,0
-C2,Hyderabad,Telangana,681859,315,Apparel,18,9,0.5,1
-C3,Ahmedabad,Gujarat,208247,894,Electronics,8,2,0.25,0
-C4,Hyderabad,Telangana,698509,1064,Electronics,18,7,0.39,1
-C5,Noida,Uttar Pradesh,581030,1146,Footwear,18,0,0.0,0
-C6,Bangalore,Karnataka,466779,356,Footwear,23,2,0.09,0
-C7,Delhi,Delhi,462945,470,Apparel,17,3,0.18,0
-C8,Mumbai,Maharashtra,470664,808,Footwear,15,6,0.4,1
-C9,Bangalore,Karnataka,506923,970,Apparel,17,4,0.24,0
-C10,Pune,Maharashtra,758565,630,Footwear,22,6,0.27,0
-C11,Ahmedabad,Gujarat,158051,423,Electronics,13,2,0.15,0
-C12,Chennai,Tamil Nadu,215908,193,Home Appliances,21,14,0.67,1
-C13,Chennai,Tamil Nadu,492555,958,Electronics,10,7,0.7,1
-C14,Kolkata,West Bengal,389947,757,Apparel,16,2,0.12,0
-C15,Ahmedabad,Gujarat,366703,380,Electronics,20,3,0.15,0
-C16,Lucknow,Uttar Pradesh,781089,807,Electronics,22,0,0.0,0
-C17,Gurgaon,Haryana,168656,694,Electronics,22,4,0.18,0
-C18,Bangalore,Karnataka,179404,676,Electronics,27,6,0.22,0
-C19,Ahmedabad,Gujarat,633482,674,Home Appliances,16,0,0.0,0
-C20,Gurgaon,Haryana,256414,969,Electronics,22,2,0.09,0
-C21,Noida,Uttar Pradesh,722983,1179,Home Appliances,18,4,0.22,0
-C22,Ahmedabad,Gujarat,255052,847,Home Appliances,20,2,0.1,0
-C23,Mumbai,Maharashtra,270266,126,Electronics,23,8,0.35,1
-C24,Gurgaon,Haryana,513458,894,Home Appliances,30,4,0.13,0
-C25,Ahmedabad,Gujarat,690100,988,Apparel,21,3,0.14,0
-C26,Gurgaon,Haryana,673055,264,Footwear,19,5,0.26,0
-C27,Gurgaon,Haryana,565885,726,Electronics,28,1,0.04,0
-C28,Lucknow,Uttar Pradesh,386184,36,Electronics,24,4,0.17,0
-C29,Pune,Maharashtra,422943,247,Electronics,17,4,0.24,0
-C30,Delhi,Delhi,675580,795,Apparel,15,1,0.07,0
-C31,Ahmedabad,Gujarat,227302,693,Footwear,19,5,0.26,0
-C32,Chennai,Tamil Nadu,704917,520,Apparel,26,1,0.04,0
-C33,Mumbai,Maharashtra,668583,1025,Electronics,27,4,0.15,0
-C34,Delhi,Delhi,283149,1003,Footwear,23,14,0.61,1
-C35,Pune,Maharashtra,675493,896,Electronics,16,13,0.81,1
-C36,Noida,Uttar Pradesh,791447,668,Footwear,16,7,0.44,1
-C37,Lucknow,Uttar Pradesh,369948,1089,Electronics,23,6,0.26,0
-C38,Mumbai,Maharashtra,690829,722,Electronics,24,2,0.08,0
-C39,Ahmedabad,Gujarat,771760,481,Apparel,23,3,0.13,0
-C40,Hyderabad,Telangana,456480,168,Apparel,22,5,0.23,0
-C41,Pune,Maharashtra,618994,517,Electronics,23,2,0.09,0
-C42,Pune,Maharashtra,708783,300,Home Appliances,20,9,0.45,1
-C43,Hyderabad,Telangana,309660,998,Apparel,14,1,0.07,0
-C44,Mumbai,Maharashtra,541072,912,Home Appliances,16,8,0.5,1
-C45,Noida,Uttar Pradesh,787569,140,Apparel,20,6,0.3,0
-C46,Bangalore,Karnataka,224577,854,Electronics,16,5,0.31,1
-C47,Hyderabad,Telangana,256992,419,Home Appliances,14,4,0.29,0
-C48,Delhi,Delhi,189047,600,Home Appliances,17,4,0.24,0
-C49,Pune,Maharashtra,676848,230,Apparel,21,4,0.19,0
-C50,Mumbai,Maharashtra,619232,514,Home Appliances,23,3,0.13,0
-C51,Hyderabad,Telangana,282635,851,Home Appliances,22,16,0.73,1
-C52,Bangalore,Karnataka,587111,829,Footwear,21,7,0.33,1
-C53,Jaipur,Rajasthan,620312,1168,Electronics,26,15,0.58,1
-C54,Hyderabad,Telangana,171325,637,Apparel,25,15,0.6,1
-C55,Noida,Uttar Pradesh,722555,672,Home Appliances,22,6,0.27,0
-C56,Pune,Maharashtra,642497,1117,Apparel,18,8,0.44,1
-C57,Delhi,Delhi,356630,170,Home Appliances,22,2,0.09,0
-C58,Mumbai,Maharashtra,733399,1196,Apparel,20,0,0.0,0
-C59,Ahmedabad,Gujarat,722025,197,Footwear,16,1,0.06,0
-C60,Chennai,Tamil Nadu,439446,448,Electronics,18,2,0.11,0
-C61,Chennai,Tamil Nadu,786857,840,Footwear,15,2,0.13,0
-C62,Lucknow,Uttar Pradesh,186067,677,Apparel,22,4,0.18,0
-C63,Lucknow,Uttar Pradesh,186820,1183,Electronics,19,11,0.58,1
-C64,Pune,Maharashtra,475963,573,Apparel,13,4,0.31,1
-C65,Hyderabad,Telangana,569470,786,Footwear,23,6,0.26,0
-C66,Ahmedabad,Gujarat,691543,1113,Footwear,23,5,0.22,0
-C67,Gurgaon,Haryana,250815,242,Footwear,16,1,0.06,0
-C68,Mumbai,Maharashtra,272999,249,Footwear,22,12,0.55,1
-C69,Chennai,Tamil Nadu,323488,461,Footwear,11,1,0.09,0
-C70,Pune,Maharashtra,163267,1030,Apparel,24,9,0.38,1
-C71,Gurgaon,Haryana,156229,897,Apparel,20,6,0.3,0
-C72,Kolkata,West Bengal,384681,297,Electronics,22,2,0.09,0
-C73,Noida,Uttar Pradesh,558463,934,Apparel,15,3,0.2,0
-C74,Mumbai,Maharashtra,266295,184,Apparel,15,8,0.53,1
-C75,Kolkata,West Bengal,243637,1161,Apparel,28,7,0.25,0
-C76,Chennai,Tamil Nadu,151833,776,Footwear,21,4,0.19,0
-C77,Hyderabad,Telangana,480859,541,Home Appliances,24,7,0.29,0
-C78,Ahmedabad,Gujarat,358238,346,Electronics,14,3,0.21,0
-C79,Delhi,Delhi,458322,874,Home Appliances,22,3,0.14,0
-C80,Gurgaon,Haryana,223347,538,Home Appliances,22,2,0.09,0
-C81,Bangalore,Karnataka,592663,993,Footwear,23,11,0.48,1
-C82,Chennai,Tamil Nadu,312512,496,Home Appliances,29,5,0.17,0
-C83,Kolkata,West Bengal,402684,600,Footwear,18,7,0.39,1
-C84,Gurgaon,Haryana,672263,1073,Footwear,22,4,0.18,0
-C85,Bangalore,Karnataka,383904,266,Electronics,26,11,0.42,1
-C86,Ahmedabad,Gujarat,735551,573,Home Appliances,21,3,0.14,0
-C87,Kolkata,West Bengal,646266,672,Apparel,26,7,0.27,0
-C88,Jaipur,Rajasthan,567240,419,Apparel,23,5,0.22,0
-C89,Pune,Maharashtra,316607,1132,Footwear,19,9,0.47,1
-C90,Jaipur,Rajasthan,456240,173,Footwear,21,6,0.29,0
-C91,Gurgaon,Haryana,424911,285,Footwear,25,2,0.08,0
-C92,Gurgaon,Haryana,420017,866,Electronics,13,3,0.23,0
-C93,Hyderabad,Telangana,507563,891,Electronics,20,8,0.4,1
-C94,Ahmedabad,Gujarat,684554,1195,Apparel,23,4,0.17,0
-C95,Chennai,Tamil Nadu,718159,617,Footwear,31,5,0.16,0
-C96,Lucknow,Uttar Pradesh,334083,934,Home Appliances,34,4,0.12,0
-C97,Noida,Uttar Pradesh,407572,377,Footwear,12,5,0.42,1
-C98,Mumbai,Maharashtra,345553,511,Electronics,20,7,0.35,1
-C99,Delhi,Delhi,608217,80,Apparel,27,1,0.04,0
-C100,Lucknow,Uttar Pradesh,713635,878,Electronics,24,5,0.21,0
-C101,Noida,Uttar Pradesh,365837,816,Electronics,14,0,0.0,0
-C102,Gurgaon,Haryana,221765,41,Home Appliances,20,3,0.15,0
-C103,Hyderabad,Telangana,653119,390,Home Appliances,26,7,0.27,0
-C104,Bangalore,Karnataka,237254,1171,Home Appliances,17,6,0.35,1
-C105,Delhi,Delhi,696076,981,Footwear,11,8,0.73,1
-C106,Lucknow,Uttar Pradesh,684486,1063,Home Appliances,17,4,0.24,0
-C107,Delhi,Delhi,369250,1002,Footwear,23,8,0.35,1
-C108,Pune,Maharashtra,397937,1022,Home Appliances,16,6,0.38,1
-C109,Mumbai,Maharashtra,462162,615,Footwear,16,2,0.12,0
-C110,Pune,Maharashtra,352496,195,Home Appliances,21,2,0.1,0
-C111,Noida,Uttar Pradesh,177349,342,Home Appliances,27,9,0.33,1
-C112,Jaipur,Rajasthan,545971,707,Apparel,22,4,0.18,0
-C113,Hyderabad,Telangana,722452,890,Apparel,15,10,0.67,1
-C114,Ahmedabad,Gujarat,478846,809,Footwear,24,10,0.42,1
-C115,Jaipur,Rajasthan,682662,888,Electronics,18,4,0.22,0
-C116,Lucknow,Uttar Pradesh,619233,479,Apparel,18,7,0.39,1
-C117,Jaipur,Rajasthan,533957,718,Electronics,19,11,0.58,1
-C118,Lucknow,Uttar Pradesh,670070,291,Apparel,17,6,0.35,1
-C119,Jaipur,Rajasthan,198026,1185,Home Appliances,28,16,0.57,1
-C120,Delhi,Delhi,382794,975,Home Appliances,18,7,0.39,1
-C121,Kolkata,West Bengal,463895,463,Home Appliances,25,13,0.52,1
-C122,Chennai,Tamil Nadu,195885,893,Home Appliances,16,4,0.25,0
-C123,Bangalore,Karnataka,476961,1134,Electronics,17,3,0.18,0
-C124,Gurgaon,Haryana,793415,170,Apparel,13,2,0.15,0
-C125,Bangalore,Karnataka,131370,536,Electronics,16,3,0.19,0
-C126,Hyderabad,Telangana,229947,288,Electronics,25,5,0.2,0
-C127,Lucknow,Uttar Pradesh,285940,554,Apparel,17,8,0.47,1
-C128,Delhi,Delhi,136926,667,Footwear,16,6,0.38,1
-C129,Ahmedabad,Gujarat,317964,798,Apparel,22,3,0.14,0
-C130,Ahmedabad,Gujarat,426233,527,Apparel,15,2,0.13,0
-C131,Ahmedabad,Gujarat,559187,114,Footwear,25,7,0.28,0
-C132,Mumbai,Maharashtra,123267,1066,Home Appliances,23,8,0.35,1
-C133,Lucknow,Uttar Pradesh,489782,246,Home Appliances,22,3,0.14,0
-C134,Noida,Uttar Pradesh,657092,343,Footwear,14,5,0.36,1
-C135,Ahmedabad,Gujarat,597456,1132,Home Appliances,26,17,0.65,1
-C136,Noida,Uttar Pradesh,367421,579,Apparel,19,4,0.21,0
-C137,Chennai,Tamil Nadu,597283,953,Home Appliances,22,5,0.23,0
-C138,Kolkata,West Bengal,450803,88,Electronics,17,7,0.41,1
-C139,Lucknow,Uttar Pradesh,380903,464,Footwear,20,3,0.15,0
-C140,Chennai,Tamil Nadu,651723,595,Electronics,27,17,0.63,1
-C141,Mumbai,Maharashtra,622312,524,Electronics,19,10,0.53,1
-C142,Noida,Uttar Pradesh,624664,1005,Home Appliances,19,6,0.32,1
-C143,Bangalore,Karnataka,534046,220,Electronics,25,10,0.4,1
-C144,Chennai,Tamil Nadu,666712,785,Footwear,12,2,0.17,0
-C145,Jaipur,Rajasthan,585787,1157,Footwear,25,5,0.2,0
-C146,Chennai,Tamil Nadu,311940,544,Footwear,21,3,0.14,0
-C147,Mumbai,Maharashtra,304144,1127,Electronics,13,5,0.38,1
-C148,Hyderabad,Telangana,728227,1021,Footwear,23,2,0.09,0
-C149,Mumbai,Maharashtra,488412,427,Electronics,26,3,0.12,0
-C150,Chennai,Tamil Nadu,242732,58,Footwear,22,4,0.18,0
-C151,Bangalore,Karnataka,242414,141,Home Appliances,22,14,0.64,1
-C152,Mumbai,Maharashtra,602199,55,Home Appliances,13,3,0.23,0
-C153,Lucknow,Uttar Pradesh,163873,727,Footwear,19,1,0.05,0
-C154,Lucknow,Uttar Pradesh,530173,263,Home Appliances,31,10,0.32,1
-C155,Mumbai,Maharashtra,700181,139,Footwear,24,11,0.46,1
-C156,Mumbai,Maharashtra,546391,538,Electronics,23,4,0.17,0
-C157,Pune,Maharashtra,574227,809,Footwear,17,1,0.06,0
-C158,Ahmedabad,Gujarat,761195,908,Apparel,20,4,0.2,0
-C159,Ahmedabad,Gujarat,327882,233,Electronics,20,9,0.45,1
-C160,Chennai,Tamil Nadu,292257,196,Apparel,18,2,0.11,0
-C161,Delhi,Delhi,732657,35,Home Appliances,16,2,0.12,0
-C162,Chennai,Tamil Nadu,406452,96,Home Appliances,22,3,0.14,0
-C163,Mumbai,Maharashtra,765421,508,Electronics,25,10,0.4,1
-C164,Jaipur,Rajasthan,789095,265,Electronics,19,5,0.26,0
-C165,Chennai,Tamil Nadu,283983,321,Footwear,22,1,0.05,0
-C166,Ahmedabad,Gujarat,570486,1195,Apparel,17,8,0.47,1
-C167,Lucknow,Uttar Pradesh,395471,652,Home Appliances,20,4,0.2,0
-C168,Lucknow,Uttar Pradesh,563015,194,Footwear,15,2,0.13,0
-C169,Ahmedabad,Gujarat,350045,542,Apparel,14,1,0.07,0
-C170,Gurgaon,Haryana,293701,581,Home Appliances,24,2,0.08,0
-C171,Pune,Maharashtra,300306,935,Home Appliances,21,6,0.29,0
-C172,Gurgaon,Haryana,602842,1037,Footwear,19,0,0.0,0
-C173,Jaipur,Rajasthan,219681,712,Electronics,16,5,0.31,1
-C174,Kolkata,West Bengal,412219,873,Home Appliances,24,5,0.21,0
-C175,Pune,Maharashtra,439796,105,Footwear,18,9,0.5,1
-C176,Kolkata,West Bengal,533809,267,Apparel,24,3,0.12,0
-C177,Gurgaon,Haryana,166838,1141,Electronics,16,3,0.19,0
-C178,Pune,Maharashtra,632708,770,Home Appliances,17,3,0.18,0
-C179,Bangalore,Karnataka,247378,446,Footwear,17,6,0.35,1
-C180,Lucknow,Uttar Pradesh,770627,1022,Electronics,27,2,0.07,0
-C181,Noida,Uttar Pradesh,124339,354,Home Appliances,18,3,0.17,0
-C182,Mumbai,Maharashtra,228973,490,Home Appliances,16,0,0.0,0
-C183,Mumbai,Maharashtra,416040,345,Footwear,20,11,0.55,1
-C184,Jaipur,Rajasthan,365571,1018,Home Appliances,23,13,0.57,1
-C185,Pune,Maharashtra,738493,326,Electronics,22,4,0.18,0
-C186,Mumbai,Maharashtra,545099,595,Footwear,17,9,0.53,1
-C187,Pune,Maharashtra,406579,577,Footwear,12,7,0.58,1
-C188,Ahmedabad,Gujarat,578239,1032,Home Appliances,12,7,0.58,1
-C189,Kolkata,West Bengal,679828,710,Home Appliances,23,8,0.35,1
-C190,Lucknow,Uttar Pradesh,360406,689,Home Appliances,26,5,0.19,0
-C191,Hyderabad,Telangana,605952,871,Home Appliances,26,1,0.04,0
-C192,Jaipur,Rajasthan,148818,341,Electronics,30,14,0.47,1
-C193,Pune,Maharashtra,571695,709,Apparel,23,14,0.61,1
-C194,Pune,Maharashtra,261158,965,Home Appliances,20,4,0.2,0
-C195,Gurgaon,Haryana,387897,346,Footwear,16,0,0.0,0
-C196,Ahmedabad,Gujarat,454526,844,Home Appliances,18,5,0.28,0
-C197,Kolkata,West Bengal,147643,1029,Apparel,17,2,0.12,0
-C198,Hyderabad,Telangana,204770,618,Home Appliances,14,7,0.5,1
-C199,Mumbai,Maharashtra,424013,235,Apparel,26,11,0.42,1
-C200,Bangalore,Karnataka,417619,694,Footwear,13,6,0.46,1
-C201,Kolkata,West Bengal,666969,912,Home Appliances,19,4,0.21,0
-C202,Ahmedabad,Gujarat,192805,398,Home Appliances,15,4,0.27,0
-C203,Ahmedabad,Gujarat,721485,523,Electronics,14,0,0.0,0
-C204,Hyderabad,Telangana,591895,974,Footwear,21,13,0.62,1
-C205,Gurgaon,Haryana,597854,49,Footwear,25,7,0.28,0
-C206,Gurgaon,Haryana,573188,1149,Footwear,25,3,0.12,0
-C207,Ahmedabad,Gujarat,554921,642,Footwear,26,4,0.15,0
-C208,Lucknow,Uttar Pradesh,513381,648,Home Appliances,23,4,0.17,0
-C209,Mumbai,Maharashtra,486396,515,Footwear,18,1,0.06,0
-C210,Noida,Uttar Pradesh,525033,634,Footwear,22,1,0.05,0
-C211,Bangalore,Karnataka,161427,1189,Home Appliances,18,1,0.06,0
-C212,Chennai,Tamil Nadu,479436,501,Electronics,13,5,0.38,1
-C213,Gurgaon,Haryana,253424,419,Apparel,18,1,0.06,0
-C214,Gurgaon,Haryana,572237,110,Apparel,24,5,0.21,0
-C215,Ahmedabad,Gujarat,204512,777,Footwear,21,5,0.24,0
-C216,Kolkata,West Bengal,248580,880,Footwear,18,3,0.17,0
-C217,Pune,Maharashtra,282538,1057,Footwear,15,3,0.2,0
-C218,Lucknow,Uttar Pradesh,465169,634,Apparel,18,7,0.39,1
-C219,Lucknow,Uttar Pradesh,346575,184,Home Appliances,23,5,0.22,0
-C220,Pune,Maharashtra,523742,779,Apparel,12,4,0.33,1
-C221,Chennai,Tamil Nadu,496491,1128,Footwear,17,4,0.24,0
-C222,Ahmedabad,Gujarat,499519,810,Apparel,17,2,0.12,0
-C223,Gurgaon,Haryana,759642,508,Footwear,33,3,0.09,0
-C224,Ahmedabad,Gujarat,776270,483,Home Appliances,23,7,0.3,0
-C225,Noida,Uttar Pradesh,232344,648,Electronics,21,11,0.52,1
-C226,Bangalore,Karnataka,626555,106,Apparel,24,3,0.12,0
-C227,Mumbai,Maharashtra,252255,510,Home Appliances,13,7,0.54,1
-C228,Lucknow,Uttar Pradesh,676433,789,Home Appliances,15,3,0.2,0
-C229,Ahmedabad,Gujarat,796736,346,Apparel,17,11,0.65,1
-C230,Lucknow,Uttar Pradesh,403329,865,Apparel,17,5,0.29,0
-C231,Noida,Uttar Pradesh,576298,788,Electronics,18,5,0.28,0
-C232,Kolkata,West Bengal,495179,233,Footwear,19,9,0.47,1
-C233,Bangalore,Karnataka,238094,845,Home Appliances,18,3,0.17,0
-C234,Mumbai,Maharashtra,736153,464,Apparel,24,8,0.33,1
-C235,Bangalore,Karnataka,242041,713,Electronics,31,2,0.06,0
-C236,Mumbai,Maharashtra,336442,1165,Electronics,18,5,0.28,0
-C237,Kolkata,West Bengal,734933,332,Apparel,27,12,0.44,1
-C238,Chennai,Tamil Nadu,676457,326,Footwear,21,1,0.05,0
-C239,Delhi,Delhi,137033,255,Electronics,24,9,0.38,1
-C240,Bangalore,Karnataka,359490,763,Footwear,26,4,0.15,0
-C241,Bangalore,Karnataka,242916,386,Home Appliances,17,6,0.35,1
-C242,Pune,Maharashtra,609381,262,Home Appliances,15,8,0.53,1
-C243,Kolkata,West Bengal,583963,1081,Electronics,27,16,0.59,1
-C244,Ahmedabad,Gujarat,656782,118,Footwear,10,3,0.3,0
-C245,Lucknow,Uttar Pradesh,612249,93,Home Appliances,20,0,0.0,0
-C246,Jaipur,Rajasthan,575109,251,Apparel,22,13,0.59,1
-C247,Mumbai,Maharashtra,178873,689,Electronics,20,4,0.2,0
-C248,Chennai,Tamil Nadu,509408,1153,Footwear,26,15,0.58,1
-C249,Lucknow,Uttar Pradesh,213997,1065,Apparel,12,8,0.67,1
-C250,Gurgaon,Haryana,335469,1159,Home Appliances,12,6,0.5,1
-C251,Lucknow,Uttar Pradesh,585529,497,Home Appliances,16,3,0.19,0
-C252,Jaipur,Rajasthan,437705,224,Footwear,24,3,0.12,0
-C253,Kolkata,West Bengal,607306,342,Apparel,24,11,0.46,1
-C254,Mumbai,Maharashtra,211256,204,Footwear,19,2,0.11,0
-C255,Delhi,Delhi,698867,1169,Footwear,27,2,0.07,0
-C256,Gurgaon,Haryana,553482,280,Apparel,18,3,0.17,0
-C257,Chennai,Tamil Nadu,715992,669,Electronics,24,9,0.38,1
-C258,Delhi,Delhi,223476,1017,Footwear,14,5,0.36,1
-C259,Pune,Maharashtra,402100,782,Electronics,20,4,0.2,0
-C260,Jaipur,Rajasthan,761925,1178,Apparel,16,2,0.12,0
-C261,Ahmedabad,Gujarat,396545,577,Footwear,14,0,0.0,0
-C262,Kolkata,West Bengal,260211,748,Home Appliances,18,9,0.5,1
-C263,Mumbai,Maharashtra,142147,320,Apparel,14,1,0.07,0
-C264,Noida,Uttar Pradesh,550227,1116,Home Appliances,20,6,0.3,0
-C265,Kolkata,West Bengal,450141,352,Apparel,15,8,0.53,1
-C266,Bangalore,Karnataka,757851,348,Apparel,16,1,0.06,0
-C267,Gurgaon,Haryana,554612,197,Home Appliances,26,6,0.23,0
-C268,Ahmedabad,Gujarat,336041,935,Apparel,25,6,0.24,0
-C269,Kolkata,West Bengal,731947,910,Home Appliances,25,6,0.24,0
-C270,Pune,Maharashtra,524464,661,Apparel,22,2,0.09,0
-C271,Bangalore,Karnataka,331495,448,Electronics,22,13,0.59,1
-C272,Chennai,Tamil Nadu,118106,622,Home Appliances,22,8,0.36,1
-C273,Noida,Uttar Pradesh,508677,911,Electronics,33,15,0.45,1
-C274,Pune,Maharashtra,481372,1174,Apparel,16,12,0.75,1
-C275,Jaipur,Rajasthan,592088,116,Apparel,19,7,0.37,1
-C276,Kolkata,West Bengal,781238,909,Home Appliances,21,9,0.43,1
-C277,Chennai,Tamil Nadu,450545,265,Electronics,18,4,0.22,0
-C278,Ahmedabad,Gujarat,489431,972,Apparel,13,2,0.15,0
-C279,Jaipur,Rajasthan,727477,246,Home Appliances,21,6,0.29,0
-C280,Pune,Maharashtra,435347,191,Footwear,22,7,0.32,1
-C281,Hyderabad,Telangana,190090,712,Apparel,17,9,0.53,1
-C282,Pune,Maharashtra,476347,1074,Footwear,17,3,0.18,0
-C283,Noida,Uttar Pradesh,263558,332,Footwear,27,6,0.22,0
-C284,Hyderabad,Telangana,797352,385,Apparel,33,6,0.18,0
-C285,Delhi,Delhi,701120,1041,Home Appliances,16,4,0.25,0
-C286,Gurgaon,Haryana,764859,1186,Footwear,14,1,0.07,0
-C287,Gurgaon,Haryana,181604,677,Home Appliances,18,3,0.17,0
-C288,Lucknow,Uttar Pradesh,730149,650,Apparel,25,6,0.24,0
-C289,Kolkata,West Bengal,594173,1069,Home Appliances,22,2,0.09,0
-C290,Bangalore,Karnataka,411023,146,Apparel,18,7,0.39,1
-C291,Gurgaon,Haryana,641700,214,Home Appliances,18,0,0.0,0
-C292,Lucknow,Uttar Pradesh,153016,1165,Home Appliances,17,0,0.0,0
-C293,Ahmedabad,Gujarat,608734,415,Electronics,23,15,0.65,1
-C294,Bangalore,Karnataka,470121,952,Apparel,28,4,0.14,0
-C295,Pune,Maharashtra,569023,383,Home Appliances,18,1,0.06,0
-C296,Pune,Maharashtra,491575,1100,Footwear,25,6,0.24,0
-C297,Chennai,Tamil Nadu,464804,823,Apparel,26,6,0.23,0
-C298,Gurgaon,Haryana,209097,715,Home Appliances,15,1,0.07,0
-C299,Chennai,Tamil Nadu,798458,546,Electronics,21,6,0.29,0
-C300,Kolkata,West Bengal,258299,196,Footwear,26,3,0.12,0
-C301,Chennai,Tamil Nadu,198835,832,Footwear,18,0,0.0,0
-C302,Pune,Maharashtra,454433,801,Electronics,21,8,0.38,1
-C303,Gurgaon,Haryana,553974,1108,Footwear,13,2,0.15,0
-C304,Bangalore,Karnataka,334598,772,Footwear,23,4,0.17,0
-C305,Lucknow,Uttar Pradesh,254248,423,Electronics,16,4,0.25,0
-C306,Mumbai,Maharashtra,216054,635,Apparel,22,13,0.59,1
-C307,Gurgaon,Haryana,758053,719,Electronics,29,5,0.17,0
-C308,Ahmedabad,Gujarat,299631,801,Electronics,19,1,0.05,0
-C309,Noida,Uttar Pradesh,491996,926,Electronics,27,1,0.04,0
-C310,Lucknow,Uttar Pradesh,580736,613,Electronics,15,5,0.33,1
-C311,Pune,Maharashtra,601799,519,Electronics,23,3,0.13,0
-C312,Kolkata,West Bengal,594107,1198,Footwear,21,2,0.1,0
-C313,Jaipur,Rajasthan,279931,1059,Electronics,16,3,0.19,0
-C314,Ahmedabad,Gujarat,164715,313,Home Appliances,20,12,0.6,1
-C315,Kolkata,West Bengal,650971,1165,Apparel,24,20,0.83,1
-C316,Chennai,Tamil Nadu,396043,201,Home Appliances,16,6,0.38,1
-C317,Pune,Maharashtra,206169,331,Electronics,15,4,0.27,0
-C318,Lucknow,Uttar Pradesh,545051,745,Apparel,24,2,0.08,0
-C319,Jaipur,Rajasthan,514925,1058,Apparel,24,1,0.04,0
-C320,Kolkata,West Bengal,213897,489,Footwear,11,1,0.09,0
-C321,Delhi,Delhi,605405,311,Electronics,17,3,0.18,0
-C322,Noida,Uttar Pradesh,115507,990,Apparel,20,5,0.25,0
-C323,Bangalore,Karnataka,266783,554,Home Appliances,20,5,0.25,0
-C324,Mumbai,Maharashtra,237768,620,Apparel,20,3,0.15,0
-C325,Hyderabad,Telangana,763065,889,Home Appliances,20,10,0.5,1
-C326,Mumbai,Maharashtra,634109,257,Apparel,17,3,0.18,0
-C327,Gurgaon,Haryana,260552,1085,Footwear,18,5,0.28,0
-C328,Jaipur,Rajasthan,362250,33,Home Appliances,14,1,0.07,0
-C329,Delhi,Delhi,488121,205,Apparel,22,10,0.45,1
-C330,Pune,Maharashtra,642281,1144,Apparel,15,1,0.07,0
-C331,Jaipur,Rajasthan,515675,992,Footwear,21,2,0.1,0
-C332,Chennai,Tamil Nadu,180842,63,Footwear,13,4,0.31,1
-C333,Hyderabad,Telangana,458672,242,Electronics,22,3,0.14,0
-C334,Bangalore,Karnataka,784021,751,Electronics,10,0,0.0,0
-C335,Gurgaon,Haryana,611777,981,Electronics,15,3,0.2,0
-C336,Delhi,Delhi,589912,159,Apparel,19,3,0.16,0
-C337,Chennai,Tamil Nadu,319160,442,Apparel,23,7,0.3,0
-C338,Kolkata,West Bengal,679409,665,Home Appliances,15,5,0.33,1
-C339,Chennai,Tamil Nadu,310387,104,Footwear,26,7,0.27,0
-C340,Kolkata,West Bengal,458049,127,Footwear,20,2,0.1,0
-C341,Mumbai,Maharashtra,529454,783,Home Appliances,18,5,0.28,0
-C342,Jaipur,Rajasthan,630307,724,Home Appliances,25,6,0.24,0
-C343,Kolkata,West Bengal,196625,1093,Home Appliances,28,4,0.14,0
-C344,Mumbai,Maharashtra,299223,911,Footwear,16,2,0.12,0
-C345,Kolkata,West Bengal,420001,240,Footwear,19,1,0.05,0
-C346,Lucknow,Uttar Pradesh,575472,902,Footwear,11,0,0.0,0
-C347,Lucknow,Uttar Pradesh,479686,116,Home Appliances,21,6,0.29,0
-C348,Chennai,Tamil Nadu,778481,147,Home Appliances,26,1,0.04,0
-C349,Kolkata,West Bengal,277759,1080,Apparel,24,6,0.25,0
-C350,Delhi,Delhi,180500,927,Electronics,21,1,0.05,0
-C351,Gurgaon,Haryana,704800,780,Apparel,12,4,0.33,1
-C352,Ahmedabad,Gujarat,498985,344,Footwear,18,11,0.61,1
-C353,Lucknow,Uttar Pradesh,665179,187,Footwear,23,10,0.43,1
-C354,Jaipur,Rajasthan,371737,673,Apparel,28,3,0.11,0
-C355,Bangalore,Karnataka,515786,411,Apparel,20,2,0.1,0
-C356,Chennai,Tamil Nadu,334994,563,Footwear,24,5,0.21,0
-C357,Noida,Uttar Pradesh,252322,1035,Apparel,14,0,0.0,0
-C358,Lucknow,Uttar Pradesh,576733,383,Apparel,16,5,0.31,1
-C359,Gurgaon,Haryana,178094,684,Footwear,11,4,0.36,1
-C360,Chennai,Tamil Nadu,778677,352,Electronics,19,5,0.26,0
-C361,Kolkata,West Bengal,320744,1071,Electronics,16,1,0.06,0
-C362,Hyderabad,Telangana,690934,1041,Footwear,34,3,0.09,0
-C363,Lucknow,Uttar Pradesh,200404,1159,Apparel,22,6,0.27,0
-C364,Chennai,Tamil Nadu,611917,845,Home Appliances,9,1,0.11,0
-C365,Jaipur,Rajasthan,442428,181,Apparel,19,12,0.63,1
-C366,Lucknow,Uttar Pradesh,471250,984,Electronics,21,4,0.19,0
-C367,Pune,Maharashtra,245301,402,Home Appliances,19,9,0.47,1
-C368,Pune,Maharashtra,653270,143,Electronics,19,13,0.68,1
-C369,Chennai,Tamil Nadu,346423,367,Footwear,24,1,0.04,0
-C370,Pune,Maharashtra,372779,611,Electronics,17,3,0.18,0
-C371,Gurgaon,Haryana,765384,1158,Footwear,16,1,0.06,0
-C372,Ahmedabad,Gujarat,782125,1122,Electronics,10,0,0.0,0
-C373,Ahmedabad,Gujarat,764814,345,Footwear,20,0,0.0,0
-C374,Ahmedabad,Gujarat,139752,114,Apparel,23,6,0.26,0
-C375,Bangalore,Karnataka,709930,572,Home Appliances,20,1,0.05,0
-C376,Ahmedabad,Gujarat,767630,92,Footwear,21,7,0.33,1
-C377,Gurgaon,Haryana,535819,648,Footwear,15,7,0.47,1
-C378,Lucknow,Uttar Pradesh,275760,179,Home Appliances,22,4,0.18,0
-C379,Jaipur,Rajasthan,466718,1021,Electronics,24,17,0.71,1
-C380,Kolkata,West Bengal,472148,683,Home Appliances,18,5,0.28,0
-C381,Delhi,Delhi,221342,788,Footwear,20,2,0.1,0
-C382,Hyderabad,Telangana,581436,985,Electronics,18,3,0.17,0
-C383,Delhi,Delhi,512811,228,Home Appliances,16,1,0.06,0
-C384,Hyderabad,Telangana,715749,357,Footwear,20,11,0.55,1
-C385,Hyderabad,Telangana,649729,356,Home Appliances,24,10,0.42,1
-C386,Lucknow,Uttar Pradesh,204424,661,Home Appliances,12,3,0.25,0
-C387,Pune,Maharashtra,335596,966,Footwear,29,7,0.24,0
-C388,Bangalore,Karnataka,736544,133,Home Appliances,19,0,0.0,0
-C389,Chennai,Tamil Nadu,222719,1129,Home Appliances,18,2,0.11,0
-C390,Delhi,Delhi,532843,571,Footwear,29,20,0.69,1
-C391,Bangalore,Karnataka,699108,850,Electronics,15,9,0.6,1
-C392,Kolkata,West Bengal,515117,1163,Home Appliances,23,7,0.3,0
-C393,Pune,Maharashtra,763517,602,Apparel,22,9,0.41,1
-C394,Delhi,Delhi,465557,228,Footwear,18,6,0.33,1
-C395,Delhi,Delhi,530885,437,Apparel,15,3,0.2,0
-C396,Bangalore,Karnataka,459219,109,Home Appliances,24,7,0.29,0
-C397,Pune,Maharashtra,650547,965,Electronics,14,8,0.57,1
-C398,Kolkata,West Bengal,756448,682,Footwear,19,3,0.16,0
-C399,Ahmedabad,Gujarat,644474,718,Home Appliances,25,6,0.24,0
-C400,Noida,Uttar Pradesh,127446,1182,Footwear,10,2,0.2,0
-C401,Kolkata,West Bengal,722057,254,Footwear,21,2,0.1,0
-C402,Noida,Uttar Pradesh,388429,84,Electronics,16,8,0.5,1
-C403,Noida,Uttar Pradesh,288795,135,Home Appliances,25,9,0.36,1
-C404,Delhi,Delhi,225234,526,Electronics,14,9,0.64,1
-C405,Bangalore,Karnataka,268788,933,Home Appliances,18,4,0.22,0
-C406,Noida,Uttar Pradesh,751182,447,Home Appliances,18,13,0.72,1
-C407,Noida,Uttar Pradesh,653879,157,Electronics,25,7,0.28,0
-C408,Pune,Maharashtra,611609,695,Home Appliances,15,1,0.07,0
-C409,Kolkata,West Bengal,669025,384,Footwear,17,8,0.47,1
-C410,Pune,Maharashtra,784559,755,Footwear,12,4,0.33,1
-C411,Ahmedabad,Gujarat,368495,1021,Footwear,18,4,0.22,0
-C412,Pune,Maharashtra,422072,641,Footwear,23,13,0.57,1
-C413,Noida,Uttar Pradesh,622757,454,Footwear,25,10,0.4,1
-C414,Lucknow,Uttar Pradesh,396742,744,Footwear,23,4,0.17,0
-C415,Mumbai,Maharashtra,523698,1142,Footwear,22,2,0.09,0
-C416,Delhi,Delhi,192869,624,Footwear,15,1,0.07,0
-C417,Lucknow,Uttar Pradesh,334382,555,Electronics,19,4,0.21,0
-C418,Pune,Maharashtra,394816,585,Electronics,28,9,0.32,1
-C419,Mumbai,Maharashtra,666838,520,Electronics,18,4,0.22,0
-C420,Gurgaon,Haryana,543378,506,Footwear,17,1,0.06,0
-C421,Noida,Uttar Pradesh,254145,997,Apparel,22,6,0.27,0
-C422,Pune,Maharashtra,608808,353,Home Appliances,17,6,0.35,1
-C423,Gurgaon,Haryana,411199,438,Footwear,26,3,0.12,0
-C424,Chennai,Tamil Nadu,203807,151,Electronics,16,7,0.44,1
-C425,Pune,Maharashtra,293569,106,Home Appliances,12,0,0.0,0
-C426,Delhi,Delhi,526279,104,Home Appliances,26,12,0.46,1
-C427,Delhi,Delhi,119718,622,Footwear,15,3,0.2,0
-C428,Ahmedabad,Gujarat,461318,249,Footwear,25,13,0.52,1
-C429,Lucknow,Uttar Pradesh,250719,1142,Home Appliances,20,6,0.3,0
-C430,Chennai,Tamil Nadu,456748,424,Electronics,21,3,0.14,0
-C431,Noida,Uttar Pradesh,305244,969,Apparel,19,1,0.05,0
-C432,Noida,Uttar Pradesh,705362,720,Electronics,26,6,0.23,0
-C433,Delhi,Delhi,650311,860,Footwear,22,6,0.27,0
-C434,Mumbai,Maharashtra,303758,850,Electronics,18,2,0.11,0
-C435,Lucknow,Uttar Pradesh,117162,692,Footwear,17,3,0.18,0
-C436,Jaipur,Rajasthan,389964,512,Footwear,15,2,0.13,0
-C437,Chennai,Tamil Nadu,487018,53,Electronics,13,1,0.08,0
-C438,Bangalore,Karnataka,277476,272,Home Appliances,22,13,0.59,1
-C439,Gurgaon,Haryana,436085,1059,Apparel,14,2,0.14,0
-C440,Gurgaon,Haryana,341578,634,Electronics,18,2,0.11,0
-C441,Delhi,Delhi,745164,1009,Footwear,22,0,0.0,0
-C442,Jaipur,Rajasthan,673629,1154,Electronics,14,11,0.79,1
-C443,Hyderabad,Telangana,663830,197,Footwear,23,6,0.26,0
-C444,Mumbai,Maharashtra,684252,1185,Electronics,19,3,0.16,0
-C445,Ahmedabad,Gujarat,454057,1129,Home Appliances,23,9,0.39,1
-C446,Mumbai,Maharashtra,622574,450,Apparel,18,8,0.44,1
-C447,Pune,Maharashtra,585459,942,Electronics,18,11,0.61,1
-C448,Pune,Maharashtra,170542,880,Home Appliances,18,4,0.22,0
-C449,Gurgaon,Haryana,525183,661,Footwear,30,8,0.27,0
-C450,Bangalore,Karnataka,157490,476,Home Appliances,20,0,0.0,0
-C451,Kolkata,West Bengal,173183,160,Apparel,17,4,0.24,0
-C452,Lucknow,Uttar Pradesh,298725,94,Electronics,23,6,0.26,0
-C453,Gurgaon,Haryana,511059,890,Home Appliances,22,5,0.23,0
-C454,Jaipur,Rajasthan,675498,799,Electronics,18,8,0.44,1
-C455,Gurgaon,Haryana,673357,742,Home Appliances,19,1,0.05,0
-C456,Pune,Maharashtra,343508,290,Apparel,21,4,0.19,0
-C457,Bangalore,Karnataka,680893,641,Home Appliances,15,0,0.0,0
-C458,Pune,Maharashtra,369536,806,Home Appliances,22,10,0.45,1
-C459,Kolkata,West Bengal,228327,347,Apparel,24,1,0.04,0
-C460,Gurgaon,Haryana,126406,888,Electronics,18,0,0.0,0
-C461,Hyderabad,Telangana,145208,167,Home Appliances,20,1,0.05,0
-C462,Ahmedabad,Gujarat,156386,129,Home Appliances,21,5,0.24,0
-C463,Lucknow,Uttar Pradesh,169186,509,Electronics,22,6,0.27,0
-C464,Pune,Maharashtra,714096,622,Footwear,26,8,0.31,1
-C465,Ahmedabad,Gujarat,260220,686,Electronics,27,12,0.44,1
-C466,Jaipur,Rajasthan,693762,645,Electronics,17,3,0.18,0
-C467,Gurgaon,Haryana,159162,904,Footwear,20,7,0.35,1
-C468,Gurgaon,Haryana,444218,810,Home Appliances,20,13,0.65,1
-C469,Jaipur,Rajasthan,302812,335,Home Appliances,21,5,0.24,0
-C470,Hyderabad,Telangana,261364,491,Home Appliances,17,11,0.65,1
-C471,Bangalore,Karnataka,546741,1181,Electronics,13,2,0.15,0
-C472,Jaipur,Rajasthan,456306,527,Apparel,30,15,0.5,1
-C473,Lucknow,Uttar Pradesh,309735,789,Apparel,20,0,0.0,0
-C474,Chennai,Tamil Nadu,742210,802,Apparel,12,5,0.42,1
-C475,Mumbai,Maharashtra,726127,415,Electronics,31,7,0.23,0
-C476,Lucknow,Uttar Pradesh,459139,457,Footwear,17,9,0.53,1
-C477,Bangalore,Karnataka,233015,463,Home Appliances,28,3,0.11,0
-C478,Hyderabad,Telangana,360957,448,Footwear,18,5,0.28,0
-C479,Chennai,Tamil Nadu,790234,809,Footwear,26,15,0.58,1
-C480,Chennai,Tamil Nadu,631434,565,Home Appliances,27,5,0.19,0
-C481,Mumbai,Maharashtra,445789,991,Electronics,31,10,0.32,1
-C482,Kolkata,West Bengal,699850,670,Electronics,16,4,0.25,0
-C483,Noida,Uttar Pradesh,690190,328,Home Appliances,24,6,0.25,0
-C484,Chennai,Tamil Nadu,351193,342,Home Appliances,20,3,0.15,0
-C485,Ahmedabad,Gujarat,796407,533,Footwear,19,7,0.37,1
-C486,Chennai,Tamil Nadu,782866,1030,Home Appliances,22,15,0.68,1
-C487,Lucknow,Uttar Pradesh,479284,374,Electronics,14,0,0.0,0
-C488,Delhi,Delhi,678472,1149,Apparel,26,7,0.27,0
-C489,Pune,Maharashtra,187942,99,Apparel,20,9,0.45,1
-C490,Bangalore,Karnataka,771339,874,Electronics,22,10,0.45,1
-C491,Mumbai,Maharashtra,640300,339,Home Appliances,26,7,0.27,0
-C492,Kolkata,West Bengal,756468,153,Home Appliances,24,9,0.38,1
-C493,Gurgaon,Haryana,668066,1029,Home Appliances,24,3,0.12,0
-C494,Bangalore,Karnataka,398087,64,Footwear,10,2,0.2,0
-C495,Bangalore,Karnataka,561489,1058,Electronics,16,3,0.19,0
-C496,Mumbai,Maharashtra,362675,227,Electronics,21,6,0.29,0
-C497,Ahmedabad,Gujarat,481659,1108,Footwear,20,1,0.05,0
-C498,Jaipur,Rajasthan,535751,191,Home Appliances,20,4,0.2,0
-C499,Ahmedabad,Gujarat,346829,528,Footwear,17,12,0.71,1
-C500,Gurgaon,Haryana,791464,195,Apparel,14,9,0.64,1
+customer_id,city,state,pincode,customer_tenure_days,total_orders,total_returns,overall_return_rate,avg_order_value,avg_days_between_orders,last_order_days_ago,preferred_category,frequent_return_flag
+C1,Lucknow,Uttar Pradesh,405407,63,12,8.0,0.67,8085,12.202622239842231,19,Home Appliances,1
+C2,Hyderabad,Telangana,377405,836,7,2.0,0.29,19826,21.529576071334194,60,Electronics,0
+C3,Hyderabad,Telangana,779094,182,14,5.0,0.36,9204,25.66577899125149,5,Apparel,1
+C4,Chennai,Tamil Nadu,723948,796,18,12.0,0.67,19151,28.029813224190953,29,Apparel,1
+C5,Lucknow,Uttar Pradesh,822131,341,7,0.0,0.0,13689,28.56690601860102,33,Home Appliances,0
+C6,Bangalore,Karnataka,553014,782,6,3.0,0.5,11061,20.092841023647765,2,Apparel,1
+C7,Hyderabad,Telangana,807053,886,6,1.0,0.17,19348,19.678073292744585,2,Footwear,0
+C8,Delhi,Delhi,593355,561,8,7.0,0.88,14990,27.901819698169188,12,Home Appliances,1
+C9,Lucknow,Uttar Pradesh,195674,511,11,1.0,0.09,11901,15.208702335750383,21,Apparel,0
+C10,Kolkata,West Bengal,531641,740,7,4.0,0.57,16735,12.205444884036394,26,Apparel,1
+C11,Lucknow,Uttar Pradesh,192337,352,8,2.0,0.25,8770,13.081844656899866,50,Home Appliances,0
+C12,Bangalore,Karnataka,789606,585,5,2.0,0.4,15638,15.331189269983037,13,Footwear,1
+C13,Lucknow,Uttar Pradesh,755788,482,7,3.0,0.43,2191,10.088955958756847,36,Electronics,1
+C14,Lucknow,Uttar Pradesh,832168,526,8,8.0,1.0,4478,5.721736061041581,41,Electronics,1
+C15,Chennai,Tamil Nadu,677596,44,16,13.0,0.81,18596,15.199767182247562,15,Apparel,1
+C16,Mumbai,Maharashtra,779172,882,11,1.0,0.09,5545,17.45938761767988,46,Footwear,0
+C17,Chennai,Tamil Nadu,535673,884,7,3.0,0.43,16310,29.506115815084385,16,Home Appliances,1
+C18,Delhi,Delhi,502219,225,7,0.0,0.0,17154,23.65731363730994,9,Apparel,0
+C19,Jaipur,Rajasthan,456385,836,11,5.0,0.45,17137,11.679316576672619,1,Footwear,1
+C20,Lucknow,Uttar Pradesh,255813,487,8,5.0,0.62,18148,17.10853463879301,22,Home Appliances,1
+C21,Kolkata,West Bengal,297816,744,12,1.0,0.08,8325,19.29494104962253,15,Home Appliances,0
+C22,Lucknow,Uttar Pradesh,839485,860,14,7.0,0.5,12992,14.651968812274559,43,Electronics,1
+C23,Bangalore,Karnataka,232378,544,8,3.0,0.38,19839,13.299867598284095,7,Home Appliances,1
+C24,Lucknow,Uttar Pradesh,116093,769,11,1.0,0.09,5223,15.24946549365911,42,Electronics,0
+C25,Chennai,Tamil Nadu,455007,668,12,5.0,0.42,13524,21.245916314481814,55,Footwear,1
+C26,Jaipur,Rajasthan,432043,671,13,4.0,0.31,16489,26.809575434963406,3,Apparel,1
+C27,Chennai,Tamil Nadu,338536,794,7,5.0,0.71,3461,15.849286798078142,7,Apparel,1
+C28,Chennai,Tamil Nadu,130353,77,7,2.0,0.29,11129,24.903586629055294,19,Footwear,0
+C29,Delhi,Delhi,356059,573,5,1.0,0.2,14002,19.14820154789842,51,Electronics,0
+C30,Mumbai,Maharashtra,739098,421,13,5.0,0.38,8391,17.441681309198778,38,Electronics,1
+C31,Chennai,Tamil Nadu,581894,291,12,7.0,0.58,807,27.472713292508026,30,Footwear,1
+C32,Delhi,Delhi,177449,482,8,6.0,0.75,11823,29.691292380461785,20,Home Appliances,1
+C33,Lucknow,Uttar Pradesh,986365,339,6,2.0,0.33,7027,29.98433913750448,55,Home Appliances,1
+C34,Jaipur,Rajasthan,699704,397,8,1.0,0.12,19335,12.396809755394614,45,Footwear,0
+C35,Jaipur,Rajasthan,387813,38,9,6.0,0.67,19044,26.626684942431652,50,Apparel,1
+C36,Lucknow,Uttar Pradesh,973294,323,9,4.0,0.44,8040,20.17662495410665,23,Electronics,1
+C37,Chennai,Tamil Nadu,810687,803,14,5.0,0.36,4981,20.70620259217246,58,Apparel,1
+C38,Lucknow,Uttar Pradesh,134985,623,13,9.0,0.69,12455,23.308994198480956,6,Footwear,1
+C39,Kolkata,West Bengal,883790,455,8,0.0,0.0,6255,10.019869866251906,51,Footwear,0
+C40,Chennai,Tamil Nadu,970813,198,11,7.0,0.64,8920,27.851223838457802,31,Footwear,1
+C41,Kolkata,West Bengal,943298,147,6,0.0,0.0,15846,29.07233232172194,10,Electronics,0
+C42,Jaipur,Rajasthan,986827,853,9,2.0,0.22,18762,14.144376235139159,51,Home Appliances,0
+C43,Mumbai,Maharashtra,576877,407,15,6.0,0.4,9090,19.614002291304153,53,Footwear,1
+C44,Mumbai,Maharashtra,807617,269,13,0.0,0.0,15949,5.625616241162058,57,Footwear,0
+C45,Hyderabad,Telangana,779112,94,17,6.0,0.35,15713,27.7346909606973,20,Home Appliances,1
+C46,Bangalore,Karnataka,139019,341,6,5.0,0.83,16642,7.903012018127738,16,Electronics,1
+C47,Jaipur,Rajasthan,575679,409,13,0.0,0.0,18201,15.47816883536807,48,Electronics,0
+C48,Jaipur,Rajasthan,786735,131,12,1.0,0.08,16534,20.39130535127891,18,Apparel,0
+C49,Hyderabad,Telangana,564920,485,9,5.0,0.56,8236,26.386254832648866,7,Footwear,1
+C50,Kolkata,West Bengal,163491,437,10,1.0,0.1,9540,9.745214054026988,8,Home Appliances,0
+C51,Hyderabad,Telangana,772875,684,9,5.0,0.56,1199,6.264462766571825,22,Electronics,1
+C52,Hyderabad,Telangana,171942,879,11,9.0,0.82,18660,10.178934258666462,14,Electronics,1
+C53,Kolkata,West Bengal,911984,181,8,1.0,0.12,592,11.931871149392073,10,Electronics,0
+C54,Chennai,Tamil Nadu,937302,208,12,2.0,0.17,4102,21.52644106493292,2,Electronics,0
+C55,Hyderabad,Telangana,717457,361,8,3.0,0.38,1017,9.35615503515443,4,Electronics,1
+C56,Mumbai,Maharashtra,881886,95,12,2.0,0.17,16105,16.206880356747103,24,Apparel,0
+C57,Hyderabad,Telangana,744986,74,12,8.0,0.67,17586,12.540758225702218,42,Apparel,1
+C58,Lucknow,Uttar Pradesh,988456,441,7,1.0,0.14,14468,22.15243740155582,32,Home Appliances,0
+C59,Mumbai,Maharashtra,437758,652,6,3.0,0.5,5360,6.642055833002848,18,Footwear,1
+C60,Chennai,Tamil Nadu,575755,547,5,1.0,0.2,14596,7.4794615419760495,45,Apparel,0
+C61,Hyderabad,Telangana,550961,492,13,5.0,0.38,7987,15.345339279422836,53,Home Appliances,1
+C62,Mumbai,Maharashtra,427730,467,9,1.0,0.11,10740,21.627696576507724,24,Electronics,0
+C63,Lucknow,Uttar Pradesh,170394,123,14,9.0,0.64,3297,7.330752542591935,7,Footwear,1
+C64,Bangalore,Karnataka,714953,605,15,4.0,0.27,18905,13.241149535405127,8,Home Appliances,0
+C65,Jaipur,Rajasthan,856086,82,8,1.0,0.12,9925,20.010252280616925,23,Apparel,0
+C66,Hyderabad,Telangana,262246,702,9,5.0,0.56,16300,10.606121727689139,7,Footwear,1
+C67,Kolkata,West Bengal,220465,810,10,2.0,0.2,9628,19.352500108286566,52,Home Appliances,0
+C68,Bangalore,Karnataka,738577,703,11,1.0,0.09,9263,5.723829526531708,18,Footwear,0
+C69,Kolkata,West Bengal,106402,215,7,1.0,0.14,5194,19.158027369034407,26,Apparel,0
+C70,Delhi,Delhi,876962,678,8,0.0,0.0,1504,7.293942076361133,34,Electronics,0
+C71,Jaipur,Rajasthan,540226,494,11,0.0,0.0,11670,8.935231896127217,20,Footwear,0
+C72,Mumbai,Maharashtra,155164,189,13,6.0,0.46,5658,23.860896978124636,4,Apparel,1
+C73,Jaipur,Rajasthan,609253,651,5,2.0,0.4,14984,15.354593447068117,14,Apparel,1
+C74,Mumbai,Maharashtra,397005,724,15,4.0,0.27,19935,17.16581883410627,43,Footwear,0
+C75,Jaipur,Rajasthan,728437,86,8,3.0,0.38,751,10.110578108843296,14,Electronics,1
+C76,Chennai,Tamil Nadu,444061,152,5,5.0,1.0,753,17.43463321533317,28,Electronics,1
+C77,Hyderabad,Telangana,624563,602,7,6.0,0.86,12105,6.8018874148039465,56,Apparel,1
+C78,Lucknow,Uttar Pradesh,181644,350,10,7.0,0.7,19366,15.73210715752089,26,Home Appliances,1
+C79,Chennai,Tamil Nadu,220768,444,12,1.0,0.08,1183,29.154992275828153,11,Home Appliances,0
+C80,Kolkata,West Bengal,192410,477,12,12.0,1.0,3968,11.082911870568342,38,Home Appliances,1
+C81,Jaipur,Rajasthan,425346,793,14,6.0,0.43,11625,10.539301472356284,50,Electronics,1
+C82,Mumbai,Maharashtra,656379,552,10,1.0,0.1,6853,27.64806828950126,23,Footwear,0
+C83,Delhi,Delhi,347745,135,12,0.0,0.0,5298,11.399205550043247,12,Electronics,0
+C84,Mumbai,Maharashtra,285751,821,11,9.0,0.82,16691,16.59882671282549,37,Home Appliances,1
+C85,Kolkata,West Bengal,757685,353,12,3.0,0.25,5446,15.9940704085466,31,Home Appliances,0
+C86,Chennai,Tamil Nadu,720148,87,10,7.0,0.7,12032,17.683422132244452,20,Home Appliances,1
+C87,Bangalore,Karnataka,486649,881,16,10.0,0.62,9906,6.918275029336375,56,Apparel,1
+C88,Jaipur,Rajasthan,585188,624,13,6.0,0.46,18663,28.855786918069754,48,Apparel,1
+C89,Hyderabad,Telangana,437145,649,8,2.0,0.25,16085,17.53418254682069,4,Home Appliances,0
+C90,Mumbai,Maharashtra,950360,887,9,0.0,0.0,11753,29.559639527334934,6,Electronics,0
+C91,Lucknow,Uttar Pradesh,560767,566,10,5.0,0.5,17629,20.24513515806686,24,Footwear,1
+C92,Jaipur,Rajasthan,528625,823,9,4.0,0.44,11587,21.972443013989526,4,Footwear,1
+C93,Mumbai,Maharashtra,685066,724,10,2.0,0.2,13166,12.103674346952843,47,Electronics,0
+C94,Delhi,Delhi,466813,347,15,2.0,0.13,13343,8.223791456789005,46,Apparel,0
+C95,Chennai,Tamil Nadu,686072,415,10,1.0,0.1,11263,25.329619595370023,43,Apparel,0
+C96,Jaipur,Rajasthan,633188,400,13,12.0,0.92,1097,14.06494172455111,12,Electronics,1
+C97,Lucknow,Uttar Pradesh,301332,261,8,3.0,0.38,5007,8.87362932361012,19,Apparel,1
+C98,Bangalore,Karnataka,794083,374,9,7.0,0.78,4794,19.93116102679071,10,Electronics,1
+C99,Delhi,Delhi,856215,478,13,4.0,0.31,1931,15.271465287413337,44,Electronics,1
+C100,Chennai,Tamil Nadu,888939,796,13,5.0,0.38,15210,10.85007360838561,16,Footwear,1
+C101,Lucknow,Uttar Pradesh,975679,228,7,4.0,0.57,12553,21.957670626627312,37,Home Appliances,1
+C102,Chennai,Tamil Nadu,915922,421,13,6.0,0.46,16979,18.186494711537065,11,Electronics,1
+C103,Delhi,Delhi,362147,83,10,7.0,0.7,16247,26.852923626305927,36,Apparel,1
+C104,Mumbai,Maharashtra,398910,115,9,7.0,0.78,5753,11.819782489783915,58,Electronics,1
+C105,Mumbai,Maharashtra,332823,866,8,7.0,0.88,15282,27.115744342950187,60,Apparel,1
+C106,Jaipur,Rajasthan,626392,412,4,3.0,0.75,8225,14.654152951114876,6,Footwear,1
+C107,Kolkata,West Bengal,203896,889,9,5.0,0.56,11486,24.7845159370544,9,Apparel,1
+C108,Lucknow,Uttar Pradesh,829884,881,6,2.0,0.33,5047,23.97102886914018,31,Home Appliances,1
+C109,Mumbai,Maharashtra,119927,292,13,2.0,0.15,7566,25.874077482059526,36,Home Appliances,0
+C110,Chennai,Tamil Nadu,349183,338,13,3.0,0.23,4492,6.193736165471282,27,Home Appliances,0
+C111,Lucknow,Uttar Pradesh,725726,578,11,3.0,0.27,1038,20.79887355032856,37,Electronics,0
+C112,Chennai,Tamil Nadu,550089,31,10,5.0,0.5,12061,11.014105970163588,27,Electronics,1
+C113,Mumbai,Maharashtra,648913,399,8,3.0,0.38,2717,28.835091949637874,35,Apparel,1
+C114,Jaipur,Rajasthan,592972,74,9,0.0,0.0,13177,29.525985563789007,17,Apparel,0
+C115,Mumbai,Maharashtra,461551,276,7,1.0,0.14,3896,24.287534352746476,48,Footwear,0
+C116,Kolkata,West Bengal,672536,376,8,5.0,0.62,6237,25.759591419090068,44,Home Appliances,1
+C117,Lucknow,Uttar Pradesh,762423,216,13,3.0,0.23,4918,6.577513425805615,50,Home Appliances,0
+C118,Hyderabad,Telangana,145934,840,6,3.0,0.5,7036,27.144759640452627,21,Footwear,1
+C119,Lucknow,Uttar Pradesh,365618,67,11,2.0,0.18,6762,12.152772388788716,56,Apparel,0
+C120,Kolkata,West Bengal,386488,157,11,1.0,0.09,12559,15.92378457812341,26,Home Appliances,0
+C121,Jaipur,Rajasthan,455505,221,10,4.0,0.4,16759,22.301712277815376,24,Footwear,1
+C122,Jaipur,Rajasthan,182760,470,14,0.0,0.0,6413,18.636859933615924,21,Apparel,0
+C123,Chennai,Tamil Nadu,421384,486,13,7.0,0.54,14462,9.166119301647841,29,Footwear,1
+C124,Lucknow,Uttar Pradesh,144412,774,12,3.0,0.25,12052,20.37128705496911,28,Footwear,0
+C125,Bangalore,Karnataka,178686,717,11,3.0,0.27,13810,14.082778266274557,52,Electronics,0
+C126,Delhi,Delhi,989894,652,13,8.0,0.62,14858,5.8699741449635505,5,Electronics,1
+C127,Kolkata,West Bengal,479742,422,11,9.0,0.82,19087,5.809633099491674,10,Home Appliances,1
+C128,Kolkata,West Bengal,565504,811,12,8.0,0.67,3019,19.348044458347392,34,Footwear,1
+C129,Chennai,Tamil Nadu,361736,146,10,7.0,0.7,1349,23.391871486985693,32,Home Appliances,1
+C130,Mumbai,Maharashtra,374492,823,5,4.0,0.8,9029,22.600945280170645,14,Footwear,1
+C131,Lucknow,Uttar Pradesh,309902,155,11,10.0,0.91,4947,26.320657259608065,29,Electronics,1
+C132,Lucknow,Uttar Pradesh,192055,859,15,12.0,0.8,10972,21.6959947622242,46,Apparel,1
+C133,Chennai,Tamil Nadu,414527,191,14,8.0,0.57,6204,24.84240959612507,33,Electronics,1
+C134,Hyderabad,Telangana,930541,172,9,2.0,0.22,8257,24.759326520193728,2,Footwear,0
+C135,Kolkata,West Bengal,590110,852,11,3.0,0.27,18576,8.24428074284426,57,Apparel,0
+C136,Jaipur,Rajasthan,851759,766,10,3.0,0.3,16184,18.1423913707575,50,Home Appliances,0
+C137,Mumbai,Maharashtra,231414,354,12,0.0,0.0,2930,16.249362391574902,44,Footwear,0
+C138,Delhi,Delhi,969325,828,13,0.0,0.0,18565,20.994848234166575,12,Electronics,0
+C139,Bangalore,Karnataka,971776,157,5,1.0,0.2,17477,8.825386670255016,11,Electronics,0
+C140,Hyderabad,Telangana,462831,561,10,7.0,0.7,9807,26.14834265389664,17,Electronics,1
+C141,Chennai,Tamil Nadu,231250,670,14,11.0,0.79,10422,20.36070695770495,6,Electronics,1
+C142,Delhi,Delhi,279516,704,9,7.0,0.78,11563,26.063250102834726,37,Apparel,1
+C143,Bangalore,Karnataka,185168,76,10,9.0,0.9,19399,11.616397695826361,14,Home Appliances,1
+C144,Bangalore,Karnataka,622230,672,3,2.0,0.67,18377,12.241791420040144,20,Home Appliances,1
+C145,Jaipur,Rajasthan,411882,494,8,4.0,0.5,2891,22.21533929182459,11,Home Appliances,1
+C146,Lucknow,Uttar Pradesh,313933,378,13,3.0,0.23,5207,12.814562481173326,46,Footwear,0
+C147,Kolkata,West Bengal,518084,163,5,1.0,0.2,12641,17.87450335205555,7,Footwear,0
+C148,Mumbai,Maharashtra,380464,490,10,5.0,0.5,8623,8.521940875204589,4,Footwear,1
+C149,Jaipur,Rajasthan,360330,193,13,3.0,0.23,11229,28.34378838123512,47,Footwear,0
+C150,Delhi,Delhi,622469,557,15,8.0,0.53,15796,17.468992709941354,20,Home Appliances,1
+C151,Jaipur,Rajasthan,629996,498,16,8.0,0.5,8388,10.378610563156027,23,Apparel,1
+C152,Lucknow,Uttar Pradesh,726543,893,6,5.0,0.83,15920,12.143709536025439,1,Apparel,1
+C153,Chennai,Tamil Nadu,862847,404,8,2.0,0.25,13713,14.148433812939075,26,Apparel,0
+C154,Hyderabad,Telangana,480133,596,5,2.0,0.4,9956,6.838293743571046,33,Home Appliances,1
+C155,Chennai,Tamil Nadu,965401,668,11,5.0,0.45,4393,8.21658476723038,7,Home Appliances,1
+C156,Kolkata,West Bengal,684929,404,9,3.0,0.33,5227,9.97644703881125,33,Home Appliances,1
+C157,Bangalore,Karnataka,147504,69,10,0.0,0.0,4990,22.839796158120166,52,Home Appliances,0
+C158,Delhi,Delhi,735710,557,12,2.0,0.17,5080,13.199146190913156,40,Footwear,0
+C159,Chennai,Tamil Nadu,722565,374,8,3.0,0.38,17123,25.707234648934396,35,Home Appliances,1
+C160,Chennai,Tamil Nadu,597960,865,11,8.0,0.73,1045,14.208945246644241,44,Apparel,1
+C161,Chennai,Tamil Nadu,935457,772,7,6.0,0.86,1373,19.922740398829845,17,Electronics,1
+C162,Bangalore,Karnataka,711868,521,8,0.0,0.0,6087,18.105808315617075,47,Home Appliances,0
+C163,Hyderabad,Telangana,133104,616,10,5.0,0.5,4101,9.769608195673182,29,Footwear,1
+C164,Jaipur,Rajasthan,824042,238,8,0.0,0.0,13947,17.54548761527469,40,Home Appliances,0
+C165,Bangalore,Karnataka,840058,171,9,8.0,0.89,17496,10.183542624281117,21,Home Appliances,1
+C166,Kolkata,West Bengal,281594,500,8,4.0,0.5,17969,13.558175442046153,23,Footwear,1
+C167,Hyderabad,Telangana,358494,315,7,1.0,0.14,18787,12.462479029757349,20,Footwear,0
+C168,Lucknow,Uttar Pradesh,432441,521,12,5.0,0.42,11929,19.01218975590549,60,Footwear,1
+C169,Jaipur,Rajasthan,513697,868,11,2.0,0.18,11809,28.865221584786532,52,Electronics,0
+C170,Chennai,Tamil Nadu,144109,324,13,1.0,0.08,3089,13.659087852390412,29,Footwear,0
+C171,Hyderabad,Telangana,311883,877,11,8.0,0.73,18148,11.778318049949394,36,Footwear,1
+C172,Hyderabad,Telangana,354235,81,8,2.0,0.25,17901,10.641791157041595,15,Apparel,0
+C173,Kolkata,West Bengal,852204,513,11,1.0,0.09,3794,22.029799664535755,9,Apparel,0
+C174,Delhi,Delhi,526673,698,12,3.0,0.25,16087,16.93621301102241,13,Footwear,0
+C175,Bangalore,Karnataka,906066,121,8,4.0,0.5,19313,10.805504980525425,48,Apparel,1
+C176,Delhi,Delhi,538184,887,8,4.0,0.5,6260,28.348065264455006,3,Home Appliances,1
+C177,Delhi,Delhi,885386,326,11,5.0,0.45,1727,5.231679212002494,37,Apparel,1
+C178,Kolkata,West Bengal,398384,495,6,0.0,0.0,18302,18.10796337088801,57,Electronics,0
+C179,Lucknow,Uttar Pradesh,386090,227,14,9.0,0.64,4191,13.26710242079464,47,Home Appliances,1
+C180,Delhi,Delhi,114768,784,6,3.0,0.5,11546,24.769191610631392,37,Electronics,1
+C181,Jaipur,Rajasthan,967161,467,8,3.0,0.38,17384,13.1981664685044,26,Apparel,1
+C182,Delhi,Delhi,600646,361,5,1.0,0.2,8628,5.170753013488886,25,Electronics,0
+C183,Lucknow,Uttar Pradesh,890371,303,12,0.0,0.0,11301,12.548645992290368,47,Apparel,0
+C184,Chennai,Tamil Nadu,785436,398,11,0.0,0.0,8243,6.553108295013403,8,Home Appliances,0
+C185,Jaipur,Rajasthan,819400,544,15,5.0,0.33,10690,22.257259435470353,41,Footwear,1
+C186,Hyderabad,Telangana,329772,166,8,1.0,0.12,16169,8.82963911722948,48,Footwear,0
+C187,Lucknow,Uttar Pradesh,894139,580,9,5.0,0.56,7656,24.046490499277677,44,Apparel,1
+C188,Kolkata,West Bengal,181896,607,11,9.0,0.82,4176,6.543951188917095,36,Electronics,1
+C189,Delhi,Delhi,272529,365,4,2.0,0.5,17550,16.04601381649077,44,Electronics,1
+C190,Lucknow,Uttar Pradesh,195359,552,11,4.0,0.36,15097,25.21730207943093,30,Electronics,1
+C191,Jaipur,Rajasthan,578987,607,6,0.0,0.0,2391,18.96992997496916,44,Footwear,0
+C192,Bangalore,Karnataka,515182,290,8,1.0,0.12,598,23.645112070795392,38,Apparel,0
+C193,Kolkata,West Bengal,834406,95,15,5.0,0.33,18232,29.853091511923004,60,Apparel,1
+C194,Lucknow,Uttar Pradesh,133276,323,7,4.0,0.57,13897,9.499533170642714,9,Home Appliances,1
+C195,Jaipur,Rajasthan,570325,416,12,4.0,0.33,12809,7.006249815734168,43,Electronics,1
+C196,Kolkata,West Bengal,224395,212,7,3.0,0.43,18104,14.826465794601019,9,Electronics,1
+C197,Bangalore,Karnataka,412856,504,10,5.0,0.5,18340,15.603200743335039,25,Electronics,1
+C198,Hyderabad,Telangana,583000,384,7,0.0,0.0,5583,11.891243194878182,60,Apparel,0
+C199,Jaipur,Rajasthan,744793,814,10,2.0,0.2,1012,11.0166573535803,5,Apparel,0
+C200,Lucknow,Uttar Pradesh,726822,718,8,2.0,0.25,2095,11.118353780459813,3,Home Appliances,0
+C201,Hyderabad,Telangana,891030,824,9,8.0,0.89,2349,8.503389377872615,19,Electronics,1
+C202,Kolkata,West Bengal,705526,642,13,0.0,0.0,11007,10.922600869418016,57,Electronics,0
+C203,Hyderabad,Telangana,533649,337,7,1.0,0.14,9516,6.523940927669054,38,Electronics,0
+C204,Jaipur,Rajasthan,682851,537,10,3.0,0.3,2036,29.307255883592145,42,Home Appliances,0
+C205,Kolkata,West Bengal,830132,456,8,6.0,0.75,13877,8.730440195629093,25,Electronics,1
+C206,Lucknow,Uttar Pradesh,352673,899,7,0.0,0.0,7884,12.518410469878695,46,Electronics,0
+C207,Bangalore,Karnataka,689704,452,13,12.0,0.92,14148,18.932168954981826,9,Home Appliances,1
+C208,Hyderabad,Telangana,367382,238,8,1.0,0.12,11322,21.167646288698617,60,Home Appliances,0
+C209,Mumbai,Maharashtra,661654,771,15,7.0,0.47,6741,6.288415727850345,25,Apparel,1
+C210,Hyderabad,Telangana,943737,809,10,1.0,0.1,19753,23.10763099630373,36,Electronics,0
+C211,Kolkata,West Bengal,417915,45,16,10.0,0.62,7440,28.428994080056192,48,Apparel,1
+C212,Lucknow,Uttar Pradesh,354377,742,8,6.0,0.75,7201,14.915801494405876,16,Footwear,1
+C213,Jaipur,Rajasthan,588899,576,13,10.0,0.77,12272,12.710557107173209,24,Home Appliances,1
+C214,Lucknow,Uttar Pradesh,898625,889,11,3.0,0.27,10993,27.858262472437225,24,Footwear,0
+C215,Hyderabad,Telangana,877259,179,16,9.0,0.56,1031,11.51935274774424,60,Home Appliances,1
+C216,Hyderabad,Telangana,445888,265,12,6.0,0.5,12946,19.244737817600875,16,Home Appliances,1
+C217,Kolkata,West Bengal,369826,811,9,3.0,0.33,16511,29.16270668125859,42,Home Appliances,1
+C218,Kolkata,West Bengal,277487,173,6,1.0,0.17,18409,17.20790803135331,59,Apparel,0
+C219,Mumbai,Maharashtra,957730,714,15,11.0,0.73,2089,24.10847108930048,27,Electronics,1
+C220,Hyderabad,Telangana,171269,754,15,4.0,0.27,5448,5.228536542266545,33,Home Appliances,0
+C221,Kolkata,West Bengal,163386,662,13,1.0,0.08,16333,21.48210854974657,2,Apparel,0
+C222,Jaipur,Rajasthan,112426,47,4,0.0,0.0,17847,23.054818040643024,35,Footwear,0
+C223,Bangalore,Karnataka,626611,862,11,2.0,0.18,14609,25.154192473685722,59,Electronics,0
+C224,Mumbai,Maharashtra,200992,566,9,0.0,0.0,5379,11.024220807837704,40,Footwear,0
+C225,Chennai,Tamil Nadu,933551,436,8,4.0,0.5,3089,14.326289586592054,26,Home Appliances,1
+C226,Hyderabad,Telangana,831105,261,12,0.0,0.0,10329,22.101040636759638,55,Apparel,0
+C227,Bangalore,Karnataka,198042,445,9,4.0,0.44,12927,14.429239212107179,31,Apparel,1
+C228,Bangalore,Karnataka,836986,205,9,0.0,0.0,3209,17.4964598278198,28,Footwear,0
+C229,Mumbai,Maharashtra,653815,73,9,6.0,0.67,8028,10.28542639711368,56,Home Appliances,1
+C230,Mumbai,Maharashtra,817675,317,8,3.0,0.38,18294,19.08774660119959,3,Electronics,1
+C231,Kolkata,West Bengal,116418,242,11,1.0,0.09,19735,8.604789032089423,53,Home Appliances,0
+C232,Chennai,Tamil Nadu,270341,607,12,10.0,0.83,8379,19.167397997276957,55,Home Appliances,1
+C233,Kolkata,West Bengal,502491,803,10,8.0,0.8,5085,24.762452130853745,45,Apparel,1
+C234,Kolkata,West Bengal,156304,130,13,4.0,0.31,14822,10.803600109866755,5,Footwear,1
+C235,Jaipur,Rajasthan,911131,364,10,7.0,0.7,1470,20.853073685118375,51,Home Appliances,1
+C236,Lucknow,Uttar Pradesh,339220,394,7,0.0,0.0,18621,28.528571124268137,28,Electronics,0
+C237,Jaipur,Rajasthan,189856,820,8,5.0,0.62,10178,24.951379345068666,46,Apparel,1
+C238,Delhi,Delhi,498458,758,9,4.0,0.44,5555,23.491382224414863,21,Footwear,1
+C239,Bangalore,Karnataka,423241,485,9,2.0,0.22,12293,24.033662280024295,7,Electronics,0
+C240,Mumbai,Maharashtra,296494,471,13,1.0,0.08,15207,18.924625805530695,33,Home Appliances,0
+C241,Mumbai,Maharashtra,471106,597,15,7.0,0.47,3549,19.923113882177283,51,Footwear,1
+C242,Bangalore,Karnataka,406024,453,6,5.0,0.83,13207,24.479227640610098,47,Electronics,1
+C243,Delhi,Delhi,818605,419,8,6.0,0.75,6054,8.47100147398542,20,Footwear,1
+C244,Mumbai,Maharashtra,275329,475,9,4.0,0.44,9542,15.527558494313109,31,Apparel,1
+C245,Kolkata,West Bengal,363926,282,10,1.0,0.1,16746,19.845159950976964,13,Home Appliances,0
+C246,Mumbai,Maharashtra,242071,341,10,2.0,0.2,721,28.720586559864127,22,Home Appliances,0
+C247,Kolkata,West Bengal,561607,372,12,0.0,0.0,14610,25.386886750075078,56,Electronics,0
+C248,Hyderabad,Telangana,602278,351,11,6.0,0.55,6320,29.11436557736985,21,Footwear,1
+C249,Lucknow,Uttar Pradesh,703853,830,14,4.0,0.29,8443,13.147155936072636,18,Home Appliances,0
+C250,Hyderabad,Telangana,720995,588,6,2.0,0.33,6395,22.04281582825219,36,Apparel,1
+C251,Lucknow,Uttar Pradesh,842776,244,10,0.0,0.0,14867,24.942138025785088,54,Apparel,0
+C252,Jaipur,Rajasthan,805668,541,12,5.0,0.42,5060,20.83340099134159,16,Footwear,1
+C253,Jaipur,Rajasthan,927406,416,13,5.0,0.38,2923,16.226668020840847,39,Home Appliances,1
+C254,Jaipur,Rajasthan,670053,67,9,5.0,0.56,12281,22.540857176389828,52,Apparel,1
+C255,Mumbai,Maharashtra,906306,284,8,2.0,0.25,12132,9.158462332002788,40,Apparel,0
+C256,Jaipur,Rajasthan,889245,369,12,7.0,0.58,14605,7.648613790152179,7,Footwear,1
+C257,Hyderabad,Telangana,567432,413,13,6.0,0.46,13316,16.576580213819113,44,Electronics,1
+C258,Bangalore,Karnataka,606222,137,14,7.0,0.5,10180,15.399385713142815,6,Apparel,1
+C259,Delhi,Delhi,465249,349,12,8.0,0.67,11741,16.383315880646926,14,Home Appliances,1
+C260,Mumbai,Maharashtra,559450,769,14,4.0,0.29,15325,12.97273685544251,20,Apparel,0
+C261,Mumbai,Maharashtra,123682,899,6,5.0,0.83,11741,21.199247931942843,44,Electronics,1
+C262,Hyderabad,Telangana,641058,208,16,9.0,0.56,18584,9.003392780383983,36,Home Appliances,1
+C263,Hyderabad,Telangana,936507,444,7,4.0,0.57,6544,9.659673132091548,43,Home Appliances,1
+C264,Hyderabad,Telangana,571413,636,10,4.0,0.4,14575,14.720894508892677,46,Electronics,1
+C265,Mumbai,Maharashtra,705393,134,9,3.0,0.33,18092,9.673995890802335,21,Electronics,1
+C266,Chennai,Tamil Nadu,803281,531,11,7.0,0.64,17792,29.147909998727698,21,Home Appliances,1
+C267,Mumbai,Maharashtra,464825,390,11,1.0,0.09,15503,20.434066983410624,53,Footwear,0
+C268,Mumbai,Maharashtra,804758,167,8,4.0,0.5,10762,7.946541316541418,20,Apparel,1
+C269,Delhi,Delhi,635638,427,9,6.0,0.67,14204,19.910645436098292,37,Home Appliances,1
+C270,Lucknow,Uttar Pradesh,766371,580,11,7.0,0.64,6176,18.872814395812433,32,Footwear,1
+C271,Kolkata,West Bengal,982885,491,12,4.0,0.33,2256,26.638055771410308,1,Home Appliances,1
+C272,Jaipur,Rajasthan,688861,547,12,5.0,0.42,16719,15.228358709196868,32,Home Appliances,1
+C273,Lucknow,Uttar Pradesh,612438,201,12,1.0,0.08,3208,19.13494498112438,51,Electronics,0
+C274,Chennai,Tamil Nadu,335765,580,9,3.0,0.33,9959,9.205224435914342,30,Home Appliances,1
+C275,Mumbai,Maharashtra,700534,146,18,5.0,0.28,9278,24.37782569659989,53,Footwear,0
+C276,Bangalore,Karnataka,896922,766,15,3.0,0.2,14962,18.658831868049113,28,Apparel,0
+C277,Hyderabad,Telangana,412170,63,12,6.0,0.5,15236,11.570380618530692,56,Apparel,1
+C278,Lucknow,Uttar Pradesh,223088,824,16,1.0,0.06,8264,10.24695418974435,48,Footwear,0
+C279,Jaipur,Rajasthan,274044,660,9,2.0,0.22,5062,24.62123274926462,53,Electronics,0
+C280,Kolkata,West Bengal,658136,317,16,5.0,0.31,18154,9.209434115077109,46,Footwear,1
+C281,Chennai,Tamil Nadu,999695,556,10,6.0,0.6,3620,8.38972266070023,49,Home Appliances,1
+C282,Chennai,Tamil Nadu,787757,159,17,11.0,0.65,4848,11.241931048453495,46,Footwear,1
+C283,Jaipur,Rajasthan,613234,175,9,4.0,0.44,19421,20.81004956154472,41,Home Appliances,1
+C284,Mumbai,Maharashtra,764406,843,10,1.0,0.1,3550,15.071269332545524,48,Footwear,0
+C285,Kolkata,West Bengal,576782,529,11,3.0,0.27,11224,19.54888861672451,56,Apparel,0
+C286,Lucknow,Uttar Pradesh,765678,710,9,5.0,0.56,12238,26.25265599476745,51,Home Appliances,1
+C287,Jaipur,Rajasthan,964915,246,9,5.0,0.56,16710,11.713420957860563,54,Footwear,1
+C288,Delhi,Delhi,693643,526,12,2.0,0.17,11763,27.3538664509639,49,Apparel,0
+C289,Lucknow,Uttar Pradesh,117072,157,13,8.0,0.62,5676,16.032148721910666,1,Home Appliances,1
+C290,Delhi,Delhi,781571,339,11,6.0,0.55,5709,26.860584231601198,57,Footwear,1
+C291,Kolkata,West Bengal,362552,114,11,4.0,0.36,12684,21.61272028531884,42,Electronics,1
+C292,Bangalore,Karnataka,515594,670,13,0.0,0.0,10510,23.14970908676113,49,Electronics,0
+C293,Mumbai,Maharashtra,837880,127,10,2.0,0.2,535,10.335529423655327,5,Electronics,0
+C294,Lucknow,Uttar Pradesh,109738,38,8,1.0,0.12,11758,25.427725672832462,56,Home Appliances,0
+C295,Lucknow,Uttar Pradesh,174268,264,6,0.0,0.0,13052,7.233277024843428,52,Apparel,0
+C296,Kolkata,West Bengal,413791,170,9,5.0,0.56,13041,24.336512091265604,49,Electronics,1
+C297,Delhi,Delhi,171734,573,9,1.0,0.11,18957,5.211868548825239,42,Electronics,0
+C298,Lucknow,Uttar Pradesh,468247,769,15,3.0,0.2,7481,20.70200095852256,10,Home Appliances,0
+C299,Lucknow,Uttar Pradesh,327797,118,7,0.0,0.0,3792,8.500328539394893,8,Home Appliances,0
+C300,Jaipur,Rajasthan,429780,840,9,1.0,0.11,5081,11.194659374089472,42,Apparel,0
+C301,Hyderabad,Telangana,680278,645,6,0.0,0.0,9836,24.4742413128315,45,Apparel,0
+C302,Chennai,Tamil Nadu,315425,560,4,2.0,0.5,17196,9.716163081646643,26,Footwear,1
+C303,Hyderabad,Telangana,618927,425,9,3.0,0.33,4194,11.027043890130246,41,Apparel,1
+C304,Bangalore,Karnataka,478638,354,11,2.0,0.18,4824,14.670956220629437,54,Home Appliances,0
+C305,Delhi,Delhi,899776,512,11,6.0,0.55,2891,5.417235044271405,5,Apparel,1
+C306,Bangalore,Karnataka,163406,838,8,1.0,0.12,13540,17.665265106873175,41,Home Appliances,0
+C307,Jaipur,Rajasthan,186431,685,7,4.0,0.57,18082,18.44138395340127,10,Footwear,1
+C308,Mumbai,Maharashtra,636141,238,12,8.0,0.67,5591,18.40975432223646,26,Apparel,1
+C309,Jaipur,Rajasthan,865416,896,7,2.0,0.29,8319,6.447648600578261,6,Home Appliances,0
+C310,Mumbai,Maharashtra,575394,656,10,0.0,0.0,2303,12.732251596838154,48,Electronics,0
+C311,Delhi,Delhi,835575,41,12,3.0,0.25,5868,17.41032331306789,23,Footwear,0
+C312,Delhi,Delhi,886197,829,17,3.0,0.18,9306,23.32339593887604,8,Apparel,0
+C313,Jaipur,Rajasthan,385192,566,8,0.0,0.0,2592,11.573741270661955,37,Apparel,0
+C314,Kolkata,West Bengal,158132,541,11,6.0,0.55,19075,9.172034816385764,11,Footwear,1
+C315,Mumbai,Maharashtra,701790,720,7,0.0,0.0,4279,10.710110578831276,33,Apparel,0
+C316,Bangalore,Karnataka,356430,77,5,4.0,0.8,15958,14.099412408281019,59,Electronics,1
+C317,Bangalore,Karnataka,679720,852,14,7.0,0.5,14241,10.61288284543939,16,Home Appliances,1
+C318,Kolkata,West Bengal,384434,875,6,6.0,1.0,3052,19.28839906543645,8,Apparel,1
+C319,Delhi,Delhi,334026,853,6,2.0,0.33,17400,29.535346598537373,26,Apparel,1
+C320,Chennai,Tamil Nadu,911102,895,13,5.0,0.38,10680,13.182523043152973,36,Home Appliances,1
+C321,Hyderabad,Telangana,405759,607,10,2.0,0.2,10458,23.48939966833545,16,Home Appliances,0
+C322,Lucknow,Uttar Pradesh,910143,824,9,5.0,0.56,6903,23.311583418481664,35,Electronics,1
+C323,Jaipur,Rajasthan,125071,268,11,6.0,0.55,18245,13.660592443485154,54,Apparel,1
+C324,Kolkata,West Bengal,101533,807,9,0.0,0.0,12829,26.225149694473046,47,Footwear,0
+C325,Hyderabad,Telangana,540208,533,9,2.0,0.22,2462,29.313980899184806,10,Footwear,0
+C326,Hyderabad,Telangana,986575,562,15,5.0,0.33,14035,22.52117274246699,24,Home Appliances,1
+C327,Mumbai,Maharashtra,708982,127,11,6.0,0.55,17061,8.337846256273924,53,Home Appliances,1
+C328,Bangalore,Karnataka,556112,708,11,1.0,0.09,4783,10.919293368547413,17,Footwear,0
+C329,Jaipur,Rajasthan,834764,881,9,8.0,0.89,11190,12.951442981652516,18,Electronics,1
+C330,Hyderabad,Telangana,242723,828,8,0.0,0.0,19659,7.7243208429609505,7,Electronics,0
+C331,Lucknow,Uttar Pradesh,588694,351,17,2.0,0.12,13820,8.01841842679764,23,Electronics,0
+C332,Lucknow,Uttar Pradesh,423284,504,14,1.0,0.07,9183,26.312054641528714,6,Electronics,0
+C333,Chennai,Tamil Nadu,966529,751,9,4.0,0.44,1821,10.375519736842204,55,Footwear,1
+C334,Hyderabad,Telangana,473023,435,14,1.0,0.07,17325,6.223765439760569,20,Footwear,0
+C335,Delhi,Delhi,132591,444,13,10.0,0.77,15317,18.898844038709704,36,Electronics,1
+C336,Mumbai,Maharashtra,942946,842,14,11.0,0.79,5080,8.03633138760122,4,Electronics,1
+C337,Jaipur,Rajasthan,490321,732,10,4.0,0.4,3253,19.558095035351577,17,Apparel,1
+C338,Mumbai,Maharashtra,307356,691,6,0.0,0.0,15030,25.232466632275198,6,Footwear,0
+C339,Lucknow,Uttar Pradesh,153097,202,10,3.0,0.3,19305,15.828909430966785,47,Home Appliances,0
+C340,Jaipur,Rajasthan,816400,466,15,2.0,0.13,6162,13.848581316828,59,Electronics,0
+C341,Lucknow,Uttar Pradesh,255851,65,8,2.0,0.25,8553,21.181960011852002,32,Home Appliances,0
+C342,Lucknow,Uttar Pradesh,163941,119,8,1.0,0.12,9667,14.575381900600346,27,Electronics,0
+C343,Hyderabad,Telangana,761393,851,8,4.0,0.5,18314,24.871156107546756,25,Footwear,1
+C344,Lucknow,Uttar Pradesh,460745,609,4,3.0,0.75,16962,13.040110466700284,18,Electronics,1
+C345,Hyderabad,Telangana,130726,860,7,5.0,0.71,9705,6.464780756952964,31,Footwear,1
+C346,Hyderabad,Telangana,267378,132,9,7.0,0.78,8621,21.421610534405858,18,Apparel,1
+C347,Hyderabad,Telangana,703656,896,17,7.0,0.41,13227,13.870115864128996,54,Electronics,1
+C348,Delhi,Delhi,348041,636,22,3.0,0.14,10920,25.15525563398471,45,Footwear,0
+C349,Bangalore,Karnataka,837623,747,9,7.0,0.78,12023,28.68896837675038,37,Electronics,1
+C350,Hyderabad,Telangana,977340,859,9,6.0,0.67,16629,18.55311503802483,12,Home Appliances,1
+C351,Bangalore,Karnataka,343923,646,13,8.0,0.62,7669,5.498199747213815,31,Apparel,1
+C352,Hyderabad,Telangana,945619,163,12,8.0,0.67,11665,22.923440817270404,59,Footwear,1
+C353,Delhi,Delhi,715104,751,10,5.0,0.5,5141,24.3591624704973,55,Footwear,1
+C354,Kolkata,West Bengal,838761,708,12,4.0,0.33,13462,19.650416579289768,22,Footwear,1
+C355,Delhi,Delhi,867926,477,10,2.0,0.2,16464,21.229506641120352,12,Footwear,0
+C356,Hyderabad,Telangana,797860,633,9,0.0,0.0,6245,14.459602703679954,47,Footwear,0
+C357,Bangalore,Karnataka,836109,616,15,8.0,0.53,13331,26.26892413837521,50,Apparel,1
+C358,Kolkata,West Bengal,948095,656,15,13.0,0.87,7738,20.991169319590597,7,Home Appliances,1
+C359,Delhi,Delhi,447255,793,5,0.0,0.0,3049,10.949898128734922,21,Electronics,0
+C360,Mumbai,Maharashtra,961574,755,10,6.0,0.6,11501,16.165748352444844,17,Electronics,1
+C361,Mumbai,Maharashtra,467506,292,11,7.0,0.64,4040,23.01033969992421,4,Home Appliances,1
+C362,Jaipur,Rajasthan,274418,453,10,3.0,0.3,16657,27.044266458360955,23,Home Appliances,0
+C363,Lucknow,Uttar Pradesh,927043,621,7,1.0,0.14,7891,9.06641279371221,5,Apparel,0
+C364,Chennai,Tamil Nadu,121053,356,5,0.0,0.0,9056,28.791553285853016,5,Footwear,0
+C365,Jaipur,Rajasthan,268720,779,10,5.0,0.5,2957,18.676156465305787,58,Apparel,1
+C366,Lucknow,Uttar Pradesh,838726,61,11,5.0,0.45,14633,28.561056452549096,11,Home Appliances,1
+C367,Mumbai,Maharashtra,447177,240,7,5.0,0.71,6725,15.231996643766145,36,Footwear,1
+C368,Chennai,Tamil Nadu,349087,128,7,2.0,0.29,2126,14.82255536537055,36,Home Appliances,0
+C369,Kolkata,West Bengal,104000,467,8,6.0,0.75,3371,12.363736224155371,43,Home Appliances,1
+C370,Bangalore,Karnataka,317005,204,6,3.0,0.5,10062,29.426442399981635,31,Apparel,1
+C371,Jaipur,Rajasthan,593821,530,15,6.0,0.4,9183,7.27842193876698,35,Home Appliances,1
+C372,Jaipur,Rajasthan,487345,221,10,6.0,0.6,15107,6.115423117446893,29,Home Appliances,1
+C373,Chennai,Tamil Nadu,691655,93,16,5.0,0.31,5452,23.805878552882177,43,Apparel,1
+C374,Kolkata,West Bengal,947438,584,8,4.0,0.5,14065,29.267638429339396,38,Electronics,1
+C375,Bangalore,Karnataka,981639,426,8,0.0,0.0,17623,15.465801873361263,35,Home Appliances,0
+C376,Hyderabad,Telangana,599397,336,6,6.0,1.0,3087,14.870109130214377,55,Apparel,1
+C377,Delhi,Delhi,226124,805,8,5.0,0.62,15214,9.321974320162361,11,Electronics,1
+C378,Hyderabad,Telangana,232315,73,9,1.0,0.11,14373,6.959213053487227,44,Home Appliances,0
+C379,Hyderabad,Telangana,962520,672,8,0.0,0.0,5345,25.852702966900104,17,Footwear,0
+C380,Mumbai,Maharashtra,191254,427,12,6.0,0.5,18730,14.933874858925899,21,Footwear,1
+C381,Bangalore,Karnataka,924758,747,3,3.0,1.0,19753,18.064050261245228,27,Apparel,1
+C382,Jaipur,Rajasthan,256911,181,10,0.0,0.0,19066,19.6983533320347,49,Apparel,0
+C383,Mumbai,Maharashtra,690016,828,11,0.0,0.0,3809,24.643640757741938,56,Footwear,0
+C384,Chennai,Tamil Nadu,501650,700,15,7.0,0.47,16411,19.300580994964044,31,Apparel,1
+C385,Jaipur,Rajasthan,250840,663,8,5.0,0.62,13663,5.969563312044877,57,Footwear,1
+C386,Hyderabad,Telangana,151685,793,12,1.0,0.08,16071,28.020874572654133,58,Footwear,0
+C387,Chennai,Tamil Nadu,426053,317,6,1.0,0.17,16609,26.455869580839355,44,Apparel,0
+C388,Hyderabad,Telangana,240913,337,11,0.0,0.0,15019,24.350772504848116,21,Footwear,0
+C389,Jaipur,Rajasthan,734366,691,8,0.0,0.0,3425,9.698392272315285,14,Home Appliances,0
+C390,Kolkata,West Bengal,960899,87,13,7.0,0.54,17384,24.787259802030853,5,Footwear,1
+C391,Jaipur,Rajasthan,242239,829,7,2.0,0.29,17679,26.9833147839964,2,Electronics,0
+C392,Hyderabad,Telangana,977633,89,6,4.0,0.67,8675,5.826776112699632,4,Footwear,1
+C393,Chennai,Tamil Nadu,486244,873,14,4.0,0.29,15711,17.628159373429096,41,Apparel,0
+C394,Bangalore,Karnataka,353690,411,16,0.0,0.0,16516,19.85108983630378,12,Home Appliances,0
+C395,Kolkata,West Bengal,460971,197,10,0.0,0.0,8975,23.72402836212333,45,Apparel,0
+C396,Jaipur,Rajasthan,152062,196,11,6.0,0.55,19251,24.495753378591985,14,Electronics,1
+C397,Hyderabad,Telangana,810614,241,7,1.0,0.14,9317,21.28968332139909,33,Apparel,0
+C398,Bangalore,Karnataka,597126,165,17,5.0,0.29,6175,20.028548762363343,1,Electronics,0
+C399,Chennai,Tamil Nadu,847362,756,14,5.0,0.36,9523,15.595170016490476,25,Footwear,1
+C400,Hyderabad,Telangana,589368,339,4,3.0,0.75,17560,25.60777053676659,26,Apparel,1
+C401,Kolkata,West Bengal,688730,692,6,5.0,0.83,19956,20.226252615950422,20,Apparel,1
+C402,Kolkata,West Bengal,389913,685,8,2.0,0.25,11154,26.537290006295766,17,Footwear,0
+C403,Hyderabad,Telangana,159532,854,8,3.0,0.38,13741,21.513258092028224,44,Electronics,1
+C404,Lucknow,Uttar Pradesh,409963,295,11,6.0,0.55,14215,15.11497236569876,48,Apparel,1
+C405,Hyderabad,Telangana,459836,773,13,8.0,0.62,7786,22.157952773316783,41,Home Appliances,1
+C406,Kolkata,West Bengal,631958,337,8,2.0,0.25,6070,26.015967364909997,57,Electronics,0
+C407,Lucknow,Uttar Pradesh,234159,788,9,3.0,0.33,8975,23.129665927652987,36,Electronics,1
+C408,Kolkata,West Bengal,786224,121,16,11.0,0.69,7782,13.88208490299581,48,Footwear,1
+C409,Kolkata,West Bengal,489737,296,6,6.0,1.0,19687,12.351278041258569,55,Apparel,1
+C410,Mumbai,Maharashtra,595158,229,9,3.0,0.33,16899,7.995398429687645,44,Home Appliances,1
+C411,Jaipur,Rajasthan,156688,184,13,4.0,0.31,5001,29.80869632219832,22,Home Appliances,1
+C412,Lucknow,Uttar Pradesh,250181,353,16,1.0,0.06,6409,24.473529435845364,32,Footwear,0
+C413,Delhi,Delhi,428638,679,12,10.0,0.83,2400,5.117837535599846,18,Electronics,1
+C414,Delhi,Delhi,704272,812,11,0.0,0.0,5691,17.23942726575041,49,Apparel,0
+C415,Jaipur,Rajasthan,764259,469,17,4.0,0.24,13718,15.725636215010253,31,Home Appliances,0
+C416,Hyderabad,Telangana,866151,412,9,3.0,0.33,961,27.30015980493522,49,Electronics,1
+C417,Bangalore,Karnataka,757128,781,14,3.0,0.21,8653,10.656642782227086,57,Footwear,0
+C418,Chennai,Tamil Nadu,235193,135,9,1.0,0.11,13068,17.583411967134232,20,Electronics,0
+C419,Bangalore,Karnataka,412687,327,10,3.0,0.3,15439,23.19579778617032,39,Footwear,0
+C420,Delhi,Delhi,459381,531,5,3.0,0.6,12271,23.752889556517086,11,Home Appliances,1
+C421,Hyderabad,Telangana,862491,164,7,4.0,0.57,7420,23.351915482788023,38,Electronics,1
+C422,Bangalore,Karnataka,493417,685,13,2.0,0.15,8881,24.28124158358824,40,Apparel,0
+C423,Bangalore,Karnataka,794125,140,10,4.0,0.4,1146,6.205876411823509,8,Home Appliances,1
+C424,Mumbai,Maharashtra,673867,288,10,7.0,0.7,16045,22.546705371351372,14,Apparel,1
+C425,Mumbai,Maharashtra,794663,562,10,5.0,0.5,9346,20.569944420016245,45,Electronics,1
+C426,Mumbai,Maharashtra,636435,766,8,2.0,0.25,4357,12.067669204252313,51,Apparel,0
+C427,Hyderabad,Telangana,915749,299,8,3.0,0.38,17642,29.327993057979864,23,Home Appliances,1
+C428,Bangalore,Karnataka,674765,538,9,7.0,0.78,7305,22.20509788638434,31,Footwear,1
+C429,Bangalore,Karnataka,804258,121,11,1.0,0.09,4118,25.88080413158103,43,Home Appliances,0
+C430,Mumbai,Maharashtra,917392,553,11,3.0,0.27,2959,23.08909042246197,7,Footwear,0
+C431,Lucknow,Uttar Pradesh,410401,300,9,1.0,0.11,15713,6.252004895323683,53,Electronics,0
+C432,Chennai,Tamil Nadu,477712,850,9,4.0,0.44,10746,15.649880159374362,8,Apparel,1
+C433,Bangalore,Karnataka,110142,171,7,6.0,0.86,6087,13.21652065171439,58,Home Appliances,1
+C434,Chennai,Tamil Nadu,868677,125,7,6.0,0.86,12710,25.37410723841241,12,Apparel,1
+C435,Lucknow,Uttar Pradesh,385037,885,6,4.0,0.67,13139,22.24756077875785,31,Home Appliances,1
+C436,Delhi,Delhi,218548,165,9,6.0,0.67,2421,29.53922926307972,55,Electronics,1
+C437,Lucknow,Uttar Pradesh,941235,612,15,3.0,0.2,14857,9.531514013432552,25,Footwear,0
+C438,Bangalore,Karnataka,817712,888,10,1.0,0.1,4781,17.07699140913747,32,Apparel,0
+C439,Lucknow,Uttar Pradesh,148205,94,5,5.0,1.0,9072,21.374339221834752,1,Electronics,1
+C440,Kolkata,West Bengal,644315,565,15,0.0,0.0,3620,15.821197677722807,47,Electronics,0
+C441,Jaipur,Rajasthan,255875,889,11,3.0,0.27,18795,27.301547040751505,40,Apparel,0
+C442,Delhi,Delhi,630126,899,11,4.0,0.36,15877,26.296778786151656,56,Electronics,1
+C443,Lucknow,Uttar Pradesh,436208,276,14,5.0,0.36,11342,29.253626219585005,4,Electronics,1
+C444,Jaipur,Rajasthan,522866,866,11,10.0,0.91,8200,6.9707648938697915,29,Home Appliances,1
+C445,Lucknow,Uttar Pradesh,568784,353,8,4.0,0.5,4389,29.51676847364257,48,Apparel,1
+C446,Jaipur,Rajasthan,137572,600,11,2.0,0.18,18492,5.004242886958411,6,Footwear,0
+C447,Hyderabad,Telangana,786393,717,16,13.0,0.81,15449,28.758878249834144,24,Apparel,1
+C448,Lucknow,Uttar Pradesh,448098,603,10,10.0,1.0,16003,22.9164517032294,24,Home Appliances,1
+C449,Mumbai,Maharashtra,202170,807,10,1.0,0.1,7766,5.054923694833575,23,Footwear,0
+C450,Kolkata,West Bengal,836201,138,5,3.0,0.6,2000,27.42192796695146,32,Electronics,1
+C451,Jaipur,Rajasthan,212157,290,12,2.0,0.17,6919,9.688585013290083,60,Home Appliances,0
+C452,Hyderabad,Telangana,851606,376,11,2.0,0.18,4031,23.928733545256843,3,Apparel,0
+C453,Lucknow,Uttar Pradesh,579605,704,9,4.0,0.44,19810,28.904758040643774,9,Home Appliances,1
+C454,Bangalore,Karnataka,680099,473,7,4.0,0.57,19673,17.07329908839816,33,Electronics,1
+C455,Delhi,Delhi,865979,864,10,6.0,0.6,4706,7.588849028089191,43,Footwear,1
+C456,Jaipur,Rajasthan,539001,653,12,3.0,0.25,8634,11.83989699890278,22,Footwear,0
+C457,Delhi,Delhi,244892,452,11,7.0,0.64,17286,12.472828373885607,45,Footwear,1
+C458,Hyderabad,Telangana,310647,244,7,2.0,0.29,10021,22.16528243297591,59,Electronics,0
+C459,Delhi,Delhi,628370,585,6,4.0,0.67,11063,22.758818178513135,49,Footwear,1
+C460,Jaipur,Rajasthan,806995,795,5,3.0,0.6,17994,12.14819950563409,55,Home Appliances,1
+C461,Mumbai,Maharashtra,126499,420,10,4.0,0.4,5262,6.326624987694281,4,Electronics,1
+C462,Chennai,Tamil Nadu,886626,834,9,1.0,0.11,5773,29.588309840600107,44,Footwear,0
+C463,Bangalore,Karnataka,824141,833,13,4.0,0.31,10171,10.100022583006684,35,Apparel,1
+C464,Kolkata,West Bengal,953568,493,11,1.0,0.09,3858,20.402720844007163,44,Electronics,0
+C465,Jaipur,Rajasthan,349136,553,15,8.0,0.53,9925,22.323401880356215,4,Home Appliances,1
+C466,Kolkata,West Bengal,678944,85,12,2.0,0.17,924,23.591749156143724,13,Home Appliances,0
+C467,Hyderabad,Telangana,764575,751,13,1.0,0.08,12550,23.877692630213748,35,Electronics,0
+C468,Hyderabad,Telangana,408467,489,15,10.0,0.67,6313,29.586333089072042,5,Electronics,1
+C469,Mumbai,Maharashtra,495521,71,10,5.0,0.5,14541,11.977806157730264,17,Electronics,1
+C470,Chennai,Tamil Nadu,105919,368,11,1.0,0.09,15780,22.742232407907853,10,Apparel,0
+C471,Kolkata,West Bengal,725874,82,5,3.0,0.6,10368,17.263773528841917,37,Footwear,1
+C472,Mumbai,Maharashtra,922116,754,8,0.0,0.0,10915,18.13487667962201,12,Apparel,0
+C473,Delhi,Delhi,536135,586,16,6.0,0.38,18097,15.085426660616983,23,Electronics,1
+C474,Kolkata,West Bengal,447148,399,7,2.0,0.29,10119,10.461132144612868,49,Home Appliances,0
+C475,Bangalore,Karnataka,220294,714,8,0.0,0.0,11837,16.14168115711731,58,Electronics,0
+C476,Kolkata,West Bengal,499898,845,13,6.0,0.46,4215,14.646898369601098,35,Footwear,1
+C477,Kolkata,West Bengal,639292,852,5,3.0,0.6,17170,16.138922439292948,3,Footwear,1
+C478,Hyderabad,Telangana,435872,556,10,5.0,0.5,3198,28.70529549121045,11,Apparel,1
+C479,Hyderabad,Telangana,802897,674,12,8.0,0.67,7485,26.62377139281578,28,Apparel,1
+C480,Jaipur,Rajasthan,777968,866,18,9.0,0.5,2863,23.672270641856553,10,Apparel,1
+C481,Kolkata,West Bengal,139726,119,12,4.0,0.33,2900,6.356701772286026,51,Footwear,1
+C482,Mumbai,Maharashtra,702891,871,8,1.0,0.12,7959,27.774664360778026,27,Home Appliances,0
+C483,Jaipur,Rajasthan,554059,353,12,9.0,0.75,1053,14.73754668110958,8,Apparel,1
+C484,Mumbai,Maharashtra,892682,793,10,4.0,0.4,19689,6.137921344653147,55,Apparel,1
+C485,Mumbai,Maharashtra,403915,835,10,7.0,0.7,10374,20.164146029670764,19,Home Appliances,1
+C486,Jaipur,Rajasthan,514306,871,10,2.0,0.2,1509,16.849691934198788,35,Electronics,0
+C487,Jaipur,Rajasthan,935474,846,10,2.0,0.2,18382,12.374461732829783,41,Electronics,0
+C488,Kolkata,West Bengal,111691,596,13,6.0,0.46,18688,8.53434665561377,3,Apparel,1
+C489,Jaipur,Rajasthan,663244,590,4,1.0,0.25,3289,12.617278808737709,48,Footwear,0
+C490,Delhi,Delhi,268772,218,7,1.0,0.14,7734,20.42212308100394,17,Electronics,0
+C491,Bangalore,Karnataka,992744,799,7,5.0,0.71,18484,16.531630092239848,36,Apparel,1
+C492,Mumbai,Maharashtra,362865,130,12,2.0,0.17,6968,23.139731433353507,32,Footwear,0
+C493,Hyderabad,Telangana,204904,321,9,5.0,0.56,2787,27.502964771073046,21,Home Appliances,1
+C494,Chennai,Tamil Nadu,827143,628,11,3.0,0.27,5493,19.138800197627745,24,Footwear,0
+C495,Jaipur,Rajasthan,276831,34,10,0.0,0.0,10763,11.154378463637103,15,Home Appliances,0
+C496,Kolkata,West Bengal,240829,725,7,3.0,0.43,11364,26.94714573769904,30,Home Appliances,1
+C497,Chennai,Tamil Nadu,610626,594,12,3.0,0.25,4066,9.394254022380633,39,Apparel,0
+C498,Delhi,Delhi,664781,231,5,2.0,0.4,9125,23.338615426111186,41,Apparel,1
+C499,Mumbai,Maharashtra,119535,899,14,1.0,0.07,17119,20.790662361531375,53,Home Appliances,0
+C500,Hyderabad,Telangana,138436,594,7,3.0,0.43,9039,18.586733097952965,35,Home Appliances,1
+C501,Delhi,Delhi,483588,431,10,5.0,0.5,7817,27.28593859302715,38,Footwear,1
+C502,Mumbai,Maharashtra,516059,402,5,3.0,0.6,16955,5.264792081467524,16,Electronics,1
+C503,Delhi,Delhi,567896,193,7,5.0,0.71,6370,19.158931364996697,37,Electronics,1
+C504,Lucknow,Uttar Pradesh,476224,71,12,1.0,0.08,7670,24.03680944585095,15,Apparel,0
+C505,Hyderabad,Telangana,144887,714,9,3.0,0.33,7275,17.947130744853258,51,Footwear,1
+C506,Jaipur,Rajasthan,592489,495,13,1.0,0.08,2021,5.997617464622441,42,Footwear,0
+C507,Chennai,Tamil Nadu,975427,789,12,6.0,0.5,9128,19.46578587300145,37,Electronics,1
+C508,Jaipur,Rajasthan,785428,417,12,1.0,0.08,12470,19.69197061906318,58,Apparel,0
+C509,Jaipur,Rajasthan,333726,558,10,2.0,0.2,13798,13.822450193993141,56,Footwear,0
+C510,Lucknow,Uttar Pradesh,733561,36,8,3.0,0.38,16944,27.050856079714055,29,Electronics,1
+C511,Chennai,Tamil Nadu,321791,183,11,5.0,0.45,6624,8.93393381726424,39,Apparel,1
+C512,Jaipur,Rajasthan,950576,368,13,3.0,0.23,4213,17.037916234737153,31,Home Appliances,0
+C513,Delhi,Delhi,778700,883,7,0.0,0.0,13964,5.561150953857284,3,Electronics,0
+C514,Delhi,Delhi,241268,674,7,3.0,0.43,17298,5.979771630987089,37,Electronics,1
+C515,Chennai,Tamil Nadu,288783,559,13,4.0,0.31,13785,19.983938069873243,37,Apparel,1
+C516,Chennai,Tamil Nadu,189913,251,6,1.0,0.17,15219,20.163147448147797,31,Home Appliances,0
+C517,Jaipur,Rajasthan,730025,176,10,1.0,0.1,19592,25.511329503262434,12,Footwear,0
+C518,Delhi,Delhi,859364,732,12,2.0,0.17,11728,28.05879862112368,39,Apparel,0
+C519,Jaipur,Rajasthan,238635,141,11,5.0,0.45,1042,10.058713727204378,56,Home Appliances,1
+C520,Delhi,Delhi,734924,128,16,1.0,0.06,6313,16.89672963723693,40,Apparel,0
+C521,Mumbai,Maharashtra,197716,523,12,7.0,0.58,4770,27.54961889301886,35,Apparel,1
+C522,Jaipur,Rajasthan,647403,460,13,5.0,0.38,12636,26.87060751830009,45,Home Appliances,1
+C523,Lucknow,Uttar Pradesh,927909,817,22,14.0,0.64,12992,13.762945344494296,52,Apparel,1
+C524,Chennai,Tamil Nadu,600318,814,16,3.0,0.19,8118,27.752133916887125,6,Footwear,0
+C525,Jaipur,Rajasthan,370328,223,14,2.0,0.14,679,22.728720930152697,51,Apparel,0
+C526,Mumbai,Maharashtra,645009,37,10,1.0,0.1,12788,21.363653020079933,45,Footwear,0
+C527,Mumbai,Maharashtra,262297,466,10,9.0,0.9,19681,11.3408181557996,55,Home Appliances,1
+C528,Chennai,Tamil Nadu,813666,436,10,2.0,0.2,7174,15.33070395739841,51,Home Appliances,0
+C529,Delhi,Delhi,488196,602,15,1.0,0.07,18683,17.09400394070477,20,Footwear,0
+C530,Jaipur,Rajasthan,871523,171,10,8.0,0.8,4402,23.695354876997193,29,Electronics,1
+C531,Jaipur,Rajasthan,924265,376,11,9.0,0.82,18541,20.350634175735973,44,Apparel,1
+C532,Bangalore,Karnataka,943442,123,9,4.0,0.44,5262,16.791716502208594,39,Home Appliances,1
+C533,Chennai,Tamil Nadu,332542,409,6,4.0,0.67,3122,20.22572153019818,47,Home Appliances,1
+C534,Jaipur,Rajasthan,743789,701,4,4.0,1.0,17572,12.161730846689235,39,Apparel,1
+C535,Delhi,Delhi,771394,536,16,1.0,0.06,14884,5.267759934385722,55,Footwear,0
+C536,Hyderabad,Telangana,745073,203,8,4.0,0.5,1681,13.993499956886586,42,Apparel,1
+C537,Mumbai,Maharashtra,389340,828,11,6.0,0.55,13588,13.8281915839132,26,Home Appliances,1
+C538,Bangalore,Karnataka,872722,750,9,4.0,0.44,2748,27.9794355277281,36,Footwear,1
+C539,Kolkata,West Bengal,464354,865,12,7.0,0.58,9560,10.657387824051716,13,Home Appliances,1
+C540,Bangalore,Karnataka,373791,209,18,14.0,0.78,13840,17.6559524063887,36,Apparel,1
+C541,Kolkata,West Bengal,222692,852,7,5.0,0.71,17319,28.91773373963188,57,Footwear,1
+C542,Lucknow,Uttar Pradesh,495397,606,6,0.0,0.0,16347,24.249179818345837,49,Footwear,0
+C543,Lucknow,Uttar Pradesh,814703,501,13,1.0,0.08,19729,26.550581981865818,31,Apparel,0
+C544,Jaipur,Rajasthan,764442,837,11,5.0,0.45,7721,21.922824401627498,15,Footwear,1
+C545,Jaipur,Rajasthan,470248,558,10,1.0,0.1,18052,5.243079792860623,54,Footwear,0
+C546,Mumbai,Maharashtra,518309,719,6,2.0,0.33,11706,6.900720513342227,60,Electronics,1
+C547,Lucknow,Uttar Pradesh,429119,392,11,2.0,0.18,7661,27.357906321755166,18,Electronics,0
+C548,Hyderabad,Telangana,623238,784,12,0.0,0.0,7042,10.871534298254002,16,Footwear,0
+C549,Hyderabad,Telangana,975498,285,8,2.0,0.25,12166,8.899889211903973,7,Apparel,0
+C550,Lucknow,Uttar Pradesh,743644,36,10,8.0,0.8,18243,28.949827261690633,55,Home Appliances,1
+C551,Kolkata,West Bengal,616256,618,20,13.0,0.65,9502,17.27013379016367,49,Footwear,1
+C552,Delhi,Delhi,156778,568,9,1.0,0.11,14366,16.958001915301086,35,Apparel,0
+C553,Jaipur,Rajasthan,819678,824,11,7.0,0.64,6227,16.429900857900677,8,Home Appliances,1
+C554,Bangalore,Karnataka,112394,720,8,3.0,0.38,7405,14.485700089672248,7,Footwear,1
+C555,Chennai,Tamil Nadu,296243,591,3,1.0,0.33,9113,10.928478812688631,31,Footwear,1
+C556,Kolkata,West Bengal,292847,540,11,1.0,0.09,14391,10.263312052766409,45,Footwear,0
+C557,Jaipur,Rajasthan,393212,491,9,4.0,0.44,6394,19.285242954481237,37,Electronics,1
+C558,Chennai,Tamil Nadu,943146,271,3,0.0,0.0,18697,15.805468793270872,25,Electronics,0
+C559,Delhi,Delhi,938900,786,11,1.0,0.09,5400,16.824675613207436,1,Electronics,0
+C560,Delhi,Delhi,990649,675,13,5.0,0.38,17441,18.349564693972532,21,Home Appliances,1
+C561,Bangalore,Karnataka,517754,131,11,6.0,0.55,5852,6.500909443100415,53,Footwear,1
+C562,Mumbai,Maharashtra,571706,792,11,9.0,0.82,11466,11.494228050291914,24,Footwear,1
+C563,Kolkata,West Bengal,120798,451,8,0.0,0.0,4472,13.777262245746066,44,Electronics,0
+C564,Delhi,Delhi,918213,321,11,6.0,0.55,12136,13.127257167025064,33,Home Appliances,1
+C565,Lucknow,Uttar Pradesh,182216,420,8,4.0,0.5,9888,16.593802018410003,10,Electronics,1
+C566,Kolkata,West Bengal,542306,676,18,13.0,0.72,19231,15.119318002630168,59,Apparel,1
+C567,Kolkata,West Bengal,339303,351,6,4.0,0.67,10883,21.325327435761007,46,Footwear,1
+C568,Jaipur,Rajasthan,384424,485,13,4.0,0.31,12400,23.697387461908118,34,Home Appliances,1
+C569,Delhi,Delhi,995706,53,7,1.0,0.14,4597,23.19431041081011,43,Footwear,0
+C570,Mumbai,Maharashtra,320800,200,8,2.0,0.25,13510,7.575232851422152,5,Home Appliances,0
+C571,Bangalore,Karnataka,908382,436,10,1.0,0.1,17669,24.124909303339894,6,Apparel,0
+C572,Delhi,Delhi,188406,700,10,2.0,0.2,13274,12.734266338749965,16,Footwear,0
+C573,Delhi,Delhi,237654,569,8,5.0,0.62,6090,5.714282325497822,43,Footwear,1
+C574,Kolkata,West Bengal,599284,508,10,6.0,0.6,18213,28.371439291614,36,Home Appliances,1
+C575,Delhi,Delhi,831510,582,8,1.0,0.12,6301,19.77077316447798,30,Home Appliances,0
+C576,Chennai,Tamil Nadu,464032,523,13,1.0,0.08,18183,10.678211116177545,6,Home Appliances,0
+C577,Jaipur,Rajasthan,372427,189,6,5.0,0.83,10447,5.263895466940914,34,Electronics,1
+C578,Kolkata,West Bengal,400692,510,14,0.0,0.0,18034,5.207927764909332,60,Home Appliances,0
+C579,Lucknow,Uttar Pradesh,414164,39,7,0.0,0.0,14604,24.94911940636534,39,Electronics,0
+C580,Kolkata,West Bengal,297731,451,8,3.0,0.38,18868,15.927659160411372,16,Electronics,1
+C581,Jaipur,Rajasthan,968668,417,8,8.0,1.0,7728,11.574506886156225,28,Electronics,1
+C582,Chennai,Tamil Nadu,398505,694,11,1.0,0.09,17930,25.22021622747593,27,Electronics,0
+C583,Delhi,Delhi,243260,326,6,4.0,0.67,4116,20.92231773870867,40,Home Appliances,1
+C584,Lucknow,Uttar Pradesh,296911,358,7,1.0,0.14,1135,8.803732627934227,35,Apparel,0
+C585,Mumbai,Maharashtra,395818,305,6,0.0,0.0,4597,22.879898555281876,47,Apparel,0
+C586,Delhi,Delhi,115440,535,10,6.0,0.6,7616,13.547821346715656,20,Home Appliances,1
+C587,Lucknow,Uttar Pradesh,830789,840,11,4.0,0.36,1539,13.256216175895759,54,Electronics,1
+C588,Jaipur,Rajasthan,174852,586,8,3.0,0.38,15905,9.540093465185219,58,Footwear,1
+C589,Bangalore,Karnataka,227885,816,11,5.0,0.45,8657,14.619947480266042,29,Electronics,1
+C590,Bangalore,Karnataka,308855,501,13,13.0,1.0,3578,18.0284780014321,14,Home Appliances,1
+C591,Chennai,Tamil Nadu,438756,192,13,9.0,0.69,1882,23.618114467229866,36,Apparel,1
+C592,Chennai,Tamil Nadu,308376,399,10,2.0,0.2,2206,26.59144164374001,14,Apparel,0
+C593,Jaipur,Rajasthan,440277,45,13,4.0,0.31,5984,24.859759933520117,38,Apparel,1
+C594,Hyderabad,Telangana,109363,73,8,3.0,0.38,19540,24.586881006276496,31,Electronics,1
+C595,Mumbai,Maharashtra,360804,191,10,0.0,0.0,16881,7.285038807605325,40,Footwear,0
+C596,Bangalore,Karnataka,162678,394,8,3.0,0.38,5543,22.533203500575073,51,Apparel,1
+C597,Hyderabad,Telangana,432125,601,9,4.0,0.44,11880,25.138134414664645,29,Electronics,1
+C598,Bangalore,Karnataka,822730,416,13,1.0,0.08,12236,23.109978946807267,17,Apparel,0
+C599,Lucknow,Uttar Pradesh,840951,478,15,1.0,0.07,18818,12.367864911022423,45,Home Appliances,0
+C600,Delhi,Delhi,670027,386,10,0.0,0.0,11106,23.31006025306782,18,Electronics,0
+C601,Delhi,Delhi,571213,332,6,3.0,0.5,9129,18.540148803426455,30,Apparel,1
+C602,Jaipur,Rajasthan,869295,219,14,0.0,0.0,1113,20.49336516425559,24,Electronics,0
+C603,Kolkata,West Bengal,856027,94,12,0.0,0.0,18160,25.47624334459954,13,Home Appliances,0
+C604,Delhi,Delhi,742818,319,10,9.0,0.9,11070,15.245113194157168,21,Apparel,1
+C605,Mumbai,Maharashtra,145903,885,10,3.0,0.3,4752,9.465970000902708,3,Electronics,0
+C606,Hyderabad,Telangana,203550,62,11,1.0,0.09,19210,21.043791703190564,25,Home Appliances,0
+C607,Chennai,Tamil Nadu,151470,405,8,0.0,0.0,7732,20.14884060581125,5,Apparel,0
+C608,Hyderabad,Telangana,787603,533,15,12.0,0.8,3120,16.70147858579083,41,Apparel,1
+C609,Jaipur,Rajasthan,961957,407,10,7.0,0.7,2410,25.59107415693501,18,Apparel,1
+C610,Chennai,Tamil Nadu,181721,251,7,2.0,0.29,17522,7.427981253941564,47,Electronics,0
+C611,Hyderabad,Telangana,302500,568,16,10.0,0.62,8651,19.250691724070357,12,Home Appliances,1
+C612,Kolkata,West Bengal,807256,499,14,5.0,0.36,14494,27.07060048433065,11,Electronics,1
+C613,Kolkata,West Bengal,789472,191,6,4.0,0.67,17994,29.960839301332037,29,Footwear,1
+C614,Kolkata,West Bengal,985893,410,13,12.0,0.92,14011,24.10460919760928,28,Footwear,1
+C615,Hyderabad,Telangana,493282,814,11,4.0,0.36,18530,28.153673064816434,17,Footwear,1
+C616,Lucknow,Uttar Pradesh,516379,30,12,3.0,0.25,1635,29.573911779463696,39,Apparel,0
+C617,Chennai,Tamil Nadu,106887,337,8,3.0,0.38,7770,10.3705703198389,21,Apparel,1
+C618,Chennai,Tamil Nadu,680557,553,9,8.0,0.89,18729,19.266705126673436,37,Electronics,1
+C619,Mumbai,Maharashtra,139569,501,11,3.0,0.27,12154,8.902677658648823,17,Footwear,0
+C620,Hyderabad,Telangana,344312,292,7,0.0,0.0,10340,7.297628032134316,26,Electronics,0
+C621,Kolkata,West Bengal,931420,524,19,12.0,0.63,6165,17.206909959335853,58,Apparel,1
+C622,Chennai,Tamil Nadu,139186,778,12,4.0,0.33,19383,14.538652762487043,50,Apparel,1
+C623,Kolkata,West Bengal,464831,866,6,5.0,0.83,14731,15.413042815447984,56,Apparel,1
+C624,Hyderabad,Telangana,883997,698,6,2.0,0.33,874,20.84717757579286,41,Home Appliances,1
+C625,Bangalore,Karnataka,419588,566,9,0.0,0.0,1849,12.982913505272887,37,Electronics,0
+C626,Hyderabad,Telangana,260639,81,11,3.0,0.27,13373,29.276006118509216,49,Apparel,0
+C627,Chennai,Tamil Nadu,924566,433,8,1.0,0.12,5350,8.304726134271952,6,Home Appliances,0
+C628,Bangalore,Karnataka,674779,438,11,6.0,0.55,9103,7.126974686705885,33,Home Appliances,1
+C629,Delhi,Delhi,899049,168,8,4.0,0.5,16258,18.982404432838507,32,Home Appliances,1
+C630,Hyderabad,Telangana,688426,660,4,2.0,0.5,17678,11.156146012677826,5,Footwear,1
+C631,Jaipur,Rajasthan,439121,731,10,0.0,0.0,19374,7.239866203168381,43,Home Appliances,0
+C632,Jaipur,Rajasthan,483010,386,17,3.0,0.18,6741,13.01845907131674,39,Apparel,0
+C633,Delhi,Delhi,466704,661,9,1.0,0.11,14990,20.579553906958267,29,Apparel,0
+C634,Hyderabad,Telangana,309385,731,14,10.0,0.71,12749,8.899780429477575,47,Apparel,1
+C635,Bangalore,Karnataka,354854,665,7,2.0,0.29,5339,26.718808791124214,53,Footwear,0
+C636,Mumbai,Maharashtra,419939,490,5,0.0,0.0,15939,5.5687028787800505,14,Electronics,0
+C637,Chennai,Tamil Nadu,675458,524,15,6.0,0.4,5131,22.37677859119237,43,Apparel,1
+C638,Bangalore,Karnataka,367865,204,12,3.0,0.25,2469,12.100338526199767,51,Footwear,0
+C639,Bangalore,Karnataka,169832,427,9,4.0,0.44,9390,21.574540893003892,59,Footwear,1
+C640,Bangalore,Karnataka,406703,694,8,6.0,0.75,13165,10.779215503445425,25,Apparel,1
+C641,Kolkata,West Bengal,608205,641,12,0.0,0.0,17918,7.200516720566412,13,Home Appliances,0
+C642,Bangalore,Karnataka,141683,283,9,3.0,0.33,17847,12.623188073480433,32,Home Appliances,1
+C643,Bangalore,Karnataka,463625,730,7,6.0,0.86,12031,13.884453331163334,20,Electronics,1
+C644,Chennai,Tamil Nadu,951331,93,10,5.0,0.5,8943,26.96693185477901,57,Apparel,1
+C645,Chennai,Tamil Nadu,336540,185,7,2.0,0.29,11699,27.429382874229287,43,Electronics,0
+C646,Jaipur,Rajasthan,646012,724,6,4.0,0.67,7952,15.433333411879985,37,Electronics,1
+C647,Chennai,Tamil Nadu,734775,367,4,2.0,0.5,15218,18.555843780147306,14,Electronics,1
+C648,Hyderabad,Telangana,244818,346,11,5.0,0.45,17664,27.73906788514042,28,Electronics,1
+C649,Delhi,Delhi,432918,99,10,5.0,0.5,18762,18.32403867479443,47,Apparel,1
+C650,Delhi,Delhi,433025,889,11,0.0,0.0,5268,23.176988331504788,49,Footwear,0
+C651,Jaipur,Rajasthan,531228,340,6,3.0,0.5,15016,23.640243249715958,53,Footwear,1
+C652,Hyderabad,Telangana,211957,164,7,1.0,0.14,6553,5.6549555365829685,40,Footwear,0
+C653,Hyderabad,Telangana,725329,267,5,4.0,0.8,8066,22.184447129459024,23,Apparel,1
+C654,Lucknow,Uttar Pradesh,240600,544,10,5.0,0.5,15860,22.8004781994165,24,Electronics,1
+C655,Lucknow,Uttar Pradesh,596864,170,8,4.0,0.5,5866,9.831495736962754,3,Home Appliances,1
+C656,Bangalore,Karnataka,382967,452,5,4.0,0.8,7792,23.559166541572488,13,Electronics,1
+C657,Lucknow,Uttar Pradesh,747033,531,5,0.0,0.0,11146,26.66937262891697,57,Electronics,0
+C658,Jaipur,Rajasthan,524533,824,12,2.0,0.17,1870,20.198248948032365,53,Home Appliances,0
+C659,Jaipur,Rajasthan,741209,790,9,9.0,1.0,19241,19.845145034819726,34,Apparel,1
+C660,Mumbai,Maharashtra,573546,497,10,2.0,0.2,1889,26.94449845623902,16,Home Appliances,0
+C661,Bangalore,Karnataka,684791,426,10,7.0,0.7,17412,24.12899681006531,4,Electronics,1
+C662,Jaipur,Rajasthan,419348,822,7,6.0,0.86,9868,16.533679099099075,28,Footwear,1
+C663,Bangalore,Karnataka,823468,559,11,4.0,0.36,5160,16.58947382679088,42,Home Appliances,1
+C664,Mumbai,Maharashtra,288503,827,11,2.0,0.18,19683,28.446061442480985,45,Electronics,0
+C665,Kolkata,West Bengal,572788,55,6,6.0,1.0,6361,16.34201839385842,58,Electronics,1
+C666,Mumbai,Maharashtra,362230,361,9,6.0,0.67,5873,22.959367992964076,8,Apparel,1
+C667,Mumbai,Maharashtra,840532,490,10,0.0,0.0,12392,7.132663600857798,46,Home Appliances,0
+C668,Delhi,Delhi,497073,593,10,5.0,0.5,12971,6.09765208666405,11,Footwear,1
+C669,Delhi,Delhi,269999,178,14,12.0,0.86,6361,24.22891991437366,4,Home Appliances,1
+C670,Chennai,Tamil Nadu,424553,777,6,0.0,0.0,15122,12.219513436118671,12,Apparel,0
+C671,Hyderabad,Telangana,103704,667,8,1.0,0.12,8793,5.305194120601312,32,Home Appliances,0
+C672,Bangalore,Karnataka,737517,535,10,4.0,0.4,8294,10.421846097123309,43,Home Appliances,1
+C673,Lucknow,Uttar Pradesh,530074,482,12,2.0,0.17,3101,20.030414164085332,1,Electronics,0
+C674,Chennai,Tamil Nadu,749871,673,14,11.0,0.79,18769,25.503034782642963,14,Apparel,1
+C675,Bangalore,Karnataka,785010,387,7,2.0,0.29,1703,8.634360405398398,3,Footwear,0
+C676,Mumbai,Maharashtra,151413,141,6,1.0,0.17,14162,29.843379515828264,11,Footwear,0
+C677,Delhi,Delhi,577456,797,13,0.0,0.0,19471,14.004716189853813,3,Apparel,0
+C678,Kolkata,West Bengal,486473,418,7,4.0,0.57,2717,23.96104969593209,54,Apparel,1
+C679,Delhi,Delhi,227950,741,14,9.0,0.64,9492,13.230213174047456,27,Electronics,1
+C680,Bangalore,Karnataka,214611,615,6,5.0,0.83,17832,29.679731593964572,31,Footwear,1
+C681,Jaipur,Rajasthan,738419,898,10,0.0,0.0,10870,11.49150098215625,37,Footwear,0
+C682,Lucknow,Uttar Pradesh,644951,776,9,6.0,0.67,16809,17.312611342962896,12,Electronics,1
+C683,Chennai,Tamil Nadu,302957,31,7,0.0,0.0,4373,5.5996699379544,41,Apparel,0
+C684,Hyderabad,Telangana,938403,660,1,1.0,1.0,14086,15.351028488109296,22,Footwear,1
+C685,Hyderabad,Telangana,111846,685,10,8.0,0.8,7092,22.25042653859159,17,Apparel,1
+C686,Kolkata,West Bengal,904291,36,13,7.0,0.54,4230,22.14589471617395,22,Home Appliances,1
+C687,Bangalore,Karnataka,972460,209,8,6.0,0.75,6857,13.262870802325251,22,Home Appliances,1
+C688,Bangalore,Karnataka,777015,169,8,4.0,0.5,16277,8.88465721666822,30,Footwear,1
+C689,Lucknow,Uttar Pradesh,922072,863,13,2.0,0.15,14064,28.194749419127525,4,Footwear,0
+C690,Kolkata,West Bengal,682145,578,9,1.0,0.11,1113,10.206561754904246,44,Footwear,0
+C691,Kolkata,West Bengal,169429,182,9,3.0,0.33,9690,26.018478838945395,22,Home Appliances,1
+C692,Delhi,Delhi,698717,650,11,3.0,0.27,13265,9.684472753702078,8,Footwear,0
+C693,Kolkata,West Bengal,844321,62,9,0.0,0.0,9396,15.346739196553411,32,Electronics,0
+C694,Chennai,Tamil Nadu,326639,567,11,9.0,0.82,10406,9.375318644983931,24,Apparel,1
+C695,Mumbai,Maharashtra,565330,548,10,7.0,0.7,1317,24.975631960232406,58,Electronics,1
+C696,Lucknow,Uttar Pradesh,868020,566,15,9.0,0.6,10669,24.388330229993528,10,Apparel,1
+C697,Delhi,Delhi,315154,771,13,3.0,0.23,1697,16.484210265351123,46,Apparel,0
+C698,Bangalore,Karnataka,820426,898,10,2.0,0.2,19973,26.796877325899132,22,Home Appliances,0
+C699,Mumbai,Maharashtra,645865,814,7,3.0,0.43,10739,5.562006528966097,49,Footwear,1
+C700,Hyderabad,Telangana,436467,235,13,6.0,0.46,6809,12.164184428127395,35,Footwear,1
+C701,Mumbai,Maharashtra,385898,182,12,4.0,0.33,5660,11.840922146003766,1,Apparel,1
+C702,Kolkata,West Bengal,676051,356,9,3.0,0.33,9381,8.53892071978707,46,Footwear,1
+C703,Delhi,Delhi,174703,348,6,4.0,0.67,11599,18.51442755081647,4,Electronics,1
+C704,Bangalore,Karnataka,211072,422,14,7.0,0.5,2262,7.152989511651124,26,Electronics,1
+C705,Lucknow,Uttar Pradesh,746253,394,12,1.0,0.08,10738,13.308302390843997,13,Apparel,0
+C706,Lucknow,Uttar Pradesh,695370,164,10,0.0,0.0,3544,25.32127544327648,59,Home Appliances,0
+C707,Chennai,Tamil Nadu,817727,689,14,3.0,0.21,15750,16.76364686930444,15,Electronics,0
+C708,Chennai,Tamil Nadu,481104,431,9,6.0,0.67,6508,22.490365527060707,43,Footwear,1
+C709,Kolkata,West Bengal,575301,529,11,3.0,0.27,1491,6.634129970396749,8,Footwear,0
+C710,Delhi,Delhi,395968,816,16,6.0,0.38,11923,20.111005785815095,9,Apparel,1
+C711,Mumbai,Maharashtra,441699,599,5,2.0,0.4,2824,24.810773488528678,35,Home Appliances,1
+C712,Jaipur,Rajasthan,350164,665,13,1.0,0.08,8485,18.698725431975028,31,Home Appliances,0
+C713,Mumbai,Maharashtra,457264,243,8,0.0,0.0,19864,15.778712441085645,28,Footwear,0
+C714,Hyderabad,Telangana,281493,708,10,7.0,0.7,3052,23.484176123675564,46,Home Appliances,1
+C715,Lucknow,Uttar Pradesh,441183,598,8,1.0,0.12,3699,25.550576307851117,12,Footwear,0
+C716,Mumbai,Maharashtra,727320,141,6,1.0,0.17,12916,13.185206073205013,42,Apparel,0
+C717,Delhi,Delhi,708979,803,10,3.0,0.3,506,23.926942934603495,43,Electronics,0
+C718,Chennai,Tamil Nadu,508926,660,7,3.0,0.43,19437,16.17899421521772,14,Footwear,1
+C719,Chennai,Tamil Nadu,555844,765,6,2.0,0.33,11780,29.757231416047997,38,Apparel,1
+C720,Jaipur,Rajasthan,988811,160,10,1.0,0.1,10139,6.560263963271469,58,Apparel,0
+C721,Kolkata,West Bengal,215027,318,9,2.0,0.22,1521,10.88102926159566,45,Home Appliances,0
+C722,Jaipur,Rajasthan,525756,420,9,2.0,0.22,14760,18.627969699206957,43,Electronics,0
+C723,Hyderabad,Telangana,682401,423,15,13.0,0.87,12305,25.999067168167883,10,Footwear,1
+C724,Delhi,Delhi,240800,41,7,2.0,0.29,2850,21.20973106766265,10,Home Appliances,0
+C725,Delhi,Delhi,188776,170,8,7.0,0.88,14126,26.50381905139026,58,Home Appliances,1
+C726,Delhi,Delhi,576467,551,17,0.0,0.0,14397,18.801250759525487,29,Home Appliances,0
+C727,Delhi,Delhi,545405,649,10,6.0,0.6,743,19.448462519451407,55,Electronics,1
+C728,Chennai,Tamil Nadu,530794,589,8,4.0,0.5,19385,14.174250631306668,3,Home Appliances,1
+C729,Kolkata,West Bengal,218661,624,8,0.0,0.0,16278,29.043443741369483,6,Electronics,0
+C730,Chennai,Tamil Nadu,587521,559,10,0.0,0.0,3063,18.08391986226951,40,Apparel,0
+C731,Mumbai,Maharashtra,817303,678,11,9.0,0.82,18168,24.952456016024282,20,Apparel,1
+C732,Bangalore,Karnataka,591644,494,7,4.0,0.57,17298,27.651377035161925,37,Footwear,1
+C733,Chennai,Tamil Nadu,403257,201,5,2.0,0.4,1657,22.376279071506953,39,Footwear,1
+C734,Chennai,Tamil Nadu,164401,674,8,2.0,0.25,16004,19.45352717658118,37,Apparel,0
+C735,Chennai,Tamil Nadu,948188,785,9,5.0,0.56,1394,12.170391359321806,6,Electronics,1
+C736,Mumbai,Maharashtra,992805,832,9,0.0,0.0,9604,11.301274361561752,40,Footwear,0
+C737,Chennai,Tamil Nadu,114892,789,14,6.0,0.43,4155,20.09553849224259,59,Electronics,1
+C738,Kolkata,West Bengal,947082,209,9,5.0,0.56,9060,24.56319263219365,16,Home Appliances,1
+C739,Bangalore,Karnataka,459502,116,15,4.0,0.27,5253,19.888602296624676,53,Electronics,0
+C740,Jaipur,Rajasthan,907789,422,8,2.0,0.25,8297,21.51668221506942,47,Electronics,0
+C741,Hyderabad,Telangana,705822,781,8,0.0,0.0,11807,6.358144663695448,17,Apparel,0
+C742,Lucknow,Uttar Pradesh,518114,517,12,4.0,0.33,10375,16.90665601680997,49,Electronics,1
+C743,Jaipur,Rajasthan,597643,298,7,0.0,0.0,5256,18.261053314484233,28,Apparel,0
+C744,Lucknow,Uttar Pradesh,500560,724,7,3.0,0.43,10844,29.04406807017576,44,Apparel,1
+C745,Kolkata,West Bengal,985249,472,12,6.0,0.5,9432,13.374185165451115,18,Apparel,1
+C746,Jaipur,Rajasthan,583507,821,11,9.0,0.82,8423,23.357836393991455,38,Electronics,1
+C747,Delhi,Delhi,428487,590,13,9.0,0.69,846,21.820046493499756,54,Apparel,1
+C748,Mumbai,Maharashtra,650779,136,17,8.0,0.47,15112,13.787910494844676,47,Footwear,1
+C749,Bangalore,Karnataka,124851,664,5,1.0,0.2,3512,6.422047789861534,39,Electronics,0
+C750,Mumbai,Maharashtra,842470,152,6,2.0,0.33,3330,26.411020607629005,9,Home Appliances,1
+C751,Delhi,Delhi,216229,742,10,2.0,0.2,6537,11.333393472166474,30,Apparel,0
+C752,Chennai,Tamil Nadu,906731,467,11,6.0,0.55,11097,11.433414884277811,50,Apparel,1
+C753,Bangalore,Karnataka,501393,427,8,6.0,0.75,11400,29.898964177828027,17,Footwear,1
+C754,Mumbai,Maharashtra,615607,235,8,4.0,0.5,13365,9.461054251619274,32,Apparel,1
+C755,Jaipur,Rajasthan,328994,658,10,8.0,0.8,3981,27.81523057102816,46,Footwear,1
+C756,Mumbai,Maharashtra,173832,615,11,1.0,0.09,8711,24.430929132901515,2,Home Appliances,0
+C757,Bangalore,Karnataka,139673,710,14,9.0,0.64,13295,11.660912027881942,45,Footwear,1
+C758,Bangalore,Karnataka,640418,754,7,1.0,0.14,16578,16.953485652070057,26,Apparel,0
+C759,Bangalore,Karnataka,503097,735,12,8.0,0.67,16296,8.03009125725252,35,Footwear,1
+C760,Kolkata,West Bengal,814956,340,9,0.0,0.0,13627,6.3798668295652625,42,Apparel,0
+C761,Kolkata,West Bengal,184365,891,16,6.0,0.38,15561,24.01132702203618,19,Electronics,1
+C762,Bangalore,Karnataka,502824,706,9,2.0,0.22,6758,12.47175862935973,25,Apparel,0
+C763,Kolkata,West Bengal,610135,116,15,10.0,0.67,14851,23.38310457569817,9,Apparel,1
+C764,Hyderabad,Telangana,126596,767,10,0.0,0.0,19929,10.962128283313017,25,Apparel,0
+C765,Chennai,Tamil Nadu,623956,576,10,1.0,0.1,15222,29.164353496550326,2,Apparel,0
+C766,Kolkata,West Bengal,926045,768,5,0.0,0.0,1902,15.137696399947089,14,Home Appliances,0
+C767,Delhi,Delhi,877048,623,10,1.0,0.1,8134,28.120395293838058,3,Electronics,0
+C768,Bangalore,Karnataka,594109,663,5,2.0,0.4,2000,11.06706379005626,42,Electronics,1
+C769,Bangalore,Karnataka,422266,870,16,9.0,0.56,3688,16.40461482316738,11,Apparel,1
+C770,Mumbai,Maharashtra,219726,539,4,1.0,0.25,19996,24.979380558361957,15,Apparel,0
+C771,Jaipur,Rajasthan,453729,860,4,4.0,1.0,13673,13.105873525292134,44,Electronics,1
+C772,Hyderabad,Telangana,901351,76,8,6.0,0.75,19934,9.336191217508862,5,Apparel,1
+C773,Jaipur,Rajasthan,276214,743,10,2.0,0.2,12621,18.83519324753547,29,Electronics,0
+C774,Bangalore,Karnataka,239849,132,11,0.0,0.0,12825,24.441540941177617,2,Home Appliances,0
+C775,Bangalore,Karnataka,288128,121,18,5.0,0.28,19955,27.172878549197975,27,Home Appliances,0
+C776,Hyderabad,Telangana,250038,685,9,5.0,0.56,9378,18.07717160329579,27,Electronics,1
+C777,Bangalore,Karnataka,725236,214,14,7.0,0.5,16880,20.3012454417158,6,Footwear,1
+C778,Bangalore,Karnataka,684801,271,14,6.0,0.43,6788,7.9376955677947985,34,Apparel,1
+C779,Kolkata,West Bengal,898100,582,11,0.0,0.0,17131,10.481903341452776,50,Electronics,0
+C780,Hyderabad,Telangana,218152,845,6,0.0,0.0,5389,22.13109386037694,59,Home Appliances,0
+C781,Delhi,Delhi,802695,74,14,5.0,0.36,2270,21.12152091491838,19,Electronics,1
+C782,Kolkata,West Bengal,746781,854,8,4.0,0.5,15348,6.082937066335434,48,Apparel,1
+C783,Delhi,Delhi,265722,834,9,0.0,0.0,1452,17.126534900610096,8,Apparel,0
+C784,Lucknow,Uttar Pradesh,721497,623,4,1.0,0.25,11181,15.476656853920108,48,Footwear,0
+C785,Mumbai,Maharashtra,441974,263,12,9.0,0.75,3713,10.927959035662536,27,Electronics,1
+C786,Jaipur,Rajasthan,331381,105,3,0.0,0.0,15933,19.627306439803487,4,Home Appliances,0
+C787,Lucknow,Uttar Pradesh,286710,426,9,5.0,0.56,12738,8.410115364518052,47,Electronics,1
+C788,Chennai,Tamil Nadu,312033,373,5,1.0,0.2,4668,5.802364888081425,37,Apparel,0
+C789,Mumbai,Maharashtra,993021,506,13,6.0,0.46,15526,15.455595733821635,49,Footwear,1
+C790,Chennai,Tamil Nadu,732958,190,7,4.0,0.57,6068,19.45303614626375,36,Electronics,1
+C791,Lucknow,Uttar Pradesh,326956,635,8,3.0,0.38,16015,25.92472565598095,18,Apparel,1
+C792,Hyderabad,Telangana,359870,365,6,4.0,0.67,14729,19.486675750912465,58,Electronics,1
+C793,Bangalore,Karnataka,538065,75,9,9.0,1.0,1812,29.78183758829769,47,Apparel,1
+C794,Jaipur,Rajasthan,602550,859,8,3.0,0.38,3711,16.311034205422743,16,Apparel,1
+C795,Bangalore,Karnataka,826830,779,13,6.0,0.46,13824,28.748347390071764,9,Footwear,1
+C796,Chennai,Tamil Nadu,350675,693,4,1.0,0.25,3473,5.3982541113687565,43,Footwear,0
+C797,Lucknow,Uttar Pradesh,999596,614,15,8.0,0.53,19625,5.610336843211348,30,Home Appliances,1
+C798,Delhi,Delhi,837290,445,15,3.0,0.2,6560,24.74646781972643,24,Home Appliances,0
+C799,Bangalore,Karnataka,757776,102,8,4.0,0.5,13111,27.335861006891474,22,Apparel,1
+C800,Chennai,Tamil Nadu,831963,657,9,3.0,0.33,18274,19.380734189316396,14,Apparel,1
+C801,Kolkata,West Bengal,871501,86,12,7.0,0.58,17366,28.633055744693447,44,Footwear,1
+C802,Mumbai,Maharashtra,501557,404,12,5.0,0.42,15748,20.478336259885566,24,Footwear,1
+C803,Mumbai,Maharashtra,687997,756,7,2.0,0.29,7208,8.460145179415422,22,Electronics,0
+C804,Mumbai,Maharashtra,780566,519,10,0.0,0.0,19509,26.77828456444735,45,Electronics,0
+C805,Hyderabad,Telangana,436030,391,12,11.0,0.92,9260,17.589149303776534,28,Footwear,1
+C806,Bangalore,Karnataka,166447,411,9,0.0,0.0,11812,16.310266235140507,33,Apparel,0
+C807,Chennai,Tamil Nadu,573933,665,9,5.0,0.56,12563,24.997596679871243,45,Apparel,1
+C808,Lucknow,Uttar Pradesh,191549,112,11,7.0,0.64,13301,27.448646496760066,19,Apparel,1
+C809,Chennai,Tamil Nadu,217466,743,6,3.0,0.5,5348,17.40821837456861,56,Electronics,1
+C810,Bangalore,Karnataka,407410,456,4,3.0,0.75,18241,28.293036805843442,31,Footwear,1
+C811,Bangalore,Karnataka,405677,223,11,6.0,0.55,2562,5.550915463230329,52,Electronics,1
+C812,Kolkata,West Bengal,531690,622,8,5.0,0.62,11732,21.39401254170597,51,Footwear,1
+C813,Lucknow,Uttar Pradesh,580255,341,11,10.0,0.91,19087,8.29885629905051,51,Footwear,1
+C814,Chennai,Tamil Nadu,337798,525,11,5.0,0.45,12686,29.268101209429332,50,Apparel,1
+C815,Chennai,Tamil Nadu,578073,200,10,8.0,0.8,5768,22.795304308704413,19,Electronics,1
+C816,Delhi,Delhi,269087,273,8,5.0,0.62,4331,6.0287864122117,21,Electronics,1
+C817,Lucknow,Uttar Pradesh,373056,408,7,2.0,0.29,6545,10.128884047733104,46,Apparel,0
+C818,Kolkata,West Bengal,255130,411,12,10.0,0.83,15194,18.496664906938683,11,Footwear,1
+C819,Bangalore,Karnataka,524214,541,9,2.0,0.22,5263,28.694726351283627,60,Footwear,0
+C820,Delhi,Delhi,104502,786,7,0.0,0.0,18396,29.39002590391953,22,Footwear,0
+C821,Chennai,Tamil Nadu,890795,617,13,2.0,0.15,5319,24.989404373845364,47,Home Appliances,0
+C822,Mumbai,Maharashtra,867180,520,11,4.0,0.36,1813,8.485582336412431,36,Apparel,1
+C823,Jaipur,Rajasthan,747518,891,7,0.0,0.0,7720,16.149317278972557,6,Footwear,0
+C824,Hyderabad,Telangana,711772,569,4,1.0,0.25,7779,24.532083894249997,50,Footwear,0
+C825,Mumbai,Maharashtra,664566,899,6,6.0,1.0,15096,21.926584704137923,6,Home Appliances,1
+C826,Kolkata,West Bengal,732471,649,12,3.0,0.25,17262,28.585054102548884,59,Footwear,0
+C827,Jaipur,Rajasthan,487585,425,10,5.0,0.5,12716,5.304769777627728,23,Footwear,1
+C828,Chennai,Tamil Nadu,567220,604,12,2.0,0.17,3370,10.392378890487056,57,Home Appliances,0
+C829,Jaipur,Rajasthan,942725,483,13,5.0,0.38,9957,9.094758593602624,47,Home Appliances,1
+C830,Jaipur,Rajasthan,246347,885,15,13.0,0.87,19740,19.948392675459008,10,Electronics,1
+C831,Kolkata,West Bengal,169327,634,9,4.0,0.44,12813,7.211206966381307,27,Footwear,1
+C832,Lucknow,Uttar Pradesh,844747,611,13,6.0,0.46,4986,9.981439036504629,54,Home Appliances,1
+C833,Lucknow,Uttar Pradesh,144284,872,10,6.0,0.6,10395,25.864630040751443,20,Home Appliances,1
+C834,Lucknow,Uttar Pradesh,335426,57,12,5.0,0.42,580,8.850599241010288,20,Home Appliances,1
+C835,Mumbai,Maharashtra,785572,711,15,0.0,0.0,9926,15.428919304045344,32,Electronics,0
+C836,Bangalore,Karnataka,225152,813,11,0.0,0.0,9583,17.32625562592092,5,Footwear,0
+C837,Lucknow,Uttar Pradesh,693047,476,8,0.0,0.0,8951,20.699901187031124,31,Apparel,0
+C838,Bangalore,Karnataka,986340,295,8,3.0,0.38,5836,19.541362423172295,10,Footwear,1
+C839,Lucknow,Uttar Pradesh,826959,168,8,0.0,0.0,12210,9.0827212953732,18,Footwear,0
+C840,Kolkata,West Bengal,151081,326,9,5.0,0.56,10057,18.24030824731039,60,Apparel,1
+C841,Delhi,Delhi,901834,126,11,4.0,0.36,5976,18.592808381208563,56,Footwear,1
+C842,Chennai,Tamil Nadu,384645,731,14,1.0,0.07,12379,7.395835245851485,38,Footwear,0
+C843,Bangalore,Karnataka,243601,560,10,8.0,0.8,9721,14.325354877637295,32,Home Appliances,1
+C844,Delhi,Delhi,207392,253,9,8.0,0.89,5564,17.58457232659934,54,Electronics,1
+C845,Mumbai,Maharashtra,537619,501,7,0.0,0.0,3003,7.914141271048177,9,Apparel,0
+C846,Chennai,Tamil Nadu,824619,401,8,3.0,0.38,5055,25.425967581931108,57,Footwear,1
+C847,Chennai,Tamil Nadu,130156,792,11,3.0,0.27,4386,10.558946193887753,55,Electronics,0
+C848,Chennai,Tamil Nadu,231432,244,7,2.0,0.29,4766,29.527739189305333,28,Apparel,0
+C849,Lucknow,Uttar Pradesh,894122,471,14,7.0,0.5,1893,9.908774813230593,3,Apparel,1
+C850,Chennai,Tamil Nadu,145383,97,11,5.0,0.45,10384,21.689660588330103,49,Apparel,1
+C851,Hyderabad,Telangana,716146,234,10,3.0,0.3,6554,21.765016196581286,2,Apparel,0
+C852,Chennai,Tamil Nadu,707913,386,10,8.0,0.8,12040,9.013933400649218,33,Electronics,1
+C853,Mumbai,Maharashtra,203919,869,9,7.0,0.78,19444,24.081100824099835,34,Electronics,1
+C854,Chennai,Tamil Nadu,280117,802,4,2.0,0.5,18100,5.108223217274975,47,Apparel,1
+C855,Lucknow,Uttar Pradesh,484264,744,4,4.0,1.0,19812,9.628144472775203,44,Apparel,1
+C856,Kolkata,West Bengal,498055,464,8,1.0,0.12,7521,17.85627507186573,27,Apparel,0
+C857,Kolkata,West Bengal,229620,507,14,0.0,0.0,4114,17.99318953154839,32,Footwear,0
+C858,Bangalore,Karnataka,186243,365,5,1.0,0.2,16677,7.893065174069462,19,Home Appliances,0
+C859,Chennai,Tamil Nadu,820420,891,11,8.0,0.73,15047,10.646835743247696,27,Footwear,1
+C860,Jaipur,Rajasthan,297955,101,8,1.0,0.12,16086,28.477050043480677,24,Electronics,0
+C861,Lucknow,Uttar Pradesh,804743,137,10,2.0,0.2,13488,15.95145876010179,43,Apparel,0
+C862,Jaipur,Rajasthan,520085,741,12,6.0,0.5,19851,29.439271372132403,48,Electronics,1
+C863,Hyderabad,Telangana,455081,235,8,3.0,0.38,19995,26.10073752527336,26,Apparel,1
+C864,Jaipur,Rajasthan,860427,541,9,2.0,0.22,9626,24.12042530504871,50,Footwear,0
+C865,Jaipur,Rajasthan,473395,517,13,4.0,0.31,13752,29.68808004344494,33,Footwear,1
+C866,Lucknow,Uttar Pradesh,213284,155,11,2.0,0.18,8714,17.233534547923835,15,Electronics,0
+C867,Bangalore,Karnataka,970645,99,11,3.0,0.27,16822,21.952686016773598,12,Home Appliances,0
+C868,Kolkata,West Bengal,260155,340,11,1.0,0.09,3656,24.00428609485128,43,Home Appliances,0
+C869,Hyderabad,Telangana,407823,707,4,1.0,0.25,16815,17.25625900640986,17,Footwear,0
+C870,Bangalore,Karnataka,901075,62,14,6.0,0.43,14603,27.003141774784616,8,Home Appliances,1
+C871,Jaipur,Rajasthan,564053,500,7,2.0,0.29,1679,5.821494902832279,36,Footwear,0
+C872,Delhi,Delhi,615353,471,12,8.0,0.67,4906,12.811491883494554,25,Home Appliances,1
+C873,Lucknow,Uttar Pradesh,792142,597,8,6.0,0.75,18174,19.30525583584204,31,Electronics,1
+C874,Jaipur,Rajasthan,376185,536,9,4.0,0.44,19867,29.27176896069156,40,Footwear,1
+C875,Chennai,Tamil Nadu,436050,92,11,4.0,0.36,1422,19.76158537811012,9,Footwear,1
+C876,Kolkata,West Bengal,948878,789,9,2.0,0.22,19635,5.672496066464859,58,Footwear,0
+C877,Jaipur,Rajasthan,461908,395,10,9.0,0.9,13998,13.781731511736146,43,Electronics,1
+C878,Chennai,Tamil Nadu,721314,116,10,6.0,0.6,2646,26.723499019613946,8,Footwear,1
+C879,Kolkata,West Bengal,139193,501,7,6.0,0.86,14343,19.201235122002625,58,Home Appliances,1
+C880,Lucknow,Uttar Pradesh,716551,52,8,1.0,0.12,10871,14.443439835748363,25,Footwear,0
+C881,Lucknow,Uttar Pradesh,204917,737,11,10.0,0.91,7247,13.399186562137936,33,Footwear,1
+C882,Chennai,Tamil Nadu,480983,476,9,3.0,0.33,7111,17.423792786047642,55,Apparel,1
+C883,Hyderabad,Telangana,401314,301,7,3.0,0.43,2057,12.4330067255027,37,Home Appliances,1
+C884,Mumbai,Maharashtra,852570,894,11,7.0,0.64,19446,7.368340378974498,22,Footwear,1
+C885,Lucknow,Uttar Pradesh,547852,244,9,7.0,0.78,11880,24.89129373369023,42,Footwear,1
+C886,Chennai,Tamil Nadu,553939,709,12,3.0,0.25,18193,12.833824157729183,27,Home Appliances,0
+C887,Lucknow,Uttar Pradesh,804181,811,6,0.0,0.0,18442,9.51502127217065,2,Electronics,0
+C888,Hyderabad,Telangana,792905,873,9,4.0,0.44,15812,11.698398839153892,41,Home Appliances,1
+C889,Bangalore,Karnataka,647639,235,8,0.0,0.0,12436,16.562167135578335,16,Electronics,0
+C890,Chennai,Tamil Nadu,985126,475,12,9.0,0.75,13943,12.966329503839079,54,Apparel,1
+C891,Jaipur,Rajasthan,379901,873,8,3.0,0.38,9905,21.15106634061491,17,Electronics,1
+C892,Mumbai,Maharashtra,257246,226,13,4.0,0.31,1407,11.13966524545937,53,Footwear,1
+C893,Lucknow,Uttar Pradesh,608960,603,14,1.0,0.07,14791,15.550478221275291,58,Apparel,0
+C894,Chennai,Tamil Nadu,243057,59,8,7.0,0.88,8967,24.741746001604604,18,Electronics,1
+C895,Bangalore,Karnataka,857568,527,15,8.0,0.53,1152,6.383181821477411,58,Apparel,1
+C896,Kolkata,West Bengal,730823,335,15,0.0,0.0,2583,27.514372124353137,27,Footwear,0
+C897,Mumbai,Maharashtra,516174,889,10,4.0,0.4,5105,10.901028795527733,37,Apparel,1
+C898,Chennai,Tamil Nadu,620566,122,8,3.0,0.38,8301,19.99553287816734,50,Footwear,1
+C899,Jaipur,Rajasthan,944986,796,9,8.0,0.89,8231,28.387502398876286,14,Electronics,1
+C900,Hyderabad,Telangana,387883,480,7,2.0,0.29,13881,11.357648011837142,38,Apparel,0
+C901,Kolkata,West Bengal,833602,145,21,16.0,0.76,10870,18.643625830073155,31,Electronics,1
+C902,Delhi,Delhi,480631,516,5,1.0,0.2,12550,25.53413415479872,2,Apparel,0
+C903,Bangalore,Karnataka,824233,837,14,5.0,0.36,8353,11.324572405354658,25,Footwear,1
+C904,Kolkata,West Bengal,951706,731,11,4.0,0.36,4499,18.372767319335217,16,Home Appliances,1
+C905,Jaipur,Rajasthan,108248,432,8,0.0,0.0,8873,12.522203790070547,60,Electronics,0
+C906,Delhi,Delhi,560163,676,10,2.0,0.2,10893,26.98668118794407,50,Home Appliances,0
+C907,Chennai,Tamil Nadu,183985,872,8,7.0,0.88,16611,16.777282084700087,27,Footwear,1
+C908,Mumbai,Maharashtra,964446,194,6,3.0,0.5,9051,17.658362848007535,23,Home Appliances,1
+C909,Kolkata,West Bengal,575279,741,14,6.0,0.43,1396,24.049386131036805,42,Electronics,1
+C910,Delhi,Delhi,103225,440,11,10.0,0.91,7056,20.707406831075907,21,Apparel,1
+C911,Hyderabad,Telangana,641448,760,10,10.0,1.0,4762,26.174010745066425,44,Home Appliances,1
+C912,Kolkata,West Bengal,573421,519,6,0.0,0.0,4874,11.516996989674684,44,Footwear,0
+C913,Hyderabad,Telangana,188498,454,10,6.0,0.6,12545,9.547231345156984,57,Home Appliances,1
+C914,Hyderabad,Telangana,121741,53,9,6.0,0.67,18801,21.177667232603422,41,Electronics,1
+C915,Lucknow,Uttar Pradesh,307897,298,10,9.0,0.9,6029,6.244574114873057,40,Home Appliances,1
+C916,Chennai,Tamil Nadu,256501,121,6,1.0,0.17,12556,9.253072095521446,37,Apparel,0
+C917,Jaipur,Rajasthan,910926,494,7,2.0,0.29,16692,7.962808725327987,46,Electronics,0
+C918,Chennai,Tamil Nadu,401950,794,9,6.0,0.67,16692,14.551837878338867,28,Electronics,1
+C919,Chennai,Tamil Nadu,862008,723,14,5.0,0.36,6705,15.458274778047553,27,Electronics,1
+C920,Chennai,Tamil Nadu,346924,662,10,2.0,0.2,15277,27.683205874323463,24,Home Appliances,0
+C921,Mumbai,Maharashtra,110821,510,10,0.0,0.0,4864,26.786086880275228,45,Home Appliances,0
+C922,Hyderabad,Telangana,847986,422,7,0.0,0.0,14370,23.402602634801703,17,Apparel,0
+C923,Bangalore,Karnataka,154644,370,7,4.0,0.57,8195,16.773310584617136,23,Apparel,1
+C924,Bangalore,Karnataka,365978,546,10,0.0,0.0,12982,12.562683891043786,26,Footwear,0
+C925,Bangalore,Karnataka,708684,213,4,0.0,0.0,9029,9.246662464690715,32,Footwear,0
+C926,Delhi,Delhi,194002,354,6,3.0,0.5,17880,15.823241461402871,17,Apparel,1
+C927,Delhi,Delhi,623460,884,19,17.0,0.89,9707,23.695584192982352,60,Home Appliances,1
+C928,Chennai,Tamil Nadu,742705,879,12,8.0,0.67,9142,17.924317142555545,28,Electronics,1
+C929,Lucknow,Uttar Pradesh,900771,184,7,3.0,0.43,18708,26.32584153168887,43,Home Appliances,1
+C930,Delhi,Delhi,157217,265,9,7.0,0.78,6501,5.896556204230994,17,Electronics,1
+C931,Jaipur,Rajasthan,221660,536,7,2.0,0.29,1836,16.037992193646748,46,Home Appliances,0
+C932,Mumbai,Maharashtra,986925,767,5,1.0,0.2,5351,8.091355850846375,6,Electronics,0
+C933,Delhi,Delhi,975512,202,8,0.0,0.0,17170,25.564293912200547,37,Electronics,0
+C934,Bangalore,Karnataka,651567,815,14,1.0,0.07,19203,9.514221179563364,59,Apparel,0
+C935,Lucknow,Uttar Pradesh,809790,126,17,4.0,0.24,11269,5.649054215155773,44,Apparel,0
+C936,Jaipur,Rajasthan,491704,634,10,0.0,0.0,3975,25.924430214527685,10,Apparel,0
+C937,Lucknow,Uttar Pradesh,576111,673,14,3.0,0.21,9325,19.855106483773568,1,Footwear,0
+C938,Lucknow,Uttar Pradesh,440698,779,5,1.0,0.2,19150,8.233004959554755,56,Apparel,0
+C939,Chennai,Tamil Nadu,438869,847,8,6.0,0.75,2319,23.59499981081562,36,Home Appliances,1
+C940,Mumbai,Maharashtra,518233,291,6,1.0,0.17,6333,11.002003320501986,50,Home Appliances,0
+C941,Hyderabad,Telangana,270855,427,8,2.0,0.25,13685,12.123397224986553,49,Electronics,0
+C942,Lucknow,Uttar Pradesh,940014,472,13,3.0,0.23,10661,27.59335679653323,39,Electronics,0
+C943,Mumbai,Maharashtra,972470,406,15,10.0,0.67,17298,9.996781514887331,29,Home Appliances,1
+C944,Jaipur,Rajasthan,194604,804,10,1.0,0.1,14345,25.274858990355586,40,Electronics,0
+C945,Jaipur,Rajasthan,197462,71,10,8.0,0.8,17321,13.543621184913775,30,Electronics,1
+C946,Delhi,Delhi,619383,569,9,5.0,0.56,17692,7.099252546337063,30,Home Appliances,1
+C947,Mumbai,Maharashtra,940480,519,10,0.0,0.0,10343,8.715163466369031,9,Footwear,0
+C948,Jaipur,Rajasthan,409834,612,9,3.0,0.33,2063,18.774858243117578,59,Apparel,1
+C949,Mumbai,Maharashtra,635456,465,11,1.0,0.09,14033,7.362109062197895,43,Footwear,0
+C950,Mumbai,Maharashtra,905984,545,13,11.0,0.85,1033,7.84838727498728,43,Home Appliances,1
+C951,Delhi,Delhi,983855,432,9,2.0,0.22,1983,7.082264128374225,57,Footwear,0
+C952,Lucknow,Uttar Pradesh,894143,716,8,5.0,0.62,15243,20.595259854166592,17,Footwear,1
+C953,Delhi,Delhi,321321,219,6,4.0,0.67,3063,23.67573298182081,39,Footwear,1
+C954,Mumbai,Maharashtra,554871,577,13,1.0,0.08,1087,5.146176739583506,8,Apparel,0
+C955,Lucknow,Uttar Pradesh,582515,738,15,12.0,0.8,13774,26.719513024709574,48,Home Appliances,1
+C956,Kolkata,West Bengal,824211,719,8,2.0,0.25,13443,25.116018374014022,6,Electronics,0
+C957,Hyderabad,Telangana,217348,865,4,4.0,1.0,1020,22.400811048321494,13,Apparel,1
+C958,Delhi,Delhi,781301,277,7,3.0,0.43,14779,26.052242745842626,55,Electronics,1
+C959,Mumbai,Maharashtra,415535,818,6,0.0,0.0,15685,8.704141168666833,28,Apparel,0
+C960,Delhi,Delhi,874668,749,17,10.0,0.59,15090,29.09667176847287,31,Apparel,1
+C961,Hyderabad,Telangana,311118,331,22,13.0,0.59,19159,25.736269063099943,26,Apparel,1
+C962,Kolkata,West Bengal,108256,135,6,1.0,0.17,14648,29.48717344844451,55,Home Appliances,0
+C963,Chennai,Tamil Nadu,138815,529,12,7.0,0.58,13596,17.152524015559948,38,Home Appliances,1
+C964,Bangalore,Karnataka,653971,49,11,4.0,0.36,14328,19.410083799781304,36,Apparel,1
+C965,Jaipur,Rajasthan,596330,149,10,7.0,0.7,16713,20.567417245165345,42,Footwear,1
+C966,Jaipur,Rajasthan,121817,195,16,8.0,0.5,9937,23.155228382386507,31,Footwear,1
+C967,Hyderabad,Telangana,716204,731,9,3.0,0.33,11613,28.04338991681116,55,Home Appliances,1
+C968,Chennai,Tamil Nadu,858115,758,11,3.0,0.27,13291,28.995084206920318,54,Footwear,0
+C969,Delhi,Delhi,752048,242,11,2.0,0.18,9755,22.26743872263549,6,Home Appliances,0
+C970,Hyderabad,Telangana,263907,650,9,7.0,0.78,16627,7.522593139388124,27,Home Appliances,1
+C971,Hyderabad,Telangana,683879,78,10,3.0,0.3,1094,13.96966883557031,17,Footwear,0
+C972,Delhi,Delhi,968167,545,9,5.0,0.56,1547,25.170388568875488,22,Home Appliances,1
+C973,Hyderabad,Telangana,226550,605,9,4.0,0.44,7843,17.159132446688062,22,Footwear,1
+C974,Chennai,Tamil Nadu,258522,736,11,2.0,0.18,17388,20.107237113543952,7,Apparel,0
+C975,Lucknow,Uttar Pradesh,937798,498,6,5.0,0.83,4134,29.366493915373805,51,Apparel,1
+C976,Bangalore,Karnataka,631948,137,8,0.0,0.0,5973,20.748152903851,56,Electronics,0
+C977,Delhi,Delhi,863729,329,9,6.0,0.67,14967,24.049117249603682,32,Apparel,1
+C978,Kolkata,West Bengal,450861,868,12,6.0,0.5,5014,8.074586735776641,13,Home Appliances,1
+C979,Bangalore,Karnataka,357232,884,9,3.0,0.33,16021,13.533001744515875,33,Electronics,1
+C980,Kolkata,West Bengal,849941,802,12,3.0,0.25,14099,14.016085160791947,43,Electronics,0
+C981,Delhi,Delhi,889794,801,5,0.0,0.0,17855,15.543055233958315,15,Electronics,0
+C982,Jaipur,Rajasthan,533491,449,12,0.0,0.0,15532,28.796013528926384,34,Footwear,0
+C983,Bangalore,Karnataka,564077,179,10,1.0,0.1,825,22.94064339366683,34,Apparel,0
+C984,Kolkata,West Bengal,521161,820,6,1.0,0.17,5884,15.851806972449332,26,Apparel,0
+C985,Delhi,Delhi,702466,89,14,6.0,0.43,17532,29.316528680869272,27,Home Appliances,1
+C986,Chennai,Tamil Nadu,856601,790,8,1.0,0.12,10779,27.73077133002828,1,Footwear,0
+C987,Delhi,Delhi,834312,443,10,6.0,0.6,15120,21.096983701946876,57,Home Appliances,1
+C988,Jaipur,Rajasthan,913066,232,8,4.0,0.5,10380,7.107023082109199,35,Footwear,1
+C989,Delhi,Delhi,645752,583,6,2.0,0.33,9803,10.343362892571754,33,Footwear,1
+C990,Delhi,Delhi,124559,58,10,5.0,0.5,18192,19.812590043747832,16,Footwear,1
+C991,Jaipur,Rajasthan,629818,143,12,0.0,0.0,2464,26.039586024913724,17,Footwear,0
+C992,Mumbai,Maharashtra,570534,335,15,6.0,0.4,19257,23.421467394607774,30,Footwear,1
+C993,Hyderabad,Telangana,944510,793,5,2.0,0.4,19557,19.139930664495957,58,Electronics,1
+C994,Chennai,Tamil Nadu,799318,833,16,2.0,0.12,19268,21.810845050955468,46,Home Appliances,0
+C995,Hyderabad,Telangana,210338,365,15,7.0,0.47,17423,19.55922614644379,53,Footwear,1
+C996,Delhi,Delhi,846209,465,8,2.0,0.25,14002,7.048679085867219,4,Home Appliances,0
+C997,Lucknow,Uttar Pradesh,325217,486,13,7.0,0.54,3058,14.232355407778629,34,Home Appliances,1
+C998,Jaipur,Rajasthan,376502,628,7,0.0,0.0,16845,20.91152873326506,29,Home Appliances,0
+C999,Jaipur,Rajasthan,963829,196,14,2.0,0.14,5229,17.644647271767997,32,Home Appliances,0
+C1000,Mumbai,Maharashtra,828205,247,7,2.0,0.29,15423,16.83388904344428,48,Electronics,0
