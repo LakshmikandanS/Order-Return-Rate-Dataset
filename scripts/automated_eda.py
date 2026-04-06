@@ -5,7 +5,7 @@ import sys
 
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
-from sklearn.metrics import accuracy_score, roc_auc_score, r2_score
+from sklearn.metrics import accuracy_score, roc_auc_score, r2_score, mean_squared_error, mean_absolute_error
 
 # Ensure reports directory exists
 os.makedirs("reports", exist_ok=True)
@@ -93,6 +93,8 @@ reg = RandomForestRegressor(n_estimators=100, max_depth=12, random_state=42, n_j
 reg.fit(X_train, y_train)
 y_pred_reg = reg.predict(X_test)
 r2 = r2_score(y_test, y_pred_reg)
+rmse = np.sqrt(mean_squared_error(y_test, y_pred_reg))
+mae = mean_absolute_error(y_test, y_pred_reg)
 
 # RandomForestClassifier for proper classification metrics
 clf = RandomForestClassifier(n_estimators=100, max_depth=12, random_state=42, n_jobs=-1)
@@ -104,6 +106,8 @@ acc = accuracy_score(y_test, y_pred_clf)
 roc = roc_auc_score(y_test, y_prob_clf)
 
 p(f"R-Squared (Variance Explained): {r2:.4f}  <-- POSITIVE R-SQUARE ACHIEVED")
+p(f"RMSE                          : {rmse:.4f}")
+p(f"MAE                           : {mae:.4f}")
 p(f"Classification Accuracy       : {acc:.4f}")
 p(f"ROC-AUC Score                 : {roc:.4f}")
 p()

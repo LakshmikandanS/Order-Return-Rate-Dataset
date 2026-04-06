@@ -47,6 +47,8 @@ Home Appliances    0.333527
 -----------------------------------------
 Training RandomForest to showcase predictability & feature correlation.
 R-Squared (Variance Explained): 0.3207  <-- POSITIVE R-SQUARE ACHIEVED
+RMSE                          : 0.3856
+MAE                           : 0.3056
 Classification Accuracy       : 0.7895
 ROC-AUC Score                 : 0.8460
 
